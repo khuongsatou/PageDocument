@@ -1,0 +1,13 @@
+<h2>Student Detail:</h2>
+    <ul>
+        <li>
+            Student ID: @*@Model.StudentId*@
+        
+        </li>
+        <li>
+            @*@ Student Name: @Model.StudentName*@
+            @*@Html.TextBox("StudentName", null, new { @class = "form-control" })*@
+            @*@Html.TextBoxFor(m => m.StudentName, new { @class="form-control"})*@
+        </li>
+        <li>Student Age: @*@Model.Age*@</li>
+    </ul>

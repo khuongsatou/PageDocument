@@ -1,0 +1,14 @@
+﻿MVC
+= Nhận về controllers
+form -in
+
+
+
+---------
+
+Cơ chế tịnh tiến .
+- Xác định controller
+- Xác định
+
+---------
+cú pháp @viewBag // rây sơ

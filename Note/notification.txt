@@ -1,0 +1,32 @@
+ public  NotificationCompat.Builder mBuilder;
+    public  NotificationManager mNotifyMgr;
+    int mNotificationId=123;
+
+
+-----------
+mBuilder = new NotificationCompat.Builder(getApplicationContext())
+                        .setSmallIcon(R.drawable.ic_launcher_background)
+                        .setContentTitle("My notification")
+                        .setContentText("Welcome to DevPro Viet Nam");
+
+
+        // Sets id cho notification
+        // Gets an instance of the NotificationManager service
+        mNotifyMgr =
+                (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        // Builds the notification and issues it.
+        mNotifyMgr.notify(mNotificationId, mBuilder.build());
+
+
+        Intent resultIntent = new Intent(getApplicationContext(), MainActivity.class);
+        resultIntent.putExtra("content", "Welcome to DevPro Viet Nam");
+
+        PendingIntent resultPendingIntent =
+                PendingIntent.getActivity(
+                        getApplicationContext(),
+                        0,
+                        resultIntent,
+                        PendingIntent.FLAG_UPDATE_CURRENT
+                );
+        // Set content intent;
+        mBuilder.setContentIntent(resultPendingIntent);

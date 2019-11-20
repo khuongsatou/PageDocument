@@ -1,0 +1,25 @@
+ <com.nvk.doanailatrieuphu.Utilities.CustomViewPager
+        android:layout_weight="1.8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/vpgShowCauHoi"
+        />
+
+<androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpgShowCauHoi"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+<com.nvk.doanailatrieuphu.Utilities.CustomViewPager
+        android:layout_weight="2.2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/vpgShowCauHoi"
+        />
+
+ File pathsd = Environment.getExternalStorageDirectory();
+        File dir = new File(pathsd.getAbsoluteFile()+"/ABC/");
+        dir.mkdir();
+        Log.d("BBBBB",dir+"");

@@ -1,0 +1,10 @@
+Here’s a quick breakdown of the dpi measurements for the different pixel densities:
+ldpi — 120dpi
+mdpi — 160 dpi
+hdpi — 240 dpi
+xhdpi — 320 dpi
+The most popular screen sizes according to the dpi chart above are the following resolutions:
+Normal hdpi — 480×800 (720×1200 in design)
+Normal hdpi — 480×854 (720×1281 in design)
+Normal xhdpi — 640×960 (1280×1920 in design)
+Normal mdpi — 320×480 (in design)

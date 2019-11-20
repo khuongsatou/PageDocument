@@ -1,0 +1,23 @@
+﻿	ASP -> HTML
+
+Lable
+	-> span
+
+Button 
+CheckBox
+
+	->input
+
+CheckBoxList
+RadioList
+
+	->Table>input
+
+Image
+	->img
+
+HyperLink 
+	->a
+
+BulletedList
+	->ul >li

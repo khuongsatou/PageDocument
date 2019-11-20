@@ -1,0 +1,13 @@
+﻿Giới thiệu 1 trang.
+Khái niệm về git 2 trang
+Cách cài đặt Git 22 trang
+--------------------------------- Hoài
+Git Dùng khi nào 3 trang
+Các mã git thông dụng 9 trang
+Repository 7 trang.
+---------------------------------- HT. Đạt
+GitHub 47 trang
+---------------------------------- Khương
+
+-- 2 còn thằng suport
+20 trang/ 1 thằng

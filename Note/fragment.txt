@@ -1,0 +1,22 @@
+﻿-- Bắt sự kiện ViewPage chuyển viewPager đến trang cần
+	- mPager.setCurrenItem(...);
+
+-- Bắt sự kiện cho component fragment trong onCreateView
+
+-- FragmentPagerAdapter là adapter của Fragement
+
+-- Static Fragment (Hiển thị tĩnh chỉ cần add là xong)
+	- Quan Trọng
+		+id
+		+name: đường dẫn đến file java
+-- Dynamics Fragment(Hiển thị động có thể thêm , sửa , replace)
+	- Tạo 1 FrameLayout
+	- getSupportFragmentManager() // để quản lí fragment
+-- FragmentManager
+	-
+-- FragmentTransaction
+	- add()
+	- replace()
+	- remove() : phải set tag cho fragment và kiểm tra tag , ánh xạ để biết có tồn tại trong activity không mới remove
+	- addToBackStack()// sắp xếp thứ tự gọi
+	- commit() // hiển thị

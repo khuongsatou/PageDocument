@@ -1,0 +1,45 @@
+﻿
+ 
+Xử lí cột chi tiết là insert 1 lần 3 bảng
+----------------
+thứ 3 kiểm tra thực hành laravel _> 2 bảng db và 1 trang web kiêu thiết kế y chang 
+migration _ seed _ controller
+view_
+trong 3 tiết
+
+
+
+filltable : trong laravel có rất nhiều và nó thì lựa ra
+
+mildeware: nằm trung gian để ...
+
+pass: kiểm tra 8 kí tự
+
+
+Song ánh là dịch ngược được.
+
+Đơn ánh : éo ai mở được.
+
+Thang điểm.
+migra
+seed
+controller
+model
+
+//master toàn bộ 
+view()->composer('header',function($view){
+	$loai_sp = ProductType::all();
+	if(Session('cart'))
+		$oldCart = Session::get('cart');
+		$cart = new Cart();
+});
+
+
+redirect()->back();
+
+object->add(...,...);
+
+Session(_)->get();
+
+
+

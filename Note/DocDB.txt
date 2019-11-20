@@ -1,0 +1,6 @@
+﻿JSONObject objJSon= new JSONObject(json);
+JSONArray arrTapTho = objJSon.getJSONArray("tap_tho");
+for(int i = 0 ; i < arrTapTho.lengh();i++){
+	JSONObject itemTapTho = arrTapTho.getJSONObject(i);
+	int id = itemTapTho.getInt("id");
+}

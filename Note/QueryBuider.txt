@@ -1,0 +1,2 @@
+﻿->take(1) -> LIMIT 1
+->skip(10) -> Bắt đầu từ dòng 10

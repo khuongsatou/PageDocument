@@ -1,0 +1,4 @@
+﻿CPU chỉ làm việc với RAM không làm việc với thiết bị khác.
+Thiết bị lưu trữ muốn nạp lên RAM
+
+Muốn bỏ lên trên ram phải dùng SQL để truy vấn.

@@ -1,0 +1,15 @@
+﻿Mỗi lượt chơi có 5 “cơ hội” trả lời sai.
+
+Input
+	- khi tích vào 1 button sẽ kiểm tra kết quả rồi 
+	- đáp án đúng.
+Kết quả
+	- Đổi hình : 
+	- 
+	
+Đạt
+- Load ra 5 mạng
+- Chứa hình ảnh tim trắng
+- Bấm sai thì xóa đi 1 phần tử trong mảng , quăng vào vị trí cuối mảng.
+- 	
+	

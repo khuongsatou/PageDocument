@@ -1,0 +1,5 @@
+﻿DismissGọi cách chức sẽ loại bỏ hộp thoại khỏi màn hình. Phương pháp này có thể được gọi một cách an toàn từ bất kỳ chủ đề. Lưu ý rằng bạn không nên ghi đè phương thức này để dọn dẹp khi hộp thoại bị loại bỏ, thay vào đó hãy thực hiện điều đó trong onStop .
+
+CancelGọi hủy, hủy hộp thoại. Điều này về cơ bản giống như gọi hàm notify () , nhưng nó cũng sẽ gọi DialogInterface.On HủyListener của bạn , nếu đã đăng ký.
+
+Hide Phương pháp này ẩn hộp thoại, nhưng không loại bỏ nó.

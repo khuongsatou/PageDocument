@@ -1,0 +1,108 @@
+﻿
+http :http request -> controller -> request
+view: trả về cho client thì lên webBrowser
+--------------------------------------------------	
+	Create Project
+--php artisan serve
+
+-->Router
+	- Router::get('đường dẫn',gọi);
+	- Đường Dẫn : tên dường dẫn / {thamso}
+	- Gọi : function($thamso){};
+--Ví dụ 1 Router
+	Router::get(/,function(){return 'Hello World';});
+-- Ví dụ 2
+	Router::get (/posts/{post},function($post){return 'post' .$post;});
+	-> nó sẽ trả kết quả tùy vào tham số truyền vào.
+	-> Không truyền lỗi
+-- Ví dụ 3
+	Tham số Tùy chọn
+	Router::get (/posts/{post?},function($post = 'John'{return 'post' .$post;});
+	-> nó sẽ trả kết quả tùy vào tham số truyền vào.
+	-> Truyền hay không gì cũng không báo lỗi.
+--Ví dụ 4
+	Đặt Tên cho route
+		..->name('profile');
+	Dùng:
+	Route::get('u',function(){
+		return redirect()->router('profile')
+	});
+--Ví dụ 5
+	Tham số có điều kiện 
+	..->where('name','[A-Za-z]+');
+	..->where(['id' => '[0-9]','name' => '[a-z]+'] );
+
+--Ví dụ 6
+	middleware('fist','second')->group(...)
+---------------------------------------------------
+		Controller
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+--Tạo class trong http/Controller
+	class UserController extends Controller
+{
+    public function show($id)
+    {
+    	echo "show";
+    	//return view('user.profile',['user'=>User::findOrFail($id)]);
+    }
+
+    public function index()
+    {
+    	echo "index";
+    }
+}
+
+--Ví dụ 7.	
+	Route::get('us','UserController@index');
+	
+--Ví dụ 8.
+	Route::get('users/{id}','UserController@show');
+-----------------------------------------------------
+		OOP
+-- Gôm nhóm tiền tố
+	prefix -> group
+
+-- Basic
+	namespace: không gian tên, để giảm việc truy xuất qua ::
+	class: trạng thái
+	phương thức: thay đổi các giá trị của thuộc tính đó.	
+	phương thức khởi tạo : kiểm soát nó
+	
+-- OOP , php ngôn ngữ thuần đối tượng
+	đóng gói: phạm vi đối tượng truy xuất	
+		+private
+			- default
+		+public
+		+protected
+		
+	trù tượng hóa: để có thể thay đổi các giá trị của thuộc tính
+		+abstract
+	đa hình : đa hình thái
+	kế thừa : tái sử dụng (Thời gian làm mới phần mềm lâu mà không cần xây dựng lại)
+		+ đơn*
+		+ đa
+		
+----------------------------------------------------
+	 View
+-- Link
+	https://toidicode.com/blade-template-engine-trong-laravelphan-2-9.html
+
+-- Tạo greeting.blade.php 
+-- Khai báo biến
+	{{$name}}
+-- Gọi
+	Route::get('user1', function() {
+    		return view('greeting',['name'=>'James']);
+	});
+
+------------------------------------------------------
+	Cú pháp laravel
+@yield('id để đặt 1 section vào');
+@extends('tên layout');  kế thừa từ
+@section('gọi tên id muốn đặt');
+	code html
+@endsection
+	

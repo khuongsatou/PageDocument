@@ -1,0 +1,9 @@
+﻿. genymotion
+chạy php -S 0.0.0.0:8000
+điền IP: http://10.0.3.2:8000
+chạy thử trên webview xem ok không.
+
+
+. mobile
+điền IP máy tính
+

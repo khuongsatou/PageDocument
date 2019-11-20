@@ -1,0 +1,25 @@
+﻿Phân tích đồ án android
+	+ Không giới hạn câu hỏi -> framment
+	+ Mỗi lượt có 5 cơ hội trả lời sai -> cout số lần sai trong cột db
+	+ Có 4 phương án trả lời , chỉ 1 đúng -> so sánh với cột kết quả
+	+Thời gian trả lời mỗi câu hỏi là 30s -> timer
+	+Trả lời sai ,.. -> giảm mạng -> đổi ảnh
+
+....
+
+__________________________
+--Đăng kí tài khoản
+	+ account
+	
+ -> save db ->
+
+--Đăng nhập
++account
++fb : API
++gg: API
+
+--Lấy lại mật khẩu
++ Hiện ra luôn
+
+-- Màng hình chính
++ Chyển form

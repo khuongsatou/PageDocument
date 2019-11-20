@@ -1,0 +1,1132 @@
+﻿//Một số hàm tiện ích so sánh chuỗi.
+	Integer.valueOf(230); //chuyển thành chuỗi String
+	a.compareTo(b); // sắp xếp chuỗi như sort. phải dùng wrapper
+	Collections.sort(cartList,cartComparator); // sắp xếp chuỗi phải dùng đến Comparator<Cart> cartComparator = new Comparator<Cart>() {
+	
+	
+
+//Lớp Wrapper
+	https://yellowcodebooks.com/2018/01/19/java-bai-36-lop-wrapper/
+	Lớp Wrapper thực chất chỉ là một cái tên chung cho rất nhiều lớp khác nhau. Vì tất cả các lớp thuộc bài hôm nay có cùng một công năng, nên mới gọi chung một cái tên Wrapper như vậy.
+	1. Có 8 KDL nguyên thủy và tương đương có 8 kiểu wrapper.
+
+//Example về Comparator<Car> 
+	PriceActivity extends AppCompatActivity {
+
+    private ListView lvPrice;
+    private CarDAO carDAO;
+    private List<Car> carList;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_price);
+        lvPrice = findViewById(R.id.lvPrice);
+        carDAO = new CarDAO(this);
+
+        carList = carDAO.showCarsList();
+        Comparator<Car> com = new Comparator<Car>() {
+            @Override
+            public int compare(Car o1, Car o2) {
+                Float f1 = o1.price;
+                Float f2 = o2.price;
+                return f1.compareTo(f2);
+            }
+        };
+        Collections.sort(carList, com);
+
+        final ListCarAdapter carAdapter = new ListCarAdapter(carList, PriceActivity.this);
+        lvPrice.setAdapter(carAdapter);
+    }
+}
+
+//Java Comparable interface
+	https://viblo.asia/p/java-collections-sap-xep-collections-naQZRgvdlvx
+
+//sắp xếp trong java (Collections.sort();)
+	https://www.geeksforgeeks.org/collections-sort-java-examples/
+	Sắp xếp theo bảng chữ cái hoặc chữ số. . Dựa vào mảng
+
+//Trình quản lí vùng kết nối connection pool
+	https://itphutran.com/connection-pool-trong-java-ket-noi-co-du-lieu-phan-1/
+
+
+//Đóng mở database
+	1. Ko đóng thì chạy mãi :))
+	2.  xài room easy. ->  thư viện của google thôi, dễ sài hơn cả SQLiteHelper
+	3. nếu sài ViewModel có thể mở ở constructor, đóng ở onCleared; nếu sài Activity thì mở ở onCreate, đóng ở onDestroy
+	4. App không ảnh hưởng, db cũng ko sao, nó có pool cho từng kết nối. Bạn đóng nó cũng chưa đóng, khi bạn kết nối lại đúng acc nó sẽ dùng lại kết nối vừa rồi, khi timeout ko dùng đến, hoặc khi max connection nó mới đóng để cho kết nối mới. -> Không đóng còn ảnh hưởng nữa, web/app mở liên tục không đóng có thể bị treo kết nối.
+	5. 
+
+
+//Phân Biệt Toán Tử == Và Phương Thức Equal() Trong Java.
+
+Tôi nghĩ vấn đề này trong Java vẫn còn nhiều bạn chưa phân biệt rõ sự khác nhau giữa toán tử “==” và phương thức equal() trong Java, đặc biệt là khi so sánh chuỗi String trong Java. Hôm nay mình viết bài này để mọi người tham khảo và góp ý.
+
+VD1: Giả sử tôi có đoạn code như sau:
+
+String a = new String(“abc”);
+String b = new String(“abc”);
+
+System.out.println(“a==b ? ”+ (a==b));// kết quả: a==b?false
+
+System.out.println(“a.equals(b)?” + a.equals(b));// kết quả e.quals(b)?true
+
+Vậy tại sao kết quả lại khác nhau?
+
+Trong JAVA, có 2 kiểu biến: biến tham trị và tham chiếu.
+Biến kiểu tham trị bao gồm các kiểu nguyên thủy của JAVA như: int, long, double…
+Biến kiểu tham chiếu bao gồm: String, array, kiểu đối tượng…
+
+Khi sử dụng biến kiểu tham trị, JAVA chỉ cho phép bạn sử dụng toán tử so sánh “==”.
+Khi sử dụng biến kiểu tham chiếu, JAVA cho phép sử dụng cả toán tử “==” và equals(). Tuy nhiên, khi sử dụng toán tử “==”, bộ xử lý của JAVA sẽ so sánh xem 2 biến tham chiếu này có trỏ đến cùng một đối tượng hay không, còn nếu bạn sử dụng phương thức equals(), bộ xử lý JAVA sẽ so sánh giá trị của 2 biến tham chiếu đó. Điều này lý giải tại sao ở ví dụ trên, khi sử dụng phép toán: a.equals(b) => kết quả trả về bằng true, trong khi a==b => kết quả trả về lại bằng false.
+
+Để hiểu hơn, tôi xét thêm một ví dụ nữa:
+
+String a = new String(“abc”);
+String b = a;
+
+System.out.println(“a==b ? ”+ (a==b));// kết quả: a==b?true
+System.out.println(“a.equals(b)?” + a.equals(b));// kết quả e.quals(b)?true
+
+//Lỗi tràng ram do cursor
+	Cẩn thận nếu không di chuyển con trỏ qua vị trí tiếp theo nó sẽ ở đó đến vô cực
+
+//Fix Lỗi onClick thẳng từ xml
+	<androidx.appcompat.widget.AppCompatButton
+	thì nó sẽ chạy
+//Tạo onClick từ xml
+	1. Tạo phương thức truyền vào
+		vd:public void  myOnClick(View v){}
+	2. gọi thuộc tính android: onClick ="myOnClick"
+//Thao Tác Database
+	//Extends SQLiteOpenHelper
+	//Properties
+		public static final String TABLE_NAME ="student";
+
+    		public static final String COLUMN_ID ="id";
+   		 public static final String COLUMN_NAME ="name";
+   		 public static final String COLUMN_PHONE ="phone";
+   		 public static final String COLUMN_ADDRESS ="address";
+	//Constructor
+		public StudentReaderSqlite(Context context) {
+      			  super(context, "students.db", null, 1);
+    		}
+	//Tạo Bảng
+		 public void onCreate(SQLiteDatabase sqLiteDatabase) {
+       			 String CREATE_TABLE = "CREATE TABLE "+TABLE_NAME+"(" +COLUMN_ID+ " INTEGER PRIMARY KEY , " +COLUMN_NAME+ " VARCHAR, " +COLUMN_PHONE+ " VARCHAR, " +COLUMN_ADDRESS +" VARCHAR)";
+       			 Log.d("CREATE_TABLE",""+CREATE_TABLE);
+       			 sqLiteDatabase.execSQL(CREATE_TABLE);
+   		 }
+	//Thêm
+		 public long insertStudent(Student student){
+
+        SQLiteDatabase database = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_ID,student.getId());
+        values.put(COLUMN_NAME,student.getName());
+        values.put(COLUMN_PHONE,student.getPhone());
+        values.put(COLUMN_ADDRESS,student.getAddress());
+
+        long result = database.insert(TABLE_NAME,null,values);
+
+        return  result;
+
+    }
+	//Sửa
+	 public long updateStudent(Student student){
+
+        SQLiteDatabase database = this.getWritableDatabase();
+        ContentValues values = new ContentValues();
+        values.put(COLUMN_ID,student.getId());
+        values.put(COLUMN_NAME,student.getName());
+        values.put(COLUMN_PHONE,student.getPhone());
+        values.put(COLUMN_ADDRESS,student.getAddress());
+
+        long result = database.update(TABLE_NAME,values,COLUMN_ID+"=?",new String[]{student.getId()+""});
+
+        return  result;
+
+    }
+	//Xóa
+	 public long deleteStudent(String id){
+
+        SQLiteDatabase database = this.getWritableDatabase();//xin quyền ghi
+
+        long result = database.delete(TABLE_NAME,COLUMN_ID+"=?",new String[]{id});
+
+        return  result;
+
+    }
+	//select all
+	public List<Student> getAllStudent(){
+        SQLiteDatabase database = this.getReadableDatabase();// đối với select phải xin quyền đọc
+        List<Student> students = new ArrayList<Student>();
+        String SELECT = "SELECT * FROM "+TABLE_NAME;
+        Cursor cursor = database.rawQuery(SELECT,null);
+
+        if (cursor.getCount() > 0){//để cho tối ưu nếu không có dữ liệu
+            cursor.moveToFirst();//di chuyển con trỏ đến vị trí đầu tiên
+            while (!cursor.isAfterLast()){//nếu là vị trí cuối thì là true
+
+                String id = cursor.getString(cursor.getColumnIndex(COLUMN_ID));
+                String name = cursor.getString(cursor.getColumnIndex(COLUMN_NAME));
+                String phone = cursor.getString(cursor.getColumnIndex(COLUMN_PHONE));
+                String address = cursor.getString(cursor.getColumnIndex(COLUMN_ADDRESS));
+
+                Student student= new Student();
+                student.setId(id);
+                student.setName(name);
+                student.setAddress(address);
+                student.setPhone(phone);
+
+                students.add(student);//Thêm vào mảng
+                cursor.moveToNext();//chuyển sang ngăn xếp tiếp theo
+            }
+            cursor.close();
+        }
+        return students;
+    }
+	//Dùng
+	studentReaderSqlite = new StudentReaderSqlite(MainActivity.this);
+	 private void InsertStudent() {
+        Student student = new Student();
+        student.setId("" + System.currentTimeMillis());//thời gian hiện tại
+        student.setName("Khương Satou");
+        student.setPhone("0356241963");
+        student.setAddress("Long Thạnh");
+
+        long result = studentReaderSqlite.insertStudent(student);
+        if (result > 0) {
+            Toast.makeText(MainActivity.this, "Thêm Thành Công", Toast.LENGTH_LONG).show();
+
+        } else {
+            Toast.makeText(MainActivity.this, "Thêm Thành Công", Toast.LENGTH_LONG).show();
+        }
+    }
+	
+		
+
+//Lí do đóng database
+	//Có 2 cách đóng database
+		Cách 1: đóng sau khi update , xóa , ...
+		Cách 2: đóng thì hết vòng đời activity onDestroy(){}
+
+//Lí do đóng con trỏ cursor
+	để không tràng bộ nhớ
+
+//Database Chuẩn
+	https://developer.android.com/training/data-storage/sqlite
+
+//Lí do dùng ContentValues
+	Vì trong SQLite Không Hỗ trợ gán đối tượng
+
+//Lí do để dùng public static final String
+	Để mốt để sửa 1 lần thôi là 1 cách tối ưu
+	
+//Tối ưu ListView Bằng ViewHolder
+	 ViewHolder viewHolder = null;
+
+        if (view == null){
+            view = LayoutInflater.from(context).inflate(R.layout.custom_item_listview_music,viewGroup,false);
+
+            viewHolder = new ViewHolder();
+            viewHolder.tvName = (TextView) view.findViewById(R.id.tvNameMusic);
+            viewHolder.tvTime = (TextView) view.findViewById(R.id.tvTimeMusic);
+            Log.d("viewHolder","viewHolder "+i);
+            view.setTag(viewHolder);
+        }else{
+            viewHolder = (ViewHolder) view.getTag();
+        }
+
+        Music music = (Music) getItem(i);
+        viewHolder.tvName.setText(music.getName());
+        viewHolder.tvTime.setText(music.getTime());
+        return view;
+
+
+//Log.d("","")
+	//Copy 1 cái gì đó dán vào 2 tag , value +giá trị nếu thích
+	// Chuyển logcat thành debug 
+	// Dán tag vào xem để tối ưu.
+
+//Simple Adapter
+    private ListView lvStudent;
+    private String[] students = {"Hoa","Nam","Việc","Hoa","Nam","Việc","Hoa","Nam","Việc","Hoa","Nam","Việc","Hoa","Nam","Việc"};
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sub);
+
+        Radiation();
+
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter(SubActivity.this,android.R.layout.simple_list_item_1,students);
+        lvStudent.setAdapter(arrayAdapter);
+    }
+
+    private  void Radiation(){
+        lvStudent = (ListView) findViewById(R.id.lvStudent);
+    }
+
+//API hỗ trợ trong android 
+	Là cái minVersion:16 tương đương android 4.1
+
+//Trong Class java thì không có context nên phải chuyền qua bằng phương thức khởi tạo
+	//Khởi tạo layout
+		view = LayoutInflater.from(context).inflate(R.layout.custom_item_listview_student,viewGroup,false);
+	
+//Hàm xử lí chuỗi thông dụng
+	+ valuesOF : chuyển thành chuỗi như +""
+	
+//Lưu ý về thiết kế.
+	1. Nên Để Padding Cho Layout để đẹp hơn
+	2. Mỗi phần tử nên margin điều nhau 
+	
+
+//EditText
+	Hint: // Chữ Ẩn
+	
+//Màng hình login
+		
+
+//Id của View
+	+ TextView : tv
+	+ EditText  : edt
+	+ Button 	  : btn
+//Đặt tên cho layout
+	+ custom_item_listview_...	
+//RelativeLayout
+	1. Đây là layout phụ thuộc vào thằng cha . nó có thể nằm đề lên
+	2. layout_thứ cần canh chỉnh.
+		+ layout_below >< layout_above : truyền ID vào
+		+ layout_centerInParent: giữa màng hình
+		+ layout_toRightOf: bên phải 
+		+ layout_centerHorizontal="true" // Canh giữa 2 bên theo chiều ngang
+	3. Nên Thiết kế từ dưới lên trên	
+//ListView
+	Cái Này đã Cũ và giờ đã thay thế thành recycluview
+
+//Lưu ý
+ 	1. Nên dùng equals()//Để so sánh chuỗi
+	2. KEY thì nên public static final KEY_...
+	3.Mỗi 1 Đối tượng thì nên nằm trong 1 package riêng
+//Cấu Trúc thư mục
+	MainActivity
+	+Package A
+		-ClassJava
+		-ClassAdapter
+		-ClassController
+		-Fragment và Activity nếu cần
+	+Package Slide
+		-Activity
+		-Fragement chạy trên nền activity
+		-Phụ	
+
+
+//Keyword
+	//Use Java
+	super.phương thức()//để gọi đến thuộc tính cha
+	
+	//Use Activity
+	finish();//Kết thúc activity
+	
+
+	//Use Database
+	SQLiteDatabase db = dbHelper.getReadableDatabase();	//khởi tạo để dùng cho việc select.
+	db.rawQuery() //select dạng con trỏ
+	Cursor	//Con trỏ trỏ qua từng fields
+	cursor.moveToFirst(); 	//trỏ đến dòng đầu và đọc nó
+	cursor.getInt(0);		//lấy dữ liệu cột đầu tiên chỉ số như mảng
+	cursor.moveToNext();	//trỏ dòng thứ 2 -> n		
+	
+	//Use Timer
+		 timer = new CounterClass(total_timer*60*1000,1000);//tham số 1 tổng thời gian (milisecond), //đếm ngược (milisecond ) . vd: 1000 mili = 1s
+		 timer.start();//chạy
+	//Lấy context (màng hình hiện tại)
+		- Cách 1:
+			getApplicationContext();
+		- Cách 2: tên class.this
+	//Thêm dữ liệu khi chuyển intent
+		intentObject.putExtra(KEY,VALUES);
+	//dialog basic
+        		final Dialog dialog = new Dialog(this);
+        		dialog.setContentView(R.layout.check_ansert_dialog);//layout cần hiển thị
+		dialog.setTitle("")//set title
+		
+//Material Search View
+	https://programmingcodetech.blogspot.com/2016/12/material-search-view-in-andorid.html
+
+//auto complete editext
+	https://inducesmile.com/android-programming/how-to-create-searchview-with-autocomplete-in-android/
+	https://stackoverflow.com/questions/30369246/implementing-searchview-as-per-the-material-design-guidelines
+//android x
+	https://viblo.asia/p/androidx-ban-da-dung-no-chua-bJzKmXww59N
+//tips Android
+	https://viblo.asia/p/android-studio-tips-OREkwLXlvlN
+
+//Entertainment
+	https://www.youtube.com/channel/UCdV9tn79v3ecSDpC1AjVKaw/videos
+
+//MVC MVP MVVM
+	https://viblo.asia/p/mvc-mvp-va-mvvm-trong-android-6J3ZgknPZmB
+	//MVC
+		-MVC là một mẫu kiến trúc phần mềm để tạo lập giao diện người dùng trên máy tính. MVC chia một ứng dụng thành ba phần tương tác được với nhau để tách biệt giữa cách thức mà thông tin được xử lý nội hàm và phần thông tin được trình bày và tiếp nhận từ phía người dùng.
+	
+	//MVP
+		-Mô hình MVP trong Android (Model – View – Presenter) là một mô hình kiến trúc hướng giao diện người dùng giúp tách tầng trình diễn ra khỏi tầng dữ liệu. ... Mô hình MVP trong Android viết tắt của Model – View – Presenter, đây là mô hình kiến trúc hiện đang được nhiều lập trình viên lựa chọn sử dụng
+
+	// MVVM
+		-Model-View-ViewModel là một cách tiếp cận architecural sử dụng để tóm tắt các trạng thái và hành vi của một view, trong đó cho phép chúng tách biệt sự phát triển của giao diện người dùng từ logic kinh doanh.
+//Vòng đời activity
+	https://viblo.asia/p/activity-va-vong-doi-cua-activity-bWrZngRwlxw
+// Vòng đời fragment
+	https://yellowcodebooks.com/2018/03/20/android-bai-33-vong-doi-fragment/
+//Retrofit
+	Retrofit là một Rest Client (Tìm hiểu thêm về chuẩn RESTFul dưới link tham khảo) cho Android và Java và được tạo ra bởi Square. Họ làm cho việc nhận và tải lên JSON (hoặc dữ liệu khác) một cách khá dễ dàng tới một WebService dựa trên mô hình REST
+//Search two line word
+	https://stackoverflow.com/a/46583605/4316327
+//Edit dạng note
+	https://stackoverflow.com/questions/44880867/edittext-like-note
+//Lưu và phục hồi trạng thái activity
+	https://xuanthulab.net/luu-va-phuc-hoi-trang-thai-cua-activity-trong-android.html
+//Layout Trong android
+	https://viblo.asia/p/tim-hieu-ve-cac-loai-layout-trong-android-XL6lANjB5ek
+//GitHub	
+	//Cách 1: Cách Đơn giản nhất để up lên Git Hub
+		https://o7planning.org/vi/10283/huong-dan-su-dung-github-voi-github-desktop
+	
+	//Cách 2: Up lên Bằng gitbash
+		+ Tải git về cài vào máy: https://git-scm.com/
+		https://gist.github.com/Haosvit/bc64d8b83ea684b510063f45bd99111b
+		https://rogerdudler.github.io/git-guide/index.vi.html
+	//Xóa kho
+		https://help.github.com/en/articles/deleting-a-repository
+
+
+//Hướng dẫn debug Android Studio
+	https://thangcoder.com/lap-trinh-android/hoc-lap-trinh-android-can-ban/huong-dan-debug-tren-android-studio
+	https://vntalking.com/debug-trong-android-studio.html
+
+	Ctrl+ F8.
+1. Nút hiển thị Breakpoint đang active
+Bạn có thể đặt rất nhiều breakpoint trong ứng dụng. Và đôi lúc mải đọc code mà quên không biết mình đang debug dòng nào. Nút này có tác dụng đặt con trỏ trở lại vào vị trí mà bạn đang debug lỗi. (ví dụ: nếu bạn chèn một breakpoint vào một nơi nào đó, nhìn xung quanh một số file khác, bạn có thể nhấn vào nút này để trở lại breakpoint ban đầu của bạn).
+2. Step Over
+Nút này sẽ giúp debug nhảy xuống dòng code tiếp theo
+
+3. Step Into
+Nút này sẽ nhảy vào bên trong hàm
+
+4. Force Step Into
+Nút này sẽ cho phép nhảy thẳng đến dòng đầu tiên bên trong của hàm được gọi
+
+5. Thoát ra ngoài
+Cái này thì dễ hiểu rùi, đơn giản là nhảy ra khỏi hàm đang debug.
+
+6. Tiếp tục chương trình(Resume Program)
+Nút này sẽ tiếp tục chạy ứng dụng một cách bình thường. Tạm thời bỏ qua debug
+
+7. Tạm dừng chương trình(Pause Program)
+Nút này sẽ được greyed-out trước tiên bởi vì chương trình đã sẳn sàng tạm dừng. Nếu bạn chọn tiếp tục chương trình, bạn sẽ tạm dừng nó lại với tùy chọn này.
+
+8. Dừng ứng dụng (Stop App)
+Nút này sẽ làm ứng dụng đang chạy trên thiết bị hoặc máy ảo dừng lại hoàn toàn. Hiểu nôm na là tắt ứng dụng và không debug nữa.
+
+9. Xem các Breakpoints
+Nút này sẽ mở một cửa sổ hiển thị các tất cả breakpoint đã được chèn. Ngoài ra, nó cho phép bạn tinh chỉnh cài đặt cho từng breakpoint riêng biệt.
+
+
+
+//Android Không Bể FONT Khi ZOOM bằng double Click hay zoom
+	https://github.com/davemorrissey/subsampling-scale-image-view
+	ông thử android:scaleType="" các trường hợp xem khi nào thấy lấy
+
+
+
+//1 Số Câu hỏi ??
+	Làm thế nào để Chạy trên máy thật ? đã tìm thấy
+	Fix lỗi từ android.suportV4 ->  AndroidX ? đã tìm thấy
+	Dùng Layout nào để canh full bất cứ màng hình nào?.
+	Làm thế nào để làm hai line khi search.
+//Biểu thức chính quy regular.
+	https://o7planning.org/vi/10175/huong-dan-su-dung-bieu-thuc-chinh-quy-trong-java
+	
+//Sự Kiện
+	//BackOnPress
+ 		public void onBackPressed() {
+
+       		 if (mPager.getCurrentItem() ==0){
+           			 Log.d("BBB","end");//khi không còn fragment
+            			super.onBackPressed();
+       		 }else{
+            			Log.d("BBB","Back");//trở lại fragment phía trước
+           			 mPager.setCurrentItem(mPager.getCurrentItem()-1);
+      		  }
+    	}
+//Sự Kiện của View
+	1.RadioGroup
+		.setOnCheckedChangeListener(..)
+	2.Editext
+		..addTextChangedListener(new TextWatcher() {
+//Mảng Arraylist
+	arr.get(position)//lấy phần tử thứ
+	arr.size()//Độ Dài Mảng
+
+
+//Layout
+	LinerLayout         // Sắp theo Weight , origanition, đơn giản
+	Relative 		//Phụ Thuộc vào cha nó
+	Constaint Layout // Phải neo
+	
+	https://vntalking.com/cac-loai-layout-trong-android.html
+	https://viblo.asia/p/tu-dong-tao-cac-chuan-man-hinh-va-giai-phong-bo-nho-trong-android-Q7eEREydRgNj
+	https://viblo.asia/p/android-thiet-ke-giao-dien-da-man-hinh-trong-android-gGJ592bpKX2
+//Interface
+	ViewPager.PageTransformer	
+
+//XML
+	ScrollView
+	ViewPager
+	
+// Extends
+	//Dùng để tạo ViewPager
+	FragmentStatePagerAdapter
+	FragmentActivity
+
+
+//Phím Tắt
+	Ctrl+Alt + L : Format code
+	Ctrl + Kích chuột để hiển thị đường dẫn
+	Ctrl + Lăn Chuột để zoom bên design
+	Ctrl+ D : Nhân Đôi
+//TextView XML
+	Gravity: Canh Tất Cả vào 1 vị trí
+//Đơn Vị
+	Size Chữ : Dùng (SP)
+	Kích Cỡ : Dùng (DP)
+
+
+
+//Fragment (Load nhanh và nhẹ (sub activity))
+	Tạo 1 cái package.
+	Chuột phải -> new -> Fragment -> Fragment Black ->	+ Đặt tên
+							+ Check Create layout XML
+							+ Bỏ chọn 2 cái dưới
+	
+	Code Main Activity để chuyển qua.
+	//Bắt if khi chuyển
+            ToanHocFragment fragment = new ToanHocFragment();
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.content_main,fragment ,fragment.getTag()).commit();//Lấy Tag bên Contenrt , Tên Class Chuyển , Lây Tag Chuyển
+
+	//Set Title Activity Main Khi Chuyển 
+	Hàm onCreateView(...)
+((MainActivity)getActivity()).getSupportActionBar().setTitle("Môn Toán");
+
+
+
+
+//Navigation Drawer  (Kéo ra giống thanh menu)
+
+//ViewPager (Chuyển fragment)
+
+
+//Chuyển Activity
+        btnStart = (Button)getActivity().findViewById(R.id.btnStart);
+        btnStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), ScreenSlide.class));
+            }
+        });
+
+
+//Lỗi Ánh Xạ 
+
+ public void onActivityCreated(@Nullable Bundle savedInstanceState) {//Hãy Nhớ cái hàm này chứ Trong OnCreateView Sẽ Không Chạy
+        super.onActivityCreated(savedInstanceState);
+        btnStart = (Button)getActivity().findViewById(R.id.btnStart);
+        btnStart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity(), ScreenSlide.class));
+            }
+        });
+    }
+
+//Lỗi Không Chuyển Intent Activity Được thì phải khai báo name trong android mainifest
+//Cái nào để trước sẽ khởi tạo trước
+<activity
+            android:name=".Slide.ScreenSlide">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+//lỗi 2 icon app
+	-xóa hàm 
+		<action>
+		<category>
+	-Trong android mainifest
+//Set Layout
+inflater.inflate(R.layout.fragment_screen_slide_page, container, false);
+
+
+
+//Tạo Adapter cho gridView
+
+public class ExamAdapter extends ArrayAdapter<Exam> {
+    public ExamAdapter(Context context, ArrayList<Exam> examArrayList) {
+        super(context,0, examArrayList);
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        if (convertView == null){
+           LayoutInflater inflater = LayoutInflater.from(getContext());
+           convertView = inflater.inflate(R.layout.item_exam_gridview,parent,false);
+        }
+        ImageView imgExam = (ImageView) convertView.findViewById(R.id.imgItemExam);
+        TextView txtExam = (TextView) convertView.findViewById(R.id.txtItemExam);
+
+        Exam p = getItem(position);//gọi class overive trên
+        if (p != null){
+                txtExam.setText(""+p.getTxtName());
+                imgExam.setImageResource(R.mipmap.ic_launcher);
+        }
+
+        return convertView;
+    }
+}
+//Đồng hồ timer
+	 public class CounterClass extends CountDownTimer {
+        /**
+         * @param millisInFuture    The number of millis in the future from the call
+         *                          to {@link #start()} until the countdown is done and {@link #onFinish()}
+         *                          is called.
+         * @param countDownInterval The interval along the way to receive
+         *                          {@link #onTick(long)} callbacks.
+         */
+        public CounterClass(long millisInFuture, long countDownInterval) {
+            super(millisInFuture, countDownInterval);
+        }
+
+        @Override
+        public void onTick(long millisUntilFinished) {
+            String countTime = String.format("%02d:%02d", TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished), TimeUnit.MILLISECONDS.toSeconds(millisUntilFinished) - TimeUnit.MINUTES.toSeconds(
+                    TimeUnit.MILLISECONDS.toMinutes(millisUntilFinished)));
+            txtTimer.setText(countTime); //SetText cho textview hiện thị thời gian.
+        }
+
+        @Override
+        public void onFinish() {
+            txtTimer.setText("00:00");  //SetText cho textview hiện thị thời gian.
+        }
+    }
+
+//Intent
+	//Chuyển Intent có dữ liệu
+		Intent intent = new Intent(getActivity(),ScreenSlide.class);
+               			 intent.putExtra("num_exam",i+1);
+               			 intent.putExtra("subject","toan");
+                		startActivity(intent);
+	//Nhận Intent
+			final Intent intent = getIntent();
+       			 subject = intent.getStringExtra("subject");
+        			num_exam = intent.getIntExtra("num_exam",0);
+
+//Truyền Bunlde từ activity sang fragment và quản lý số page
+	//Khởi tạo fragment
+		 ArrayList<Question> questionArrayList;
+    		public static final String KEYBUNDLE = "123";
+    		public  int mPageNumber ;
+
+    		TextView txtNum,txtQuestion;
+   		 RadioGroup radioGroup;
+    		RadioButton radA,radB,radC,radD;
+	//Ánh Xạ Fragment
+		  public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                            					 Bundle savedInstanceState) {
+      		  // Inflate the layout for this fragment
+      			  ViewGroup  viewroot = (ViewGroup) inflater.inflate(R.layout.fragment_screen_slide_page, container, false);
+
+      			  txtNum = (TextView) viewroot.findViewById(R.id.tvNum);
+       			  txtQuestion = (TextView) viewroot.findViewById(R.id.tvQuestion);
+   			     radA = (RadioButton) viewroot.findViewById(R.id.radA);
+     			   radB = (RadioButton) viewroot.findViewById(R.id.radB);
+        			radC = (RadioButton) viewroot.findViewById(R.id.radC);
+       			 radD = (RadioButton) viewroot.findViewById(R.id.radD);
+
+       		 return viewroot;
+    		}
+
+	//Hàm Get Bunlde
+		  public void onCreate(@Nullable Bundle savedInstanceState) {
+       		 super.onCreate(savedInstanceState);
+
+       		 questionArrayList = new ArrayList<Question>();
+        		ScreenSlideActivity screenSlideActivity = (ScreenSlideActivity) getActivity();
+        		questionArrayList = screenSlideActivity.getData();
+       		 mPageNumber = getArguments().getInt(KEYBUNDLE);
+
+
+
+   		 }
+			
+	// Trả dữ liêụ fragment
+	 public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+        txtNum.setText("Câu "+(mPageNumber+1));
+        txtQuestion.setText(questionArrayList.get(mPageNumber).getQuestion());
+        radA.setText(""+questionArrayList.get(mPageNumber).getAns_a());
+        radB.setText(""+questionArrayList.get(mPageNumber).getAns_b());
+        radC.setText(""+questionArrayList.get(mPageNumber).getAns_c());
+        radD.setText(""+questionArrayList.get(mPageNumber).getAns_d());
+    }
+	
+	//Bổ sung hàm activity
+	 protected void onCreate(Bundle savedInstanceState) {
+		questionController = new QuestionController(this);
+        		questionArrayList = new ArrayList<Question>();
+        		questionArrayList = questionController.getQuestion(1,"toán");
+	}	
+	
+
+	//Tạo Hàm GetArrayList khi đã select thành công.
+	public ArrayList<Question> getData(){
+      		  return questionArrayList;
+    	}	
+
+
+	//File Activity lấy ra dùng , và file set được viết trong fragment ở bên dưới
+		 public Fragment getItem(int position) {
+           			 return ScreenSlidePageFragment.create(position);
+       		 }
+
+		//Số Lượng fragment tạo ra.
+		 public int getCount() {
+          			  return NUMBERPAGE;
+        		}
+	//File Fragment để set
+	 public static ScreenSlidePageFragment create(int pageNumber){
+       		 ScreenSlidePageFragment fragment = new ScreenSlidePageFragment();
+		
+		//truyền bundle
+        		 Bundle bundle = new Bundle();
+       		 bundle.putInt(KEYBUNDLE,pageNumber);
+       		 fragment.setArguments(bundle);
+        		return fragment;
+   	 }
+		 	
+		
+//Adapter Cho GridView  cho dialog
+	//Tạo 2 Layout , 1 cho layout gridview , 1 cho custom gridview
+		//gridview
+public void CheckAnsert(){
+
+	//Khởi tạo dialog
+        final Dialog dialog = new Dialog(this);
+        dialog.setContentView(R.layout.check_ansert_dialog);
+        dialog.setTitle("Danh Sách Câu Trả Lời");
+	//Tạo Adapter cho girdView
+        CheckAnsertAdapter ansertAdapter = new CheckAnsertAdapter(arr_quest,this);
+        GridView gridView = (GridView) dialog.findViewById(R.id.gvLsQuestion);
+        gridView.setAdapter(ansertAdapter);
+
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                dialog.dismiss();
+            }
+        });
+
+        Button btnCancel , btnFinish;
+        btnCancel = (Button) dialog.findViewById(R.id.btnCancel);
+        btnFinish = (Button) dialog.findViewById(R.id.btnFinish);
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.dismiss();
+            }
+        });
+
+        btnFinish.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //
+            }
+        });
+            dialog.show();
+
+    }
+
+	//Adapter cho gridview
+	
+public class CheckAnsertAdapter extends BaseAdapter {
+    ArrayList  lsData;
+    LayoutInflater layoutInflater;
+
+    public CheckAnsertAdapter(ArrayList lsData, Context context) {
+        this.lsData = lsData;
+        layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+    }
+
+    @Override
+    public int getCount() {
+        return lsData.size();//độ dài mảng
+    }
+
+    @Override
+    public Object getItem(int i) {
+        return lsData.get(i);//lấy phần tử trong mảng
+    }
+
+    @Override
+    public long getItemId(int i) {
+        return 0;
+    }
+
+    private static class  ViewHolder{
+        TextView txtCau,txtDapAn;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup viewGroup) {
+        Question data = (Question) getItem(position);
+        ViewHolder holder;
+        if (convertView == null){
+            holder = new ViewHolder();
+            convertView = layoutInflater.inflate(R.layout.item_gridview_dialog,null);
+
+            holder.txtCau = (TextView) convertView.findViewById(R.id.txtCau);
+            holder.txtDapAn = (TextView)convertView.findViewById(R.id.txtDapAn);
+            convertView.setTag(holder);
+        }else{
+            holder = (ViewHolder) convertView.getTag();
+        }
+
+        int i = position+1;
+        holder.txtCau.setText("Câu "+i+" :");
+        Log.d("Position",""+i);
+        holder.txtDapAn.setText(data.getAnsert());
+
+        return convertView;
+    }
+}
+
+//floating trên màng hình
+	//layout
+	<com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+	//code
+	 FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
+//include layout
+	 <include
+        		layout="@layout/app_bar_main"
+        		android:layout_width="match_parent"
+       		 android:layout_height="match_parent" />
+//drawerlayout
+	<androidx.drawerlayout.widget.DrawerLayout ...
+		android:fitsSystemWindows="true"
+   		 tools:openDrawer="start"
+
+//navigationView
+	 <com.google.android.material.navigation.NavigationView
+       		 android:id="@+id/nav_view"
+       		 android:layout_width="wrap_content"
+       		 android:layout_height="match_parent"
+        		 android:layout_gravity="start"
+        		 android:fitsSystemWindows="true"
+        		 app:headerLayout="@layout/nav_header_main"
+        		 app:menu="@menu/activity_main_drawer" />
+//Thạo Tác Database
+	//Tạo database sqlite
+	//chuyển sang CSV rồi sang text -> SAVE UTF-8 -> Chuyển sang CSV -> để không lỗi font.
+	//Đưa vào trong assets . sữa đường dẫn lại bằng cách mở Device File Explorer. -> copy path.
+
+	//Tìm File Database Helper
+		//đưa vào  project package Question
+		//Tạo Class Question -> Thuộc tính , khởi tạo , getter and setter
+		//Tạo Class QuestionController .
+		//Thạo Tác CSDL
+
+	public class QuestionController {
+		
+		//Properies
+    		DBHelper dbHelper;
+    		ArrayList<Question> questionArrayList;
+
+		//Constructor
+   		 public QuestionController(Context context) {
+        			dbHelper = new DBHelper(context);
+    		}
+	
+	//Select có tham số
+    	public ArrayList<Question> getQuestion(int num_exam,String subject){
+        		questionArrayList = new ArrayList<Question>();
+       		 SQLiteDatabase db = dbHelper.getReadableDatabase();
+       		 Cursor cursor = db.rawQuery("SELECT * FROM tracnghiem WHERE num_exam = '"+num_exam+"' and subject = '"+subject+"'",null);
+        		cursor.moveToFirst();
+        		do{
+           			 Question question;
+           			 question = new Question(cursor.getInt(0),cursor.getString(1),cursor.getInt(2),cursor.getInt(3),cursor.getInt(4),cursor.getInt(5), cursor.getString(6),cursor.getString(7),cursor.getInt(8) );
+           			 questionArrayList.add(question);
+       		 }while (cursor.moveToNext());
+       			 return questionArrayList;
+   		 }
+
+	}
+		
+
+			
+	//SelectSearch bằng cursor
+		 public Cursor getSearchQuestion(String key){
+
+		        SQLiteDatabase db = dbHelper.getReadableDatabase();
+        		//err
+        		Cursor cursor = (Cursor) db.rawQuery("SELECT * FROM toan WHERE question LIKE '%"+key+"%'",null);
+
+	              if (cursor != null)
+            		cursor.moveToFirst();//duyệt từ dòng đầu tiên
+       		 return cursor;
+  		  }
+
+	
+	//Insert Vào database
+		 public void InsertScore(String name, int score , String room){
+       		SQLiteDatabase database = dbHelper.getWritableDatabase();
+       		 
+		ContentValues contentValues = new ContentValues();
+        		contentValues.put("name",name);//tên cột, giá trị
+        		contentValues.put("score",score);
+        		contentValues.put("room",room);
+       		database.insert("tbscore",null,contentValues);//tên bảng , , values
+        		database.close();
+   	 }
+	//Select Top
+		 public Cursor getScore(){
+
+       			 SQLiteDatabase db = dbHelper.getReadableDatabase();
+        		//err
+       			 Cursor cursor = (Cursor) db.query("tbscore",null,null,null,null,null,"_id DESC",null);
+
+       			 if (cursor != null)
+          				 cursor.moveToFirst();//duyệt từ dòng đầu tiên
+        			return cursor;
+    		}
+//database helper
+	//Nhớ bỏ database vào thư mục asset
+	//dùng db 
+		 DBHelper db = new DBHelper(this);
+        		try {
+            			db.createDataBase();
+		} catch (IOException e) {
+            			e.printStackTrace();
+        		}
+	
+	//kế thừa
+	extends  SQLiteOpenHelper{
+
+	}
+	//Properties
+		 private static String DB_PATH = "/data/data/com.example.tracnghiemv1/databases/";
+
+    		private static String DB_NAME = "dbTracNghiem.sqlite";
+    		private static final int DATABASE_VERSION = 1;
+
+    		private SQLiteDatabase myDataBase;
+    		private final Context myContext;
+	//Constructor
+		  public DBHelper(Context context) {
+       			 super(context, DB_NAME, null, DATABASE_VERSION);
+        			this.myContext = context;
+    		}
+	//Đóng database
+		 public synchronized void close() {
+
+		        if (myDataBase != null)
+            			myDataBase.close();
+
+		        super.close();
+
+		    }
+	//Hàm createDataBase
+		 public void createDataBase() throws IOException {
+       			 boolean dbExist = checkDataBase(); //kiem tra db
+
+      			  if (dbExist) {
+       			     //khong lam gi ca, database da co roi
+				//            copyDataBase();
+       			 } else {
+        				    this.getReadableDatabase();
+            			try {
+                			copyDataBase(); //chep du lieu
+            			} catch (IOException e) {
+             				   throw new Error("Error copying database");
+          			  }
+     		   }
+    		}
+	//Check database
+		 private boolean checkDataBase() {
+        			SQLiteDatabase checkDB = null;
+
+       			 try {
+            				String myPath = DB_PATH + DB_NAME;
+            				checkDB = SQLiteDatabase.openDatabase(myPath, null, SQLiteDatabase.OPEN_READONLY);
+        			} catch (SQLiteException e) {
+            				//database chua ton tai
+        			}
+
+       			 if (checkDB != null)
+       			     checkDB.close();
+
+        			return checkDB != null ? true : false;
+   		 }
+	//open database
+		 public void openDataBase() throws SQLException {
+
+      		  //Open the database
+       		 String myPath = DB_PATH + DB_NAME;
+       		 myDataBase = SQLiteDatabase.openDatabase(myPath, null, SQLiteDatabase.OPEN_READONLY);
+
+		    }
+
+
+	//copy database
+		 private void copyDataBase() throws IOException {
+
+       			 //mo db trong thu muc assets nhu mot input stream
+    			    InputStream myInput = myContext.getAssets().open(DB_NAME);
+
+        			//duong dan den db se tao
+        			   String outFileName = DB_PATH + DB_NAME;
+
+        			//mo db giong nhu mot output stream
+       			 OutputStream myOutput = new FileOutputStream(outFileName);
+
+        			//truyen du lieu tu inputfile sang outputfile
+       			 byte[] buffer = new byte[1024];
+      		  int length;
+       			 while ((length = myInput.read(buffer)) > 0) {
+           			 myOutput.write(buffer, 0, length);
+       			 }
+
+      		  //Dong luon
+      		  myOutput.flush();
+     		   myOutput.close();
+     		   myInput.close();
+
+   		 }
+	
+	//delete
+		 public void deleteDataBase() {
+      		  String myPath = DB_PATH + DB_NAME;
+       		 SQLiteDatabase.deleteDatabase(new File(myPath));
+    		}
+
+
+
+
+//Adapter Cursor
+	CursorAdapter {
+
+    LinearLayout linQuestion;
+
+    public QuestionAdapter(Context context, Cursor c, boolean autoRequery) {
+        super(context, c, autoRequery);
+    }
+
+    @Override
+    public View newView(Context context, Cursor cursor, ViewGroup viewGroup) {
+        View view = LayoutInflater.from(context).inflate(R.layout.item_list_question,viewGroup,false);
+        return view;
+    }
+
+    @Override
+    public void bindView(View view, Context context, Cursor cursor) {
+        TextView txtQuestion = (TextView) view.findViewById(R.id.txtQuestion);
+        linQuestion = (LinearLayout) view.findViewById(R.id.linSearch);
+        if (cursor.getPosition() % 2 ==0){
+            linQuestion.setBackgroundColor(Color.parseColor("#AF9797"));
+        }else{
+            linQuestion.setBackgroundColor(Color.parseColor("#EEE1E1"));
+        }
+        txtQuestion.setText(cursor.getString(1));
+
+    }
+}
+
+//Truyền Intent nguyên class 
+	tenclass truyền implements Serializable{
+	
+	//Lấy dữ liệu
+	 Intent intent = getIntent();
+                 arr_Ques = (ArrayList<Question>) intent.getExtras().getSerializable(ARR_QUEST);
+
+//AlertDialog
+	AlertDialog.Builder builder = new AlertDialog.Builder(TestDoneActivity.this);
+                builder.setIcon(R.drawable.exit);
+                builder.setMessage("Bạn cố muốn thoát");
+                builder.setTitle("Thoát");
+                builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        finish();
+                    }
+                });
+                builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+
+                builder.show();
+//Custom AlertDialog	
+	AlertDialog.Builder builder = new AlertDialog.Builder(TestDoneActivity.this);
+                LayoutInflater inflater = TestDoneActivity.this.getLayoutInflater();
+                View v = inflater.inflate(R.layout.alert_custom_dialog,null);
+                builder.setView(v);
+
+
+                final EditText edtName = (EditText) v.findViewById(R.id.edtName);
+                final EditText edtRoom = (EditText) v.findViewById(R.id.edtRoom);
+                TextView txtScore = (TextView) v.findViewById(R.id.txtScore);
+                final int numTotal = dung*10;
+                txtScore.setText(numTotal+" Điểm");
+
+                builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        String name = edtName.getText().toString();
+                        String room = edtRoom.getText().toString();
+                        scoreController.InsertScore(name,numTotal,room);
+
+                        Toast.makeText(TestDoneActivity.this,"Lưu Thành Công",Toast.LENGTH_LONG).show();
+                        finish();
+                        dialogInterface.dismiss();
+
+                    }
+                });
+                builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+                AlertDialog b = builder.create();
+                b.show();

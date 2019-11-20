@@ -1,0 +1,15 @@
+﻿Ngăn chặn việc vuốt :
+	setcurrent lại vị trí cũ. để vuốt không có hiệu ứng
+Chuyển nếu chọn vào việc vuốt.
+
+
+
+
+canScrollH chiều ngang
+boolean canScrollH chiều ngang (hướng int)
+Kiểm tra xem ViewPager này có thể được cuộn theo chiều ngang theo một hướng nhất định.
+
+Thông số
+direction	int: Tiêu cực để kiểm tra cuộn sang trái, tích cực để kiểm tra cuộn phải.
+Trả về
+boolean	Liệu ViewPager này có thể được cuộn theo hướng được chỉ định hay không. Nó sẽ luôn trả về false nếu hướng được chỉ định là 0.

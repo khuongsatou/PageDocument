@@ -1,0 +1,53 @@
+1 cau hoi thuoc nhieu linh vuc khac nhau.
+Cau hoi va luoc choi : n:n
+tap thuc the yeu sinh ra tu cac tap thuc the chinh
+-- Phim tat
+	Shift+chuot phai
+
+-- Cho giao duc
+	- Ban express
+
+-- Nhung
+	-database.php
+	-.emv//cau hinh database
+-- php artisan
+	-- cong cu ho tro lap trinh
+	-- make: tao
+		+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+
+		+          __!!!!__	  +
+		+           ` ` |  `` `	  +
+		+		  +
+		+		  +	
+		_	__	  _
+		+__|-|-|-|-|-|      |-|-|-|-|-|__+
+	
+--migration: tao bang, chinh sua
+	+ tao
+	+ Dong bo
+	+ Luu y: luu trong thu muc midgration
+	+ php artisan make:migration tenfile --create  = "ten table" // tao
+				     --table    = "tem table" //chinh 
+	+ bang migration tu tao ra trong db migration
+		id
+		migration
+		batch
+	+ UP()
+	+ DOWN()sua						--Code $table->
+	+ increment('id')
+	+ string("")
+	+ softDeletes()//xoa tam thoi
+		+ deletedAt
+	+ timestamps()
+		+ createdAt
+		+ updatedAt
+-- Chay migration
+	+ php artisan migrate
+--seed: them data
+--sublime text
+	+ Plugin
+		- ctr+~//auto active package control
+		- Terminal
+	+ cmd 
+		- PowerSheel
+--truong xoa
+	+ gan 0,1 hoac false,true

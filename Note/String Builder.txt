@@ -1,0 +1,4 @@
+﻿ dynamic String thì cứ StringBuilder hoặc StringBuffer mà dã thôi
+Sách có ghi rạch ròi rồi, giờ còn lăn tăn mấy thứ này thì làm sao làm được những cái to.
+
+ LIFO là stack và FIFO là queue, 2 cấu trúc dữ liệu này có thể cài đặt bằng mảng bình thường hoặc danh sách liên kết

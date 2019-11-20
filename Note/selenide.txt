@@ -1,0 +1,16 @@
+﻿Selenide là framework testing bởi selenium webDriver. nó là công cụ thao tác trên trình duyệt
+- API
+- Ajax
+
+- Giải quyết vấn đề về thời gian chờ ...
+- Hỗ trợ Ajax
+- Chụp ảnh màng hình tự động
+
+Dựa vào element name.
+
+
+
+
+Kết quả.
+
+Kết quả mong đợi nếu không đúng thì là bug

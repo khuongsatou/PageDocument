@@ -1,0 +1,5 @@
+﻿đổi câu hỏi : trộn mảng
+invisible 2 đáp án 
+random
+intent call
+

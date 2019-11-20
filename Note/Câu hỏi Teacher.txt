@@ -1,0 +1,16 @@
+﻿Thầy Tuấn
+2. Ảnh đại diện nên lấy từ thư viện copy vào drawer rồi lưu đường dẫn (tên hình) đến drawer  vào cơ sở dữ liệu . hay lấy ảnh insert vào cơ sở dữ liệu
+1.Khi hết thời gian hay sai thì chuyển câu hỏi hay là thay thế bằng câu hỏi khác
+
+->Nên đổi câu hỏi khác.
+->UI Chart thư viên: thầy chỉ sau
+->Đồng bộ:
+	sqlite và laravel
+	- SQLite có 5 câu hỏi khi hết load tiếp từ laravel.
+
+
+// Cô Ngọc
+1. Template 02 và 04
+2. Số thành viên: nộp bao nhiêu người thì ghi bao nhiêu thành viên
+3. Đặt tả: Như phân tích thiết kế bình thường
+4. 

@@ -1,0 +1,27 @@
+﻿1 sản phẩm có nhiều hóa đơn , 1 hóa đơn có nhiều sản phẩm.
+
+has many
+
+1,n
+1 product thuộc về 1 brand ,
+1 sản phẩm thuộc về 1 nhà sản xuất nào đó.
+
+n,n 
+
+
+
+belong -to
+(1,1)
+-> cài 1 trong 2 model
+
+Phân hệ người dùng -> tuần 9.
+Kiểm tra phải có 2 bài kiểm tra
+
+Yêu cầu đồ án laravel
+1. Show Database  -> model , quan hệ
+2. Sản phẩm.
+
+-> lưu ý: chỉ API và quản trị không thêm gì khác
+Mai 
+1. Báo cáo 2 phần
+2. 

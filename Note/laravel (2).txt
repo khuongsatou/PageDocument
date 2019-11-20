@@ -1,0 +1,8 @@
+﻿(n,n)
+- 1 hóa đơn nhiều sản phẩm, nhưng 1 sản phẩm nhiều hóa đơn : (n,n) -> bảng phụ
+- Bảng phụ không có khóa chính, nhưng khóa chính đó phát sinh ra 2 khóa id_hd,id_sp
+- Dòng trên chi tiết , nhiều sản phẩm.
+- Nhiều dòng trên chi tiết hóa đơn -> nhiều sản phẩm
+
+(1,n)
+- Đọc: 1 sinh viên học nhiều môn học, 1 môn học được học bởi nhiều sinh viên.

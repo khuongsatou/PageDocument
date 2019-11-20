@@ -1,0 +1,4 @@
+﻿inputType = "textPersonName" // không có enter
+numberSigned // số nguyên không dấu
+phone
+

@@ -1,0 +1,3 @@
+﻿Theo mình thì bắt lỗi nhập sai kiểu dữ liệu thì try catch được. Nhưng các lỗi liên quan đến validate hoặc các lỗi logic thì nên xử lý bằng tay
+
+Nếu chỉ bắt lỗi và thông báo thì dùng try catch . Còn bạn muốn cụ thể rõ dàng thì viết code của minhg

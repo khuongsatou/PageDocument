@@ -1,0 +1,5 @@
+public :
+private:
+protected: cùng gói(namespace).
+
+

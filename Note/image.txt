@@ -1,0 +1,8 @@
+ int resID = getResources().getIdentifier("fb","drawable",getPackageName());
+        Log.d("AAAAA",resID+"");
+        //ivLogo.setImageResource(resID);
+
+        String name = "google";
+        int id = getResources().getIdentifier(name, "drawable", getPackageName());
+        Drawable drawable = getResources().getDrawable(id);
+        Log.d("BBBBB",drawable+"");

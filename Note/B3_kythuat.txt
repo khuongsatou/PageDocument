@@ -1,0 +1,56 @@
+﻿	Bước 1
+
+Input:
+	Số ngày
+	Đơn giá phòng 
+	Phụ thu
+	Tiền dịch vụ
+	Giảm giá
+Out Put:
+	Tiền Phòng.
+
+	Bước 2:
+Điều Kiện
+C1	Số ngày = Ngày ra - Ngày vào
+C2	Đơn giá phòng : 2 người
+C3	Số người lớn hơn 2
+C4	Phụ thu: +10% thêm 1 người
+C5	Tiền dịch vụ : tự cho > 0
+C6	Giảm giá: 
+		+Tiền phòng >= 2tr thì giảm10%
+		+ Tiền phòng >= 4tr thì giảm 20%
+
+	Bước 3: Lớp tương đương
+C1	Số ngày = Ngày ra - Ngày vào
+	E1: Ngày ra > ngày vào ,valid
+	E2: Tháng ra > tháng vào ,valid
+	E3: Năm ra > năm vào,valid
+	E4: Ngày ra < ngày vào ,invalid
+	E5: Tháng ra < tháng vào,invalid	
+	E6: năm ra < năm vào,invalid
+
+C2	Đơn giá phòng cho 2 người
+	E7: số người = 2,valid
+	E8: không đủ 2 người ,invalid
+
+C3	Phụ thu:nếu số người lớn hơn 2
+	E9: Số người > 2,valid
+	E10: Số người <= 2,invalid
+
+C4 	+10% 
+	E11: Phụ thu 10%/1 người,valid	
+	E12: Không có phụ thu,invalid
+
+C5	Tiền dịch vụ : tự cho > 0
+	E13: tiền dịch vụ > 0
+	E14: tiền dịch vụ < 0
+C6	Giảm giá: 
+		+Tiền phòng >= 2tr thì giảm10%
+		+ Tiền phòng >= 4tr thì giảm 20%
+	E15: tiền phòng >= 2tr và tiền phòng <=4 Giảm 10%,valid 
+	E16: tiền phòng >= 4 tr thì Giảm 20%,valid
+	E17: tiền phòng <2 tr giảm  invalid
+	
+
+
+

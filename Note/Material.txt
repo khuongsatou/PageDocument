@@ -1,0 +1,111 @@
+﻿-- Icon:
+	24dp tính từ khung 
+	
+
+--Tất cả điều tính từ khung hết.
+
+--Editext
+	- Độ Dày Line : 1dp 
+	- Được chọn: 2dp
+	- Cách lề 8dp so với lề activity
+	- Component: 8dp
+	- Font : 14dp
+	- Opactiy: line(70%) , Hint(70%)
+	- Cách giữa 2 edittext thì 16 dp
+	
+-- Lề cho nền activity
+	- Left == Right == 16dp
+--Câu Logan
+	- Font 14px
+	- Màu tương phản (Trắng trên nền tối)
+	- Cách Logo 16dp
+
+
+-- Làm hình vừa với Arboard
+	Place hình vào -> [Làm mờ Blur] -> Đặt 1 shape rectange trên hình -> Shift chọn 2 hình chuộc phải và mark to Clipping
+
+-- Copy qua Artboards mới
+	- Ctrl + C
+	- Tạo 1 layer mới
+	- Ctrl + V
+	Hoặc
+	Duplicate các layer được chọn
+	Kéo qua
+
+-- Ruler
+	-Show Guide
+	-Show Ruler
+	-Kéo thước ra.
+	-> Sẽ Nhìn thấy thước	
+
+-- Artboards
+	-new - Artboards để tạo ra 1 activity 
+
+-- Button
+	- Lề 2 bên 16 dp
+	- Height: 36dp
+	- Drop Shadow
+		Blur : 2
+		X: 0px
+		Y: 2
+	- Text Trong Button
+		Size: 24sp
+	
+-- Màng Hình 5 inch
+	360 x 640
+-- Status Bar
+	-24dp
+	- Màu sẽ mờ hơn primary (500) là 600;
+	- Margin các Components: 8dp
+	- Icon (18dp): cách Nhau 8dp.
+	- Không tính vùng chạm 
+	- Size chữ : 12sp
+-- Tool Bar
+	-56dp
+	- Primary (500)
+	- Margin các Components: 16dp
+-- AppBar là cả 2 cái trên
+	- Elevation:4dp
+	- x: 4px
+	- y: 4px
+-- Tỉ lê 16:9 (1.779)...
+	VD:Width 1080px 
+	Height cho ảnh sẽ là 1080 /1.779 = 608 px 
+--Công thức tính tỉ lệ
+	Width = Height * Aspect ratio  	
+	Height = Width (lấy trên độ rộng 1080 * 1920 px) / Aspect ratio  	(Tỉ lệ)	
+
+-- Kích thước 
+	Status bar: 24 dp
+	Tool bar : 56 dp
+
+--AI
+	Show Gird -> Prereferces -> Guide & Gird -> 8px
+	1 ô vuông lớn là 8 dp = 4 ô nhỏ ghép lại
+	1 ô nhỏ sẽ là 4 dp.
+
+--Màu
+	VD: Chọn hai màu đối nhau xanh với hồng
+	Primary: 		Chọn 	Màu chủ đạo Xanh cho Toolbar (500)
+	Secondary:	Chọn 	Màu Nhấn Mạnh cho Button ()
+
+--Phím  Tắt
+	Rectangle(M).
+	SelectionTool (V).
+	Type Tool (T)
+	Trích Màu (I)
+	Phóng to , thu nhỏ (ALT + Lăn Chuột)
+	Line Segment Tool (\)
+
+--Menu Effect.
+	Styleze -> Drop Shadow (Đổ Bóng)
+	Blur  -> Gaussian Blur
+	
+--Text
+	Font Roboto
+--Chia Nhỏ Layer
+	Để Dễ Quản lí
+--Layer
+	Duplicate: để Nhân đổi
+	Nhấn vào Dấu chấm Tròn để di chuyển hết. 
+	Shift + Mũi tên để di chuyển.

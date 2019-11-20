@@ -1,0 +1,22 @@
+﻿Up text Lên Laravel -> thông báo xuống app
+
+https://khoapham.vn/KhoaPhamTraining/android/snipet/
+http://www.itsalif.info/content/android-volley-tutorial-http-get-post-put
+https://www.youtube.com/watch?v=qyhFAe802AY&list=PLzrVYRai0riSRJ3M3bifVWWRq5eJMu6tv&index=152
+Up ảnh lên laravel save ảnh vào thư mục img-> lấy về
+https://ntcde.com/android/huong-dan-su-dung-thu-vien-volley-trong-android.html
+Kiểm tra đăng nhập.
+https://demonuts.com/android-volley-post-request-with-parameters/
+Lấy các cấu hình trong các bảng về app
+
+
+https://techblog.vn/bai-18-form-request-trong-larvel
+
+https://kipalog.com/posts/Android--Constraint-layout---Phan-1--Thiet-ke
+
+responsive
+https://yellowcodebooks.com/2017/10/06/constraintlayout-phan-2-cac-chuc-nang-nang-cao/
+https://viblo.asia/p/constraint-layout-trong-android-ByEZk01YlQ0
+
+push qua android studio
+https://thangcoder.com/lap-trinh-android/hoc-lap-trinh-android-can-ban/huong-dan-luu-tru-va-clone-code-tren-github-tren-android-studio

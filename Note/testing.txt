@@ -1,0 +1,39 @@
+﻿
+Không nên lấy các website như tiki, ... vì dùng ip động, capchar
+-> dùng template trên mạng website bán hàng nhỏ , test performance.
+Không hiểu
+-> hỏi cộng đồng tester
+//
+Nhóm.	1
+1. Giới thiệu, cài đặt, tạo project , get element,object
+2. Test 1 trường hợp cụ thể , sử dụng biến truyền cho testing, đưa dữ liệu vào từ file csv,...
+3. Test 1 trường hợp cụ thể , sử dụng biến truyền cho testing, đưa dữ liệu vào từ file csv,...
+4. Đọc report, phân tích report,bug, chụp màn hình khi xuất hiện bug
+
+	Jmter
+1. Giới thiệu , cài đặt , tạo project, chạy project, đọc report
+2. Test performance , cho ví dụ và phân tích
+2. Test performance , cho ví dụ và phân tích
+	
+//Nhóm 2.
+
+
+
+//Nhóm 3.
+
+
+	
+Tên Seminar 	Tuần.	Làm
+Selenium	9		Có	
+Katalon	11		Có
+TestComplete	12	
+Jmeter		13	Có
+Selenide		10.	
+
+
+
+
+
+Selenium -> seleinide 
+Test Comple
+Jmeter

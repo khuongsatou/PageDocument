@@ -1,0 +1,51 @@
+﻿	Clean Code
+
+Tiêu chuẩn:
+	Clean Code: Robert C.Martin 200k
+Cơ bản:
+	Đơn giản
+	Trực tiếp
+	Dễ đọc hiểu
+	Có ít phụ thuộc
+	Không có code lặp
+	Chạy tất cả các bài kiểm thử
+	Không làm mờ đi ý định của người viết
+	Giống một bài văn hay
+	Giống như là được viết ra bởi 1 người có tâm.
+Dùng
+	Định danh		Hàm 	Ghi chú
+	Xử lý lỗi		Kiểm thử	Định dạng
+	Đối tượng &lớp
+Được gì
+	Team
+	Debug OK
+	Ít rủi ro
+	Năng suất hơn
+	
+//
+	Viết code đừng có quá rờm rà.
+//kĩ năng thuyết trình
+	- Hạn chế xưng hô tao mầy
+	- Trình bài hợp lí , mạch lạc , phù hợp
+	- Demo thì phải biết dùng tool zoom lên
+	- Chỉ ra 1 số lỗi  mà .
+	
+	Chuuẩn lập trình.
+-- Search keyword google
+// hướng dẫn sử dụng
+// sử dụng .. truyền data ..
+//how to create add project semilium	
+--
+//quy tắc Came Case;
+// kí hiệu hugrary
+--  Học selenium 
+viblo
+	Automation testing ---- Mục lục học hết 31 bài
+guru99.com-> chuyên về testing
+	Read CSV selenium
+//katalon
+	katalon.com	-> được phát triển từ selium
+
+
+
+___Clean test

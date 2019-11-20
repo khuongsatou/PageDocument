@@ -1,0 +1,9 @@
+https://x3english.com/cach-phat-am-ed/
+https://viblo.asia/p/android-thiet-ke-giao-dien-da-man-hinh-trong-android-gGJ592bpKX2
+
+https://freetuts.net/git-lenh-merge-branch-xu-ly-conflict-1076.html
+
+https://stackoverflow.com/questions/20859584/how-to-save-image-in-android-gallery
+
+http://192.168.1.11:8000/public/api/nguoi_choi
+public static final String BASE = "http://10.0.3.2:8000/api/";

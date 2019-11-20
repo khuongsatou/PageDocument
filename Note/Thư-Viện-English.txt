@@ -1,0 +1,306 @@
+﻿// Nguyên Âm thường
+	/æ/ // đọc a bình thường
+	/.:/ // đọc kéo dài ra
+	/ɔː/ // o kéo dài 
+	/ɪ/    //Giống i
+	/ə/  // đọc là ơ rất nhanh
+	/^/ // giống ơ bình thường
+	/əː/     Hoặc 	/ɜː/ // giống ơ nhưng kéo dài
+	/ʊ/ Giống u
+//Nguyên âm đôi
+	/aɪ/ //ai
+	/aʊ/ //ao
+	/eɪ/  //ây
+	/ɔɪ/  //oi
+	/oʊ/ Hoặc /əʊ/  // âu
+//Phụ âm
+
+
+//Phát âm vô và hữu
+	Voiced ( âm tiếng: phát ra âm): /θ/
+	Unvoiced ( âm câm: không phát ra âm): /ð/
+	
+//Bản chữ cái
+
+	Liên Tưởng
+A. /ei/ ấy
+B. /bi:/ -> Viên Bi
+C. /si:/ -> Đền si nhan
+D. /di:/ -> đi lại
+E. /i:/ -> kéo dài ra
+F./ef/ -> Không đọc rõ chữ ef
+G./.../ -> gi
+H.//-> éps
+I /ai/ -> ai đó
+J // -> giây phút
+K /kei/--> cây
+L /el/ -> eo
+M /em/ -> em không rõ
+N /en/ -> bật hơi nhẹ
+O /ou/ -> âu
+P /pi:/ ->pi = 3.14 
+Q /kju:/ -> Khiêu
+R /a:/ -> o
+S /es/ -> s nhẹ
+T /ti:/ -> ti
+U /ju:/ -> you
+V /vi:/ -> vì
+W -> doulieu
+X /eks/ -> s sì
+Y /wai/ -> why
+Z /zi:/ -> zi     
+
+
+//Khương
+	K /kei/--> cây
+	H.//-> éps
+	U /ju:/ -> you
+	O /ou/ -> âu
+	N /en/ -> bật hơi nhẹ
+	G./.../ -> gi
+
+
+//Lưu ý:
+	 họ sẽ có xu hướng sẽ nối âm cuối của từ đứng trước và âm đầu của từ đi liền sau nó
+
+
+
+//Con số
+1.One	11.Eleven
+2.Two	12.Twelve_
+3.Three	13.Thirteen_
+4.Four	14.Fourteen
+5.Five	15.Fifteen_
+6.Six	16.Sixteen
+7.Seven	17.Seventeen
+8.Eight	18.Eighteen_
+9.Nine	19.Nineteen
+10.Ten	20.Twenty_	30. Thirty		40. Forty		50. Fifty		60. Sixty		70.Seventy	80. Eighty		90. Ninety		100. One Hundred / a hundred		1,000  One thousand	/	1.000.000. One million / 	1.000.000.000 One billion/
+
+//Số Thứ tự = Số Đếm + th
+5th (Fifth) đến 20th(Twentieth).
+Khi cuối y -> ie (Số Tròn chục)
+9th (ninth).
+
+//Phân Biệt
+1st(1 - First lấy 2 số kí tự cuối) 21 ..
+2nd(2 - Second)  22 ..
+3rd(3 - third) 23 ..
+4th(4- fourth) 24..
+//Đặt Biệt
+5th
+11th. (Eleventh)
+12th. (Twelfth)
+13th. (Thirteenth)
+14th. (Fourteenth)
+
+
+
+//  Giờ -Phút - Giây
+
+
+10 hours 9 minutes 45 seconds.//mất 9 phút 45 giây.
+
+
+
+//Giờ trước, phút sau: đây là cách nói được dùng trong các ngữ cảnh trang trọng và dễ nhớ
+
+Ví dụ: 7:45 – seven forty-five
+
+
+//Phút trước, giờ sau: đây là cách nói phổ biến hơn. Nói phút trước giờ sau. Từ phút thứ 01 đến phút 30 dùng từ “past”, từ phút 31 đến phút 59 dùng từ “to”
+
+Ví dụ: 7:15 – fifteen minutes past seven: 7 giờ hơn 15 phút- 7: 45 – fifteen minutes to eight : còn 15 phút nữa đến 8h
+Tuy nhiên, người ta cũng có cách nói khác với giờ hơn / kém 15 phút và 30 phút, như:
+
+ ’15 minutes past’ = a quarter past
+’15 minutes to’ = a quarter to
+’30 minutes past’ = half past
+5:30 – half past five
+
+
+
+//Định Dạng
+1. Cách viết:
+Để viết ngày người Anh viết theo dạng:
+
+Thứ + , + Tháng + Ngày trong tháng (Số thứ tự) + , + Năm
+
+2. Cách đọc:
+
+Bạn đọc ngày tháng theo thứ tự sau:
+
+Thứ + Tháng + Ngày trong tháng (Số thứ tự) + Năm
+
+hoặc Thứ + Ngày trong tháng (Số thứ tự) + of + Tháng + Năm
+
+//Khác
+ 
+day         :  ngày
+week        :  tuần
+month       :  tháng
+day of week :  ngày trong tuần, thứ
+year        :  năm
+yesterday   :  hôm qua
+today       :  hôm nay
+tomorrow    :  ngày mai
+
+
+
+Ghi chú: Nhắc lại về cách sử dụng giới từ với ngày tháng trong tiếng Anh.
+Khi nói về thứ ta dùng giới từ (on).
+X-Khi nói về ngày trong tuần ta dùng giới từ (on)
+Khi nói về tháng, năm ta dùng giới từ (in).
+
+Example
+  (On) + Thứ.
+  (In) + Tháng.
+  (In) + Năm
+ (On) +Tháng + Ngày
+
+
+//Nói Về Ngày Trong Tháng
+Tháng + the + ngày
+Example:
+	September the First
+
+Quy tắc đọc và viết ngày tháng trong tiếng Anh
+Trong tiếng Anh- Anh, thì bắt đầu bằng (Thứ) + Ngày + tháng
+
+Trong tiếng Anh- Mỹ, thì ngược lại là (Thứ) + Tháng + ngày
+
+Ví dụ: Ngày 1 tháng 3 năm 2017
+
+– Anh- Anh: 1/3/2017 hoặc 1st March 2017
+
+– Anh- Mỹ: 3/1/2017 hoặc March 1st 2017
+
+Khi nói ngày trong tháng, chỉ cần dùng số thứ tự tương ứng với ngày muốn nói, nhưng phải thêm THE trước nó.
+Ví dụ: September the second = ngày 2 tháng 9. Khi viết, có thể viết September 2nd
+
+//Buổi trong này
+
+Sáng: In the Morning
+Trưa: In the Afternoon
+Chiều: In the Evening
+Tối: In the Night
+
+//Ăn
+Ăn Sáng: Breakfast
+Ăn Trưa: Lunch
+Chiều: Dinner
+
+
+
+//Thứ
+On Monday
+On Tuesday
+On Wednesday
+On Thursday
+On Friday
+On Saturday
+On Sunday.
+
+//Ngày
+2nd Second
+3rd Third
+4th Fourth
+5th Fifth
+6th Sixth
+7th Seventh
+8th Eighth
+9th Ninth
+10th Tenth
+11th Eleventh
+12th Twelfth
+13th Thirteenth
+14th Fourteenth
+15th Fifteenth
+16th Sixteenth
+17th Seventeenth
+18th Eighteenth
+19th Nineteenth
+20th Twentieth
+21st Twenty-First
+//Tháng
+
+In January
+In February
+In March
+In April
+In May
+In June
+In July
+In August
+In September
+In October
+In November
+In December
+
+...
+
+//Năm
+In 1999
+
+//Cách đọc tên năm trong tiếng Anh
+Để đọc số ghi năm, bạn không đọc theo cách đọc số bình thường mà chia đôi 4 số thành 2 cặp và đọc từng cặp số này.
+
+Example:
+
+
+1992 = 19 và 92 = nineteen ninety two
+1880 = 18 và 80 = eighteen eighty
+
+
+//Đặt câu hỏi với What
+what có nghĩa là “cái gì”, thường được dùng để hỏi tên, đồ vật, nghề nghiệp, … Câu hỏi với what sẽ có cấu trúc là: What + be/trợ từ + S
+
+a/ “What” để hỏi đồ vật, sự vật
+– What is moving? – It’s a cat!
+b/ “What” để hỏi tên.
+– “what’s your name?” (Tên bạn là gì?)  -My name is Khuong.
+c/ “What” để hỏi nghề nghiệp
+– What does your son do? – He is a dentist. (- Con trai cô làm gì ạ? – Anh ấy là nha sĩ.)
+d/ “What” để hỏi giờ/ngày/tháng/năm.
+–  What time is it? đều có nghĩa là “Mấy giờ rồi?”
+Tuy nhiên, ngoài câu hỏi với what time, what cũng được sử dụng để hỏi về ngày/tháng/năm.
+
+– What để hỏi ngày: – What is today? – It’s Friday. (- Hôm nay là thứ mấy? – Thứ 2)
+
+– What để hỏi tháng: – What is the next month? – It’s April. (- Tháng sau là tháng mấy? – Tháng 4)
+
+– What để hỏi ngày tháng: – What is the date? –  It’s March 26th. (- Hôm nay là ngày bao nhiêu? – Ngày 26 tháng 3.)
+
+– What để hỏi năm: – What is the next year? – It’s 2020. (- Năm sau là năm bao nhiêu? – 2020.)
+
+//. Các trường hợp đặc biệt
+Ngoài được dùng để hỏi tên, đồ vật, nghề nghiệp, giờ giấc, câu hỏi với what còn được sử dụng trong những trường hợp đặc biệt như cách đặt câu hỏi với what kind of.
+
+– What kind of …: Kiểu nào
+Ví dụ: – What kind of drinks do you like? – I like coffee. (- Bạn thích đồ uống nào? – Mình thích cà phê)
+– What … for: Để làm gì
+Ví dụ: – What do they cut trees for? – They do for redoing the road. (- Họ chặt cây để làm gì vậy? – Họ làm lại đường)
+– What happen … : Có chuyện gì
+Ví dụ: – What happened to our headmaster? – He has had an accident. (- Chuyện gì xảy ra với hiệu trưởng của chúng ta vậy? – Thầy ấy vừa gặp tai nạn)
+– What colour …: Màu gì
+Ví dụ: What colour of shirt do you like? – White, of course. (- Bạn thích áo sơ mi màu gì? – Đương nhiên là màu trắng rồi.)
+
+Bài tập: Điền từ thích hợp vào chỗ trống.
+
+a/ What is … of his secretary?
+
+b/ What … of clothes does she like?
+
+c/ What … to his father?
+
+d/ What do you buy follower …?
+
+Đáp án:
+
+a/ What is the name of his secretary? (Thư ký của anh ta tên là gì vậy?)
+
+b/ What kind of clothes does she like? (Kiểu quần áo nào cô ấy thích?)
+
+c/ What happened to his father? (Chuyện gì đã xảy ra với bố anh ta vậy?)
+
+d/ What do you buy follower for? (Cậu mua hoa để làm gì vậy?)

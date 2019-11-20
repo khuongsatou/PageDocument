@@ -1,0 +1,1 @@
+﻿Liệt kê bảng cần thiết , vẽ erd , use case , lược đồ tuần tự , khoá ngoại khoá chính 
