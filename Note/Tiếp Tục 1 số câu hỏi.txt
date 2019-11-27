@@ -1,0 +1,3 @@
+﻿OK Khi Xóa Loại Sản Phẩm thì có xóa luôn mấy sản phẩm của loại đó không. -> Không -> Chỉ Là Không Thêm Lại Được thôi
+
+Không Có cần thêm chức năng hồi phục các sản phẩm đã xóa không?

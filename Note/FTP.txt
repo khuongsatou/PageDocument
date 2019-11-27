@@ -1,0 +1,71 @@
+﻿1. FTP
+IIS(Internet Information Services) Gồm Web , FTP
+
+Anonymous Authentication -> Thoải mái
+Basic Authentication -> user và pass
+Digest Authentication -> hash value(Active Directory trong dcpromo)
+Windows Authentication -> không gửi pass qua mạng 
+
+
+FTP: Gửi File dù là HDH gì đi nữa
+Mô Hình Client/Server
+port 20: data 
+port 21: cmd
+
+
+
+
+
+
+lệnh cmd để sử dụng 
+
+ftp ftp.caothang.edu.vn
+> open -> mở
+>disconnect -> ngắt
+
+> bye -> kết thúc session
+>quit -> thoát session
+
+>get -> download
+> put -> Upload
+
+> ls -> tập tin và thư mục
+
+> user -> chuyển đổi user
+
+> mput -> up nhiều
+
+
+
+1-> xong -> đợi
+2 -> Success
+3 ->  watting
+4-> error -> try
+5-> error -> can't do 
+
+
+
+Active : Tăng Bảo Mật
+Passive : Xử lí tốt ở clien
+-> Cả 2 Đéo an toàn do không sử dụng (SSL)
+
+
+Physical directory : Trên Đĩa
+Virtual directory: Tên Ngắn gọn bí danh
+
+
+
+Do not isolate users-> public
+Isolate users-> Phân Quyền
+Isolate user using Active Directory
+
+
+
+FTPRoot/localuser (disable global virtual directories)
+
+
+2. 	TFTP (Trivial) UDP -> 69
+
+
+3.	SFTP(SSH hay Secure) -> TCP -> 22 -> data stream
+ 

@@ -1,0 +1,9 @@
+﻿Chỉ lưu trữ đuôi hình varchar
+
+
+Trong Cập Nhật có tìm Nhân viên
+
+
+Xóa luôn
+
+Trong tìm kiếm có thêm xóa sửa

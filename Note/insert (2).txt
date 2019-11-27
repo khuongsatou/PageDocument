@@ -1,0 +1,1 @@
+﻿INSERT INTO `hoahau` (`MaHH`, `MatKhau`, `HoTen`, `QuocGia`, `SoDo3Dong`) VALUES ('1', 'a', 'Nguyễn Tấn Phát', 'VietNam', '20-10-1');

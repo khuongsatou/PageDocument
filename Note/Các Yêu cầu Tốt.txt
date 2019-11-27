@@ -1,0 +1,7 @@
+﻿Cần thiết – Cái cần phải nhắc đến nếu không hệ thống sẽ thiếu một phần tử quan trọng mà không một thành phần nào khác của hệ thống có thể bù lại được.
+Không mù mờ đa nghĩa – Chỉ có một cách hiểu
+Ngắn gọn súc tích – Được diễn đạt bằng ngôn ngữ mô tả ngắn gọn và dễ hiểu, trong khi vẫn truyền đạt được nội dung cốt yếu của yêu cầu
+Nhất quán – Không mâu thuẫn với một yêu cầu khác; các yêu cầu sử dụng cùng hệ thống ngôn ngữ và thuật ngữ cho các khái niệm.
+Hoàn chỉnh – Các nội dung được trình bày đầy đủ tại chỗ để người đọc không phải xem thêm tài liệu khác để có thể hiểu được nội dung của yêu cầu.
+Đạt được – Một khối lượng thực tiễn có thể được thực hiện trong lượng tiền/tài nguyên/thời gian có được
+Kiểm thử được – Phải có khả năng xác định xem yêu cầu đã được thỏa mãn hay chưa bằng một trong 4 phương pháp duyệt (inspection), phân tích, trình diễn, hoặc kiểm thử (test)

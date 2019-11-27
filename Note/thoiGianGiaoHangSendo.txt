@@ -1,0 +1,7 @@
+﻿Sau khi Sendo.vn xác nhận đơn hàng mà Người Mua đã đặt hoàn tất, phía đã người bán xác nhận còn hàng . Sendo.vn sẽ tiến hành chuyển thông tin đơn hàng cho đối tác vận chuyển thực hiện tới Người Bán nhận hàng và thực hiện giao hàng cho Người Mua , thời gian giao hàng tuỳ thuộc vào khu vực địa lý Người Mua ( nội tỉnh 2 ngày làm việc , ngoại tỉnh 5-7 làm việc).
+
+4. Quy trình xác nhận/hủy đơn hàng:
+
+Trong vòng 24h kể từ khi Người Mua hoàn tất việc đặt đơn hàng, Người Bán sẽ thực hiện xác nhận đơn hàng ( còn hoặc hết hàng), sau đó Sendo.vn sẽ tiến hành chuyển thông tin đơn hàng đã xác nhận còn hàng cho đơn vị vận chuyển để tiến hành giao đơn hàng mà Người mua đã đặt.
+
+Sau khi hoàn tất việc đặt đơn hàng, Người mua có thể hủy đơn hàng bằng cách chọn “Quản Lý Đơn Hàng” để “Hủy” đơn hàng hoặc có thể gọi lên Tổng Đài nhờ hỗ trợ huỷ đơn hàng. Nếu Người mua muốn hủy đơn hàng tại thời điểm nhận được sản phẩm thì phải thực hiện theo Chính sách đổi trả sản phẩm.

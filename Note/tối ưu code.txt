@@ -1,0 +1,14 @@
+﻿ngắn gọn , đơn giản , càng ít mã càng tốt.-> tối ưu lại sau khi code
+Trước khi code phải phân tích.
+Các công việc cần làm.
+input là gì -> kiểm tra hợp lệ -> lưu lại vào csdl -> ... -> Hoàn thành lấy cây viết gạch bỏ chức năng đó.
+Có thể dùng những dụng cụ đơn giản .
+Sử dụng các phím tắt . WINDOW và Phần mềm.(Copy nhanh 1 dòng , Xóa nhanh 1 dòng)
+
+Xử lí lỗi:
+Cứu pháp : Ko cần quan tâm
+Biên dịch.
+	Lý do gây lỗi
+	Lỗi nằm ở dòng nào 
+Nếu search tìm được stackoverlow là OK nhất
+		

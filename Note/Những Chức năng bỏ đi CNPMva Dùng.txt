@@ -1,0 +1,21 @@
+﻿Loại: (Dành cho web)
+	+ Chính sách bảo hành
+	+ Đặt Hàng
+	+ Vận Chuyển
+	+ Chính sách đổi trả
+	+ Khách Hàng (Không tương tác với Phần mềm nên lại chỉ chứa mỗi tác nhân là ..)
+	+
+Dùng:(Dành cho Phần mềm)
+	+ Khách Hàng VIP (Giảm 1 -> 15 % ) Cho Hóa Đơn (https://yame.vn/page/khach-hang-vip)
+	+ Hóa Đơn.
+	+ Đối tác cung cấp sản phẩm (https://yame.vn/page/doi-tac-cung-cap)
+	+ Giỏ Hàng(Tên, Điện thoại,Hình thức nhận,địa chỉ,Ghi chú)
+	+ Hiển thị Info Sản phẩm(Mẫu, Giá tiền , Size)
+	+ Thống kê
+	+ Tra cứu
+
+NOTE: (Lấy điểm cao)
+	 + Đa nền Tảng
+	 + Nhiểu chức năng
+	 + Theo Đúng quy Trình.
+	

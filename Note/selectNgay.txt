@@ -1,0 +1,2 @@
+SELECT * FROM `hocsinh` WHERE DAY(hocsinh.NgaySinh)>=2 and DAY(hocsinh.NgaySinh) <=30 AND
+MONTH(hocsinh.NgaySinh)>=1 AND MONTH(hocsinh.NgaySinh) <=12 AND YEAR(hocsinh.NgaySinh) = 1989

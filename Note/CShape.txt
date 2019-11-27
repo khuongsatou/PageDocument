@@ -1,0 +1,25 @@
+﻿Kiểu dữ liệu
+	Key	
+	sizeof(int)		//4 byte
+	KDL	Byte	Mặc định
+	char	2byte	'\0'
+	int	4byte	0
+	float	4byte	0.0D
+	bool		false
+Selected
+	Thuộc tính		Mô Tả
+	SelectedItem	//Giá trị select
+		
+	
+
+ArrayList //vị trí là đi từ index(0) là từ 0 add cũng vậy và truy cập theo chỉ số arr[0];-> (N-1) vị trí cuối
+ 	Thuộc tính		Mô Tả
+	new 		// khởi tạo
+	Add() 		// Thêm vào arraylist
+	Count 		// Đếm tổng số phần tử
+	Capacity		// số lượng phần tử khởi tạo
+	Clear()		// Xóa Sạch những thứ đã add
+	IndexOf(value)	// Tìm kiếm Có 0 , Không -1
+	Insert(vítrí,value)	// có thể thêm bắt cứ vị trí nào
+	Remove(value)	// Truyền vào giá trị xóa. các phần tử khác sẽ dồn về.
+	Sort()		//Sắp xếp theo tăng dần

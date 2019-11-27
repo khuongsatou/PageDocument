@@ -1,0 +1,5 @@
+String dbURL = "jdbc:sqlserver://localhost;databaseName=QLTTSV;user=sa;password=123";
+        conn = DriverManager.getConnection(dbURL);
+        if (conn != null) {
+         System.out.println("Connected");
+        }

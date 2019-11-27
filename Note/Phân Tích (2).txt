@@ -1,0 +1,10 @@
+﻿Nó đủ khi nó thỏa mãng hết yêu cầu.
+- Chạy được Project Chạy (được toàn file).
+- SignIn:
+	+ Kiểm tra Email (...edu@gmail.com) form  Password (Hoa , Thường , Số, Kí tự), Login -> Tc thì chuyển và thông báo -> Thất bại thì thông báo trên trang view.
+- SignUp:
+ 	+ Kiểm tra không " "; 
+	+ Name không được chứa (số và kí tự)
+	+ Password (Hoa , Thường , Số, Kí tự)
+	+ Email (...edu@gmail.com)
+	+ Sđt (84+);

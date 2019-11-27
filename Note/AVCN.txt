@@ -1,0 +1,86 @@
+﻿performance: Hiệu Xuất
+peripheral: Thiết bị ngoại vi
+measurement: Đại Lượng
+personalize: Cá Nhân Hóa
+
+display screen: màng hình hiển thị
+monitor: bao gồm luôn cả hộp màng hình
+desktop: máy tính bàn
+
+processor: Bộ xử lí
+manual: Hướng Dẫn Sử Dụng
+
+features: Tính Chất, Đặt Điểm
+removable: Có Thể Tháo Rời
+
+cursor: Con Trỏ nháy |
+pointer:  Con Trỏ Chuột
+
+minimize: _
+	 __
+maximize: [    ]
+restore: hình 2 cửa sổ
+
+Internet 1970s Tại United States 
+cyberspace: Không Gian Mạng
+TimBerners-Lee: WWW
+URL: Uniform Resource Locator
+
+narrow: Hẹp
+specific and brief: Cụ Thể và ngắn gọn
+retrieve: Lấy Lại
+excludes: Không bao gồm
+
+stands for: viết tắt mean
+deals with: giao dịch
+outgoing: hướng ngoại
+
+Khuong@gmail.com
+Khuong: UserName
+@:symbol
+gmail: domainName
+com: TLD
+
+SMTP sends POP3 
+POP3 which adds it your email
+
+fee: Học Phí
+illegal: Bất hợp Pháp
+
+per_to_per: 2 chiều với tất cả có chéo nhé
+central location: 1 máy lam trung tâm
+
+DTP: Desktop Publishing là việc thiết kế ra các tài liệu bằng cách sử dụng kỹ năng thiết kế, dàn trang trên một máy tính cá nhân với những công cụ phần mềm khác nhau
+confusing: Gây Nhầm Lẫn
+relevant: Liên Quan
+lingual: Ngôn Ngữ
+pretty: Đẹp
+
+integrated: tích hợp
+accessories: phụ kiện
+opervate: vận hành
+convenient: Tiện Lợi
+retailer: Nhà Bán Lẽ
+guarantees: Đảm Bảo
+
+according: Theo
+behaves: cư xử, lịch sự
+
+adaptor: Bộ chuyển đổi
+reliable: Đáng tin cậy
+affects: Ảnh hưởng
+
+fact: Thực tế
+typical: Điển Hình
+
+
+
+receiving : Nhận -> POP3
+send -> SMTP
+fill -> colour
+insert-> graphics
+all email saved -> inbox
+Sales catelogue -> Quyển Quảng Cáo
+Bussiness card -> Name của người gặp
+3D-> Dimension
+BCC -> blind Carbon copy

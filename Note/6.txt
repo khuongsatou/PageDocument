@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    android:stretchColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow>
+
+
+        <TextView
+            android:layout_span="4"
+            android:background="#ff0"
+            android:text="android"
+            android:textSize="20sp"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:background="#d41e1e"
+            android:text="android"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:text="android"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:text="android"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:text="android"
+            android:textSize="20sp"
+            />
+    </TableRow>
+
+</TableLayout>

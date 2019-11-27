@@ -1,0 +1,1 @@
+UPDATE `hocsinh` SET `HoTen` = 'khuong' WHERE `hocsinh`.`MaHocSinh` = 1;

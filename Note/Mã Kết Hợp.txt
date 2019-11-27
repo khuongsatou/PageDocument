@@ -1,0 +1,10 @@
+﻿$biến=array()// dạng thường .
+=> có index và value
+có thể thêm thế này.
+$bien[] = value // thêm vào index thứ 0
+
+$biến = array()//mảng kết hợp
+=> key => values
+$bien['key'] = value // thêm vào index thứ key
+
+

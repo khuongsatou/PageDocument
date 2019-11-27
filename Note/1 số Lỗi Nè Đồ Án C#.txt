@@ -1,0 +1,5 @@
+﻿Lỗi khi datagridView Về 0 thì sửa và xóa sẽ lỗi -> sửa xóa sẽ ẩn khi về 0 , nếu không cell click thì ẩn đi
+Lỗi thứ 2 là về ngày sinh phải nhỏ hơn getDate
+Lỗi thứ 3 là thêm loại sp thì reset lại cột cb loại
+Lỗi thứ 4 là Nên search theo kiểu nào ,
+Lỗi thứ 5 là  Nên Tạo Báo cáo như thế nào

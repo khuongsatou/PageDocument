@@ -1,0 +1,1 @@
+SELECT * FROM `hocsinh` WHERE 1

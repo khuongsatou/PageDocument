@@ -1,0 +1,23 @@
+﻿Câu 26:
+y = 4  x= 4
+y =  7,  x = 3
+
+x=3 , y  =7
+
+Câu 27:
+m =2 , n =2 -> n sau 1
+else{
+0
+m =2 , n = 0
+Câu 28:
+0: x=1 , y=1 -> Sai
+1: x= 2 , y =2 -> Sai
+2: x= 4 , y =2 -> Đúng
+3:x = 6 , y = 2
+4 : x= 8 , y = 2
+
+-> Kinh Nghiệm Đúc kết -> Đúng 1 bên thì nó sẽ vô luôn mà không tăng y lên
+ 
+
+
+

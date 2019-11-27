@@ -1,0 +1,4 @@
+ if (char.IsDigit(e.KeyChar) == false && char.IsControl(e.KeyChar) == false)
+            {
+                e.Handled = true;
+            }

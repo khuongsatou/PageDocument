@@ -1,0 +1,2 @@
+﻿POP3: Lấy thư điện tử từ máy chủ
+SMTP: Gửi thư trên Internet

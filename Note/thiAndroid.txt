@@ -1,0 +1,21 @@
+﻿Không có thi mà chỉ báo cáo vấn đáp.
+Duy_tiến_tuấn(Chịu tránh nhiệm chính).
+- 20 câu hỏi lí thuyết.(Thầy đặt).
+- Cái nào biết thì nói.
+- Theo chuẩn.
+- Đề cương.
+___Giới thiệu tổng quan về laravel framework
+___Các thành phần cơ bản route,controller
+___Request , Respose
+___Session,Cookie,Midleware
+___Model , migration,authen, email, ràng buộc.
+
+
+___________________________________
+Sản phẩm: phải tìm cách tốt nhất , so với tất cả mọi thứ .
+Tại sao lại quyết định như vậy.
+
+
+vấn đáp
+5 câu hỏi
+bóc thăm , cho 5 phút chuẩn bị

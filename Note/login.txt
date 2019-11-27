@@ -1,0 +1,5 @@
+﻿Quy ước đặt tên: v1_<họ tên 1>_<họ tên 2>.zip. Ví dụ: v1_NguyenVanA_TranThiB.zip
+Chức năng:
+- Khởi tạo project: 1
+- Chức năng signup (chưa lưu CSDL): 2
+- Chức năng login (dữ liệu ảo): 3

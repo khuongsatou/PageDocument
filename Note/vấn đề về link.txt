@@ -1,0 +1,5 @@
+﻿css ý nè : nếu file link đúng không ăn thì tạo lại đi chắc do khác máy với khác source nên nó lỗi ý mà
+
+nhớ include nó nằm ở file đang mở nhớ nhé chứ không phải file đang làm 
+
+vd: header được include từ vào trong file view thì view đi ra ngoài.

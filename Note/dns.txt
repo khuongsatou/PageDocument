@@ -1,0 +1,76 @@
+﻿1973:
+Mạng Arpanet
+1984:do ông Paul thiết kế hệ thống phân dãy tên miền tại DH California 
+đầu tiên lưu file hosts.txt
+DNS : IP-> phân giải tên miền, kiểm tra nslookup
+1 trong những mục đích của dns là quản trị phân tán
+5 khả năng
+	+ Phân tán : ko máy nào có tất cả dữ liệu
+	+ Kết dính: ALL Phải Đồng bộ
+	+ Mở rộng: Không giới hạn kích thước
+	+ Tin Cậy: data được sao chép từ server  chính qua phụ
+	+ CSDL động: Tự động cập nhật.
+Domain namespace: Được tổ chức theo cấu trúc phân cấp
+	+ Cây đảo ngược có node gốc(.) trên dỉnh, mỗi node có 1 tên (/[A-z0-9-]/)
+	+ Các node cùng node cha phải khác tên.
+Domain Name:Dãy các tên từ 1 node đến 1 node gốc
+	+Tên miền chiều dài: 255
+	+mỗi node chiều dài 63
+	+Domain Namespace: chiều sâu 127
+Domain: 1 nhánh của domain namespace.
+	+ Tập các node có cùng node cha
+	+ Tên của domain là tên của node cha
+	vd:root->net->ripe, ripe->www,ripe->ftp : có node cha là ripe. kết quả là ript.net
+SubDomain:mỗi domain có thể phân chia thành các vùng nhỏ hơn.
+	vd: sales.microsoft.com là subdomain của microsoft.com và com
+Root hints:  giúp client tìm ra root server.
+	+ 13 root server A-> M
+TLD(top - level domains) quản lí các top-level domains
+	+ 3 loại chính :
+	+ ARPA: tên miền ngược, tên miền đặt biệt ,in-addr.arpa
+	+ gTLD,tên miền dùng chung quy định ít nhất 3 chữ cái , com,edu,net,gov,org,vv
+	+ ccTLD: tên miền theo mã quốc gia
+FQDN: Tên Miền đầy đủ.
+DNS Zone có các DNSrecords quản lí tên miền được phân chia
+	+ Forward lookup zone. FQDN-> IP, gồm 6 DNS Records cái chính
+		- (Host)A :hostname IPv4
+		-(Alias)CNAME: cho phép nhiều tên miền cùng trỏ đến 1 IP
+		-(Mail Exchanger)MX: chỉ đến mail server cho miền , lấy từ mail server về theo cơ chế POP3
+		-(Servic Record)SRV: Cung cấp cơ chế định vị dịch vụ trên mạng
+			
+		-(Start of Authority)SOA.Chỉ có duy nhất SOA
+			+ Serial Number: Quản lí phiên bản
+			+ Refesh interval: Chu kỳ đồng bộ pri và sec
+			+ Retry interval: Nếu sec ko kết nối sau khoản tg này sẽ kết nối lại
+			+Expire after: Sau khoản tg này dữ liệu ko có giá trị
+			+TTL(time to live):Chỉ ra tg name server khác được cache lại
+		-(Name Server)NS: gồm các DNS servers có thẩm quyền. 2 máy chủ có thẩm quyền
+			+primary
+			+secondary
+		
+	+ Reverse lookup zone.ngược lại
+		-(Pointer)PTR: IP-> Host Name
+Gồm 4 loại DNS Zone
+	+Primary: lưu file text(zone file),đọc ghi csdl DNS
+	+Secondary: chỉ đọc bản sao , tranfer
+	+Stub:chuyển đến máy chủ có thẩm quyền
+	+Active Directory Integrated: lưu Active
+DNS records: mô tả CSDL DNS
+
+
+DNS queries: Try Vấn DNS
+	+ Đệ quy: Liên hệ server khác khi không phân giải được
+	+ Tương tác:Chỉ ra server có thể giúp không liên hệ với server khác
+Caching-Only Server:Ko được ủy quyền và không chứa zone
+
+
+Forwarder: Cho phép DNS nội bộ chuyển yêu cầu truy vấn cho server khác để phân giải
+Conditional Forwarding:Mở rộng , chuyển tiếp  đến miền cụ thể, trả lời trong cache nhằm phục vụ DNS khác
+
+
+Lệnh DNS
+	+ /display: xem cache
+	+/flushdns:xóa cache
+	+/registerdns: Đăng kí DNS
+
+Dynamic DNS:Ánh Xạ FQDN -> IP động

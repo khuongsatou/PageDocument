@@ -1,0 +1,5 @@
+﻿Tên Đăng Nhập
+[A-Za-z]{6,20}
+
+Mật Khẩu (1 bug lỗi khoảng trắng nhơ kêu thằng hoài viết thêm testcase).
+

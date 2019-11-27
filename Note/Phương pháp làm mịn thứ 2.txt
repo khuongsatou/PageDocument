@@ -1,0 +1,1 @@
+﻿Thế thẳng số vào và xem nó chạy đúng không -> Bằng cách viết Comment

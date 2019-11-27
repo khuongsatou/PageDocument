@@ -1,0 +1,10 @@
+private void button3_Click(object sender, EventArgs e)
+{
+Form2 form = new Form2();
+form.Dock = DockStyle.Fill;
+form.TopLevel = false;
+form.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+form.AutoScroll = true;
+form.Visible = true;
+panel1.Controls.Add(form);
+}

@@ -1,0 +1,2 @@
+﻿is là kiểm tra 1 đối tượng có thuộc 1 lớp hay không?
+as là ép kiểu mà khi thất bại thì ko có Exception;

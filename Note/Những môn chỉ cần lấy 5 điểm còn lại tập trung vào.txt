@@ -1,0 +1,12 @@
+﻿Tập trung:
+	+ 3 ngôn ngữ.
+	    - C# (Design đẹp, Kết nối db, Thiết kế chức năng)
+	    - Java (cách dùng Mảng 1 chiều , mảng 2 chiều)
+	    - PHP (Kết nối db,foreach,select,insert, delete,update,where , limit,phân trang, search )
+	+ Công nghệ phần mềm.(YC chức năng , Phi chức năng, )
+
+Bỏ:
+	+ AVCN
+	+ AVa2
+	+ Chính trị
+	+ Mạng Máy tính

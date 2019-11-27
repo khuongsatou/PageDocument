@@ -1,0 +1,10 @@
+﻿mysqli_fetch_assoc();//Hàm mysqli_fetch_assoc() sẽ tìm và trả về một dòng kết quả của một truy vấn MySQL nào đó dưới dạng một mảng kết hợp.
+
+$conn = mysqli_connect("localhost","root","","paging_example");
+		//tìm tổng số records
+		$result = mysqli_query($conn,"SELECT count(id) as total FROM `news` ");
+		echo var_dump(mysqli_fetch_array($result)); 
+		mysqli_free_result($result);
+		$result = mysqli_query($conn,"SELECT * FROM `news` ");
+		echo '<br>';
+		echo var_dump(mysqli_fetch_assoc($result)); 

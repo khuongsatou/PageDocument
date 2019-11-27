@@ -1,0 +1,23 @@
+﻿1. B . OK
+2. D . OK
+3. B . OK
+4. ABC sai D đúng Nhưng đề kiêu câu sai , (Lỗi ở đề)
+5. D . OK
+6. B . OK
+7. B . OK
+8. A . OK
+9. B . OK
+10. A . OK 
+11. D . OK
+12. D . OK
+13. A . OK . VIDU4.php vì không có file này
+14. D . OK . Vì POST nên nó không in
+15. A  OK
+16. C  OK
+17.  B OK
+18. D . OK
+19. C . OK
+20. D . OK
+21. A . OK
+22. A. OK 
+23. C . OK

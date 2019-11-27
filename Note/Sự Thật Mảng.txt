@@ -1,0 +1,1 @@
+﻿ ùi úi ui ... bạn nên nhớ 1 đều là mảng 2 chiều hay mảng nhiều chiều cũng đều là mảng 1 chiều, tại sao lại vậy thì có time mình sẽ giải thích

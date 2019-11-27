@@ -1,0 +1,22 @@
+ SqlConnection conn = new SqlConnection();
+            string ConnectString = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyBanHangDB;Integrated Security=True";
+            SqlConnection connn = new SqlConnection(ConnectString);
+            connn.Open();
+            try
+            {
+               
+                string CauTruyVan = string.Format("SELECT * FROM NHANVIEN WHERE TENDANGNHAP = '{0}'", tendangnhap);
+                SqlCommand cmd = new SqlCommand(CauTruyVan,connn);
+                SqlDataReader rd = cmd.ExecuteReader();
+                if (rd.HasRows)
+                {
+                    conn.Close();
+                    return true;
+                }
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show("Messeger:" + err.Message);
+            }
+            conn.Close();
+            return false;

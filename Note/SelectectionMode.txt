@@ -1,0 +1,4 @@
+﻿None			Không có item nào được chọn. Dách sách chỉ để hiển thị xem mà thôi
+One			Chỉ có 1 item được phép chọn.
+MultiSimple		Có nhiều item được phép chọn cùng một lúc.
+MultiExtended		Giống như MultiSimple nhưng ta có thể dùng phím như SHIFT,  các phím mũi tên để chọn.

@@ -1,0 +1,3 @@
+﻿+ Exclussion address range (optional): bạn có thể xác định một hoặc nhiều hơn các range để loại ra từ scope. Những địa chỉ IP loại trừ này là không được cấp cho các DHCP client và dùng để tránh việc trùng IP address của các máy đóng vai trò như là một print server.
+
++ Lease duration: như đã đề cập ở trước đó là khoảng thời gian mà DHCP client được thuê trong khoảng thời gian là ngày, giờ, phút. Giá trị mặc định của nó là 8 ngày. Để có thể sửa lại được khoảng thời gian cho thuê là unlimited (vô thời hạn), bạn phải cấu hình scope properties sau khi đã tạo ra new scope bởi vì wizard không cung cấp option để cấu hình một unlimited scope.

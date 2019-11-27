@@ -1,0 +1,23 @@
+﻿<?php 
+	$conn = null;
+	function db_connect()
+	{
+		global $conn;//truy cập tới biến null bên ngoài
+		if (!$conn) {// phủ định của null sẽ trả về true
+			$conn = mysqli_connect('localhost','root','','php_example') or die("Không Kết nối");//trả về 1 object
+			mysqli_set_charset($conn,'UTF8');
+		}
+	}
+	db_connect();
+	$result = mysqli_query($conn,"SELECT * FROM `tb_user`");
+	$data = array();
+	while ($row = mysqli_fetch_array($result,MYSQLI_ASSOC)) {
+	    $data[]= $row;
+	}
+	echo '<pre>';
+	print_r(var_dump($data));
+	echo '</pre>';
+	echo $data[0]['username'];//truy cập = chỉ mục và id
+	
+
+ ?>

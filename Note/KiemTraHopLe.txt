@@ -1,0 +1,11 @@
+﻿Không cho nhập từ rỗng.
+
+if	(empty($name){//true -> rỗng.
+}
+
+Không cho nhập kí tự , Không cho nhập số
+if	($name >= 'a' && $name <= 'z'){// nằm trong đây thì true
+			
+}
+
+

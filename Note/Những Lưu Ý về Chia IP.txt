@@ -1,0 +1,31 @@
+﻿Thứ Nhất là : Địa chỉ IP gồm 4 byte 32 bit gồm 0,1
+vd: IP 127.160.0.1  -> lớp A . 01111111.10100000.00000000.00000001;
+
+Thứ Hai là: /Net ID + subnetID mượn ,xét (từ trái qua phải) tùy vào lớp mà tính được số bit mượn (2^8-tổng bit mượn) sẽ biết được số địa chỉ mạng
+vd: IP: 172.16.192.0/18 -> Lớp B. Gốc : 16Net ID , 16 Host ID ,
+số bít mượn cũ 2 + Chia thêm 4 mạng con -> 2 bit nữa-> tổng bit mượn 2+2= 4 bit mượn, subnetID(11  | 00 | )0000.00000000 , -> chia mạng con của bit mượn mới 00,01,10,11
+
+Thứ 3 đối với lớp C hãy lưu ý mỗi đường mạng có địa chỉ mạng là đầu , broadcast là cuối . ở giữa là dãy địa chỉ dùng được.
+vd: ip: 192.168.5.9/28
+mượn 4 bit host id chia làm 8 đường mạng vậy
+dm1: 192.168.5.0
+bc: 192.168.5.15
+dm2: 192.168.5.16
+bc: 192.168.5.31
+
+Thứ 4 : Nhớ đổi ra Nhị Phân chỗ mượn để xem coi đúng không(>_<);
+
+Thứ 5: Nói về chỉ số mạng con là nói về nó có thể cấp tối đa là bao nhiêu
+vd: địa chỉ IP = 131.32.21.20/255.255.255.0
+Đây là d/chỉ lớp B
+Mà Netmask chuẩn lop B là: 255.255.0.0
+	mượn 8 bit làm subnet-id
+
+Suy ra:
+Số mạng con: 2^8 -2 =254
+Số host mội mạng con: 2^8 – 2 =254
+
+1/Chỉ số mạng con chưa máy trên: 131.32.21.0
+2/Chỉ số máy chủ:
+3/Đ/c broadcast: 131.32.21.255
+

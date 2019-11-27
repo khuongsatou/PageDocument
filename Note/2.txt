@@ -1,0 +1,2 @@
+﻿wrap_content // Bao vua dủ
+wrap_parent // lay het

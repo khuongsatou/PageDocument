@@ -1,0 +1,1 @@
+﻿__DIR__ thuộc hằng số ma thuật của PHP, thư mục của tập tin. Nếu được sử dụng bên trong một tệp đính kèm, thư mục của tệp được include sẽ được trả về. Điều này tương đương với dirname(__ FILE__). Tên thư mục này không có dấu gạch chéo trừ khi đó là thư mục gốc.

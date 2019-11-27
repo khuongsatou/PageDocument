@@ -1,0 +1,51 @@
+﻿SqlConnection sqlcon = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=QLBanHang;Integrated Security=True");//kết nối database c2
+
+            //truy vấn bằng reader
+            SqlCommand cm = new SqlCommand("Select * from LoaiHang", sqlcon);
+            sqlcon.Open();
+            SqlDataReader dr = cm.ExecuteReader();
+            while (dr.Read())
+            {
+                Console.WriteLine(dr[1].ToString());
+            }
+            sqlcon.Close();
+
+            //truy vấn select Trả về kết quả
+            //DataTable dataTable = new DataTable();
+            //SqlDataAdapter adapter = new SqlDataAdapter("Select * From loaihang", sqlcon);
+            //sqlcon.Open();
+            //adapter.Fill(dataTable);
+            //sqlcon.Close();
+            //Console.WriteLine(dataTable.Rows.Count);
+            //for (int i = 0; i < dataTable.Rows.Count; i++)
+            //{
+            //    Console.WriteLine(dataTable.Rows[i]["MoTa"].ToString());
+            //}
+          
+            //cách 2
+            //SqlCommand sqlCommand = new SqlCommand("Insert into LoaiHang values(5,N'Dép',N'Dép 3 lỗ')",sqlcon);//viết ngắn ngọn
+            //sqlcon.Open();
+            //sqlCommand.ExecuteNonQuery();
+            //sqlcon.Close();
+
+            //cách 1
+            //sqlComand.CommandText = "Insert into LoaiHang values(4,N'Găng',N'Găng Đẹp')";//truyền câu lệnh sql
+            //sqlComand.Connection = sqlcon;//kết nối
+            //sqlcon.Open();//mở kêt nối
+            //sqlComand.ExecuteNonQuery();// thực thi không trả về kết quả
+            //sqlcon.Close();//đóng kết nối
+            
+            //sqlcon.ConnectionString = @""; //truyền chuỗi connect c1
+            
+            //Kiểm tra kết nối
+            //try
+            //{
+            //    sqlcon.Open();
+            //    Console.WriteLine("Ket noi Thanh Cong");
+            //}
+            //catch (Exception)
+            //{
+            //    Console.WriteLine("Ket noi That Bai");
+            //    throw;
+            //}
+            Console.ReadLine();

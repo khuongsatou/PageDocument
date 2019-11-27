@@ -1,0 +1,25 @@
+﻿1 12 123 1234
+đầu tiên phải in ra 1 và xuống dòng
+xong lại in lại 1  và đi tiếp đến i
+
+tam giác ngược
+
+12345 1234 123 12 1
+
+
+trên chút , 	  1 2 3 -> j -> 3
+trên chút ,     1 2 -> j  -> 2
+cuối là chỉ in  1 lần j -> 1
+
+n = 3
+i=n;
+
+j = 1; j++;
+đầu tiên phải in từ 1 -> i
+thứ 2 là phải in từ 1 -> i-1
+thứ 3 là phải in từ 1 -> i-2
+i--;
+
+muốn đúng 
+j <= i;
+

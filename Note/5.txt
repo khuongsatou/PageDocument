@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="vn.com.khuongsatou.relative2.MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/activity_main"
+    >
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="71dp"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="55dp"
+        android:background="#000"
+        android:text="android1"
+        android:textColor="#fff" />
+
+    <TextView
+        android:layout_below="@id/textView13"
+        android:id="@+id/textView14"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="android2"
+        android:layout_marginTop="100dp"
+        />
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="android3"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:textColor="#fff"
+        android:text="android4"
+        />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/textView14"
+        android:background="#000"
+        android:text="android7"
+        android:textColor="#fff" />
+</RelativeLayout>

@@ -1,0 +1,58 @@
+﻿--------Thông tin Cá nhân
+1. Hỏi Tên
+	What's your name?
+	-> My name is Khuong.
+2. Hỏi Tuổi
+	How old are you?
+	-> I'm twenty.
+3.Nơi ở gốc
+	What is your address?
+	-> My address 290/66, No Trang Long Street , 12  Ward , Binh Thanh  District , HCM city/ I'm live in Binh Thanh District
+4.Lớp nào
+	 What class are you in?
+	-> I'm in 17D informatics class
+5. Chuyên Ngành
+	What's you major?
+	-> My major(mấy trờ) is Technology Information.
+6. Sống ở đâu
+	Where do you live?
+	-> I live in Binh Thanh District.
+7. Sống với ai?
+	Who do you live with?
+	-> I live with a friend.
+8. Có đi làm thêm ở đâu không?
+	Do you a part-time job?
+	-> No , I don't/
+-------Sinh Hoạt hằng ngày 1 2
+9.Bạn có dậy sớm không?
+	 Do you get up early?
+	-> No , I don't
+10. Trong lúc rãnh rồi làm gì?
+	What do you usually do in your free time?
+	-> I play game.
+11.Sở thích
+	What are you hobbies?
+	-> My hobbies are watching films?
+12.Có bao giờ bạn đi máy bay?
+	Have you ever travel flight?
+	-> Yes, I Have
+13.Có bao giờ bạn đi xe lửa?
+	Have you ever traivel by train?
+	->Yes, I Have
+14.Một số địa điểm trong sân bay mà bạn biết?
+	->departures, information desk, toilets, security , arrivals , check-in desks.
+-------Bài 5 7
+
+
+15.Muốn làm thủ tục lên máy bay thì thì gặp ai?
+	-> Agent?
+16.Một số nơi ở thành phố này mà bạn biết?
+	->BenThanh market , Ducba Cathedral , LeVanTam park
+17.Một số hoạt động đã tham gia (Cao Thắng)?
+	-> Olimpic contest, sightseeing
+
+_______
+18.Hỏi về đi phương tiện?
+	How do you get to work?
+	-> I go by train . It takes a about 40 minutes.
+19.		

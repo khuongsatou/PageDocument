@@ -1,0 +1,9 @@
+﻿//đầu vào
+1. tổng số records(row) -> $page_record->count 
+2. page hiện tại người dùng đang đứng.   $current_page = GET
+3. số lượng lấy  -> LIMIT
+
+//xử lí
+1. tổng số page -> ceil($page_record/$limit)
+2. vị trí bắt đầu từ row -> ($current -1)* limit
+

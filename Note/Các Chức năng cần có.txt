@@ -1,0 +1,171 @@
+﻿Giao diện website bán hàng đẹp mắt, chuyên nghiệp thân thiện người dùng. ...
+Hình ảnh sản phẩm chất lượng. ...
+Đặt hàng giỏ hàng. ...
+Quản lý kho hàng: ...
+Chức năng thanh toán online. ...
+Chức năng tìm kiếm
+
+
+1. Chức năng hiển thị hình ảnh, video với độ phân giải cao
+2. Chức năng đánh giá sản phẩm
+3. Hiển thị các khuyến mãi, ưu đãi mới nhất
+4. Chức năng lọc, tìm kiếm sản phẩm nâng cao
+5. Các câu hỏi thường gặp, giải đáp thắc mắc
+7. Hiển thị sản phẩm liên quan
+6. Trang liên hệ mua hàng
+8. Các tùy chọn thanh toán nâng cao
+9. Tính năng tương thích
+
+
+
+Bảng Tính Năng Cần có
+-   Hiển thị và bán mọi loại sản phẩm
+
+-   Hỗ trợ danh mục đa cấp
+
+-   Tìm kiếm nhanh
+
+-   Bộ lọc sản phẩm đa năng
+
+-   Tìm kiếm theo từ khóa, danh mục, giá
+
+-   Hiển thị nhiều ảnh mô tả cho sản phẩm
+
+-   Xem ảnh sản phẩm dạng slide show đẹp mắt
+
+-   Hỗ trợ nhiều thông số (Mã hàng, bảo hành,  màu sắc, kích thước…)
+
+-   Thiết lập kích thước ảnh
+
+-   Zoom ảnh khi xem sản phẩm
+
+-   Hiển thị khuyến mại, giảm giá
+
+-   Đánh giá, bình luận sản phẩm
+
+-   Thiết lập sản phẩm liên quan
+
+-   Thiết lập thuộc tính sản phẩm
+
+-   Thông tin giá: Giá bán, giá thị trường, liên hệ để có giá mới nhất
+Đặt hàng & Gửi đơn hàng:
+
+-   Cơ chế gợi ý sản phẩm thông minh
+
+-   Giỏ hàng trực quan
+
+-   Tính năng giỏ hàng chuyên nghiệp, dễ dùng
+
+-   Thêm vào giỏ hàng bằng một click
+
+-   Cập nhật thông tin giỏ hàng
+
+-   Xóa sản phẩm khỏi giỏ hàng
+
+-   Gửi đơn hàng để đặt hàng
+
+-   Đặt hàng không cần tài khoản/ Đã có tài khoản
+
+-   Quy trình thanh toán và đặt hàng mới
+Quản lý kho hàng:
+
+-   Tổ chức danh mục sản phẩm đa cấp
+
+-   Sắp xếp danh mục linh hoạt
+
+-   Tùy chọn ẩn/hiển thị danh mục
+
+-   Quản lý danh sách sản phẩm
+
+-   Lọc, tìm kiếm sản phẩm theo nhiều tiêu chí
+
+-   Tùy chọn ẩn/hiển thị sản phẩm
+
+-   Thiết lập trạng thái còn hàng/hết hàng
+
+-   Thiết lập các thông số cho hàng hóa
+
+-   Tùy chọn ẩn/hiển thị các thông số phù hợp (Mã hàng, bảo hành, màu sắc, kích thước…)
+
+-   Thêm, sửa, xóa sản phẩm
+
+-   Tùy chọn VAT
+
+-   Cảnh báo khi hết hàng
+
+-   Quản lý thuộc tính sản phẩm
+
+-   Hỗ trợ copy/paste thông tin từ website khác
+
+-   Cập nhật giá cùng lúc hàng trăm sản phẩm…
+Quản lý đơn hàng:
+
+-   Tiếp nhận đơn đặt hàng trực tuyến
+
+-   Xem thông tin sản phẩm, giá trị đơn hàng
+
+-   Xem thông tin người đặt hàng
+
+-   Xử lý và thay đổi trạng thái đơn hàng
+
+-   Lưu vết, ghi chú thông tin đơn hàng
+
+-   Xác nhận hủy đơn hàng
+
+-   Xác nhận đơn hàng thành công
+Quản lý khách hàng:
+
+-   Tổ chức theo nhóm khách hàng
+
+-   Sắp xếp, thay đổi nhóm khách hàng
+
+-   Quản lý thông tin khách hàng
+
+-   Tìm kiếm theo tên, email, điện thoại, nhóm
+
+-   Thêm mới khách hàng
+
+-   Chuyển khách hàng giữa các nhóm
+
+-   Cập nhật thông tin khách hàng dễ dàng
+Thanh toán & Vận chuyển:
+
+-   Hỗ trợ nhiều hình thức thanh toán trực tuyến
+
+-   Tích hợp thanh toán với Paypal
+
+-   Tích hợp thanh toán với Baokim.vn
+
+-   Tích hợp thanh toán với Nganluong.vn
+
+-   Tích hợp cơ chế vận chuyển
+Tiếp thị & Khuyến mại:
+
+-   Thiết lập các nhóm sản phẩm khuyến mãi, giảm giá, hàng mới, hàng sắp về…
+
+-   Đăng tải các nhóm sản phẩm khuyến mãi lên trang chủ hoặc vị trí bất kỳ trên website
+
+-   Tạo các banner cho chiến dịch khuyến mãi
+
+-   Thiết lập các chiến dịch marketing qua email
+
+-   Gửi email đến hàng trăm nghìn khách hàng
+
+-   Lưu các chiến dịch đã thực hiện
+
+10. Chức năng giỏ hàng, danh sách sản phẩm yêu thích
+
+
+
+
+
+
+
+Các chức năng: So sánh sản phẩm, lưu sản phẩm ưa thích, sản phẩm bán chạy, sản phẩm nổi bật, sản phẩm mới nhất…
+ 
+Mua hàng , thanh toán trực tuyến
+ 
+Danh mục sản phẩm không giới hạn
+
+
+

@@ -1,0 +1,33 @@
+plane -> gate /airport
+boat/ferry -> pier
+bus -> stop/station
+car -> park 
+train -> station/platform
+bicycle/bike -> stand
+
+always 100%
+usually 80%
+sometimes 50%
+never 0%
+
+at -> local
+in -> global
+
+like +Ving/ how about +Ving
+
+like + V/Why don't you V?
+
+EX
+Do you like sightseeing?
+Yes. I do.
+
+Why don't  you go to the LonDon Eye?
+
+
+Do you Like shoping?
+
+Yes. I do
+
+OK, How about going Harrods?
+
+

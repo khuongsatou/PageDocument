@@ -1,0 +1,8 @@
+﻿Admin: chức các tập tin tác động đến hệ thống website như thêm sửa xóa, thao tác với cơ sở dữ liệu (phần back end).
+Classes: chức các tập tin cấu hình các lớp xử lý cho phần người dùng.
+Configs: chức các tập tin cấu hình chung cho website
+Elements: hay module chứa các tệp tin thể hiện các chức năng của website
+Libraries: chức các tập tin thư viện và các thành phần mở rộng từ bên thứ ba
+Media: chứ các tập tin hình ảnh, file,…
+Templates: chứa các tập tin thể hiện giao diện người dùng.
+Index.php: tệp tin chính của trang website

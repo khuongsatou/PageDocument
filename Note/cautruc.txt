@@ -1,0 +1,7 @@
+﻿index->controler(yêu cầu lấy website)->modal->db->modal...->hiển thị lên view
+chạy 2 chiều
+controller
+view (echo )(cái gì thuộc về giao diện là view Hết)
+model(những cái gì thuộc về dữ liệu)
+
+MVC (mô hình)

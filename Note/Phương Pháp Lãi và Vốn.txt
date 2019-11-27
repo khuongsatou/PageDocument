@@ -1,0 +1,16 @@
+﻿//học lập trình
+	Lãi 			Vốn
++ Có tiền			+ Thời gian		
++ Có nghề			+ Sức Khỏe
++ Lên LV			+ Chán
++ Không bị xem thường	+ Công sức 
+
+Bình thường mình đang trả giá mà.
+Phải bỏ vốn ra mới có lãi.
+//học tiếng anh
+	Lãi			Vốn
++ Sự tự hào		+ Lâu
++ Lương cao		+ Bị Chửi khùng
++ Đi du lich 		+ Chán
++ Học Hỏi Online		
++ Giải trí

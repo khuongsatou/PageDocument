@@ -1,0 +1,24 @@
+﻿in hinh n m
+
+m = i
+n = j
+
+
+i =1-> m
+j =1-> n
+
+111
+1  1
+111
+
+n>=3 m>=3
+
+i =2 và j = 2 -> " "
+
+in đến nhỏ hơn n
+n vẫn in đủ
+
+
+//in đủ
+if()
+ 

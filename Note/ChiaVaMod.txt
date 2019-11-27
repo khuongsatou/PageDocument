@@ -1,0 +1,2 @@
+﻿Chia Thì lấy phần nguyên: 12345 -> 1234 ...chia cho 10
+Mod thì lấy phần dư: 12345 -> 5 .. mod cho 10

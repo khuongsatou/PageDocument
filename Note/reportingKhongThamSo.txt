@@ -1,0 +1,11 @@
+rpvIn.LocalReport.ReportEmbeddedResource = "TruyenThamSoReport.rpvDSSV.rdlc";
+dsDSSVTableAdapters.SinhVienTableAdapter da = new dsDSSVTableAdapters.SinhVienTableAdapter();
+dsDSSV.SinhVienDataTable dt = new dsDSSV.SinhVienDataTable();
+da.Fill(dt);
+
+rpvIn.LocalReport.DataSources.Add(new ReportDataSource("dsSinhVien",(DataTable)dt));
+rpvIn.LocalReport.SetParameters(new ReportParameter("TenLop", "CDTH17A"));
+
+
+
+this.rpvIn.RefreshReport();

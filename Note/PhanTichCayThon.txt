@@ -1,0 +1,2 @@
+﻿cái này thì em sẽ nhìn từ trái qua và xuống dưới.
+khi code thì 2 vòng for() lồng nhau, vòng ngoài là đi xuống, vòng trong là đi sang phải.

@@ -1,0 +1,32 @@
+private void btnLuu_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                NhanVienDTO nvDTO = new NhanVienDTO();
+                nvDTO.MatKhau = txtMatKhau.Text.Trim();
+                nvDTO.MaLoaiNV = Convert.ToInt32(cboLoaiNhanVien.SelectedValue);
+                nvDTO.HoTen = txtHoTen.Text.Trim();
+                nvDTO.NgaySinh = dtpNgaySinh.Value;
+                nvDTO.GioiTinh = radNam.Checked ? true : false;
+                nvDTO.DiaChi = txtDiaChi.Text.Trim();
+                nvDTO.Email = txtEmail.Text.Trim();
+                nvDTO.DienThoai = txtDienThoai.Text.Trim();
+                nvDTO.GhiChu = txtGhiChu.Text.Trim();
+                if (nvBUS.Them(nvDTO))
+                {
+                    MessageBox.Show("Thêm thành công!");
+                }
+                else
+                    MessageBox.Show("Thêm không thành công!");
+                this.Dispose();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                
+            }
+            
+        }

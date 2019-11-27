@@ -1,0 +1,12 @@
+﻿map = map.concat() <== thử xem
+not map.concat()
+nếu map.concat() <== nó sẽ lấy index cuối cùng
+nếu vòng lặp thì dùng  + thay vì concat()
+còn muốn tốc độ xử lý nhanh thì sử dụng bufferbuilder
+vì sao, vì concat() vs + khi tạo ra
+nó tạo ra 1 vùng nhớ
+mỗi lần lặp mỗi lần tạo
+còn bufferbuilder thì tạo 1 lần duy nhất
+rùi chính nó xử lý
+nhưng nó hk phải trả về string nhé
+khi xử lý xong rùi thì .toString() hoặc String.ValueOf()

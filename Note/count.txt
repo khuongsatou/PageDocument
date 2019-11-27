@@ -1,0 +1,8 @@
+﻿<?php 
+mysql_connect("localhost","root","");
+mysql_select_db("khoailang");
+$traloi=mysql_query("SELECT COUNT(*) AS so_hang FROM jeux_videos");
+$ketqua=mysql_fetch_array($traloi);
+echo "Tổng cộng có $ketqua['so_hang'] trò chơi đang được bán!";
+mysql_close();
+?>

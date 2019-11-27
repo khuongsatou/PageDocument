@@ -1,0 +1,15 @@
+﻿
+//        String HoTen = "Nguyễn Văn Khương";
+//        int nam=2017;
+//        Log.d("Khuong", HoTen +" --- " + nam);
+        ArrayList<String> arrayname = new ArrayList<>();
+        arrayname.add("Khuong");
+        arrayname.add("Nguyen");
+        arrayname.add("Van");
+        Log.d("Khuong",""+arrayname.size());
+        arrayname.remove(0);
+        Log.d("Khuong",""+arrayname.get(0));
+        for (String Ten:arrayname)
+        {
+            Log.d("Khuong","mang"+arrayname);
+        }

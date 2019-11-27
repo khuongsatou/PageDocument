@@ -1,0 +1,3 @@
+﻿$db = new PDO($dsn,$username,$password) or die("Chết rồi ");
+
+mysqli_set_charset($db,'utf8')

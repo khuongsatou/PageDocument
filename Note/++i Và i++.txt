@@ -1,0 +1,10 @@
+
+It's not a question of preference, but of logic.
+
+x++ increments the value of variable x after processing the current statement.
+
+++x increments the value of variable x before processing the current statement.
+
+So just decide on the logic you write.
+
+x += ++i will increment i and add i+1 to x. x += i++ will add i to x, then increment i.

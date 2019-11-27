@@ -1,0 +1,6 @@
+﻿các bác cho em hỏi chút về C ạ
+char* string;
+hoặc
+char string[10];
+đều là cú pháp để khai báo một chuỗi (mảng ký tự) trong C
+vậy cho em hỏi: mảng chuỗi (gồm nhiều chuỗi) trong C có phải là mảng 2 chiều của char hay không?

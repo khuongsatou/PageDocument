@@ -1,0 +1,49 @@
+﻿Validation
+	- OTP nó phiền.
+	- Ở đây chúng tôi không làm vậy.
+	- Thẻ visa không cho bạn mượn. (Số thẻ + 3 chữ số + ngày hết hạn).
+	- debit có nhiêu sài nhiều
+	- credit có thể nợ.
+	- interface là 1 lớp hoàn toàn ảo
+	- Mỗi control sẽ có bộ lắng nghe sự kiện
+	- Khi có sự kiện tới thì bộ lắng nghe sẽ kích hoạt
+--Code
+	- Phải truyền vào 1 request
+	- title => 'require| max:50' kí tự
+	Viết trong controller
+	Viết Route lấy dữ liệu từ form
+	Viết Blade và cài đặt .
+	-Cấu trúc
+	'ten cotroll'=>"properties1:giatrị |pr.."
+	-accepted:
+	-active_url: kiểm tra link có đúng không
+	-after:date ngày nhập phải sao ngày đã cho.
+	-after_or_equal:date // sau hoặc bằng ngày đã cho
+	-alpha : phải là chữ
+	-...
+	-array // phải là mảng
+	-bail // dừng kiểm tra nếu valuedate không thỏa mảng
+	- before:date// ngược lại với affter
+	- between:
+	- boolean
+	-confirmed : dữ liệu nhập phải trùng khớp với name
+	-date: ngày tháng
+	-...
+	-date_format:format // định dạng lại
+	-different:field// giá trị nhập khác với giá trị field
+	-digis:value .. có độ dài bằng value
+	- dimensions// ảnh có kích thước theo quy định.
+	'image'=>'dimensions:min_width=50,min_height=100'
+	-distinct // dữ liệu nhập là mảng không được có giá trị trùng , và là mảng
+	-email: kiểm tra phải là email
+	-exist:table,column
+	-file
+	-gt:field // lớn hơn field và lớn hơn dữ liệu.
+	-image// có hình định dạng gì đó.
+	- in:foo,bar : thuộc danh sách giá trị.
+
+Nathan Wu - Learning Laravel 5: Building Practical Applications - 2016
+Giáo trình thầy duy.
+Tài liệu tiếng anh.
+	- Môn đồ án không thi lại.
+	

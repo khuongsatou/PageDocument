@@ -1,0 +1,72 @@
+﻿<?php 
+	require 'Header.php';
+
+ ?>
+ 	<div class="row">
+	 	<div class="col-md-8 col-md-offset-2">
+	 	<table class="table table-hover">
+	 		<thead>
+	 			<tr>
+	 				<th>Mã Học Sinh</th>
+	 				<th>Họ Tên</th>
+	 				<th>Giới Tính</th>
+	 				<th>Ngày Sinh</th>
+	 				<th>Địa Chỉ</th>
+	 				<th>Lớp Học</th>
+	 				<th>Điểm Trung Bình</th>
+	 			</tr>
+	 		</thead>
+	 		<tbody>			
+	<?php 
+		require 'Connect.php';
+		if (isset($_GET['MaHocSinh'])) {
+			$MaHocSinh = isset($_GET['MaHocSinh']) ? $_GET['MaHocSinh'] : "";
+			Delete_MaHocSinh($conn,$MaHocSinh);
+		}
+		$result = Select($conn);
+		mysqli_close($conn);
+		while ($row = mysqli_fetch_array($result)) {
+			echo "<tr>";
+				echo "<td>";
+					echo $row['MaHocSinh'];
+				echo "</td>";
+				echo "<td>";
+					
+					echo '<div class="dropdown">';
+					echo '<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">';
+						echo $row['HoTen'];
+					echo ' <span class="caret"></span></button>';
+					echo ' <ul class="dropdown-menu">';
+					echo ' <li><a href="?MaHocSinh=';
+					echo $row['MaHocSinh'];
+					echo '">Xóa</a></li>';
+					echo '</ul>';
+					echo '</div>';
+				echo "</td>";
+				echo "<td>";
+					echo $row['GioiTinh'];
+				echo "</td>";
+				echo "<td>";
+					echo $row['NgaySinh'];
+				echo "</td>";
+				echo "<td>";
+					echo $row['DiaChi'];
+				echo "</td>";
+				echo "<td>";
+					echo $row['LopHoc'];
+				echo "</td>";
+				echo "<td>";
+					echo $row['DiemTrungBinh'];
+				echo "</td>";
+			echo "</tr>";
+		}
+	 ?>			
+	 		</tbody>
+	 	</table>
+		</div>	
+	</div>
+
+
+ <?php 
+ 	require 'Footer.php';
+  ?>

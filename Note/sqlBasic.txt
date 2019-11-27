@@ -1,0 +1,5 @@
+﻿sqlConnecttion // kết nối với database
+sqlCommand  //thực thi truy vấn 
+sqlDataReader //đọc giữ liệu fast 
+DataAdapter // lấy giữ liệu database (Như adapter lấy điện)
+DataTable // Như bảng của sql -> lấy dữ liệu và đổ lên đây

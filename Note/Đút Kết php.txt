@@ -1,0 +1,105 @@
+﻿Đút Kết PHP:
+	//Vấn đề về hàm
+Nếu Hàm Không có return thì nó sẽ không xuất Kết quả 
+function xx($x)
+{
+	$x = $x +5;
+	//return $x;
+}
+$x =10;
+$a = xx($x);
+echo $a;
+	//Vấn đề về biến
+	$num-ber// không có đặt biến dấu (-) 
+	
+	//Vấn đề về include
+
+Khi lỗi Xuất Thông báo và tiếp tục thực thi chương trình
+
+	// Vấn đề về echo 
+//Khi câu lệnh chưa hoàn thành thì chưa xuất
+function add($x,$y)
+	{
+		echo 'Bài Kiểm Tra';#"<br/>";
+		$total = $x + $y;
+		return $total;
+	}
+	echo "1 + 16 =".add(1,16)."<br/>";
+=> Kết quả: 
+	Bài Kiểm Tra và 1+16=17;
+vì câu lệnh bài kiểm tra echo trước.
+	//Vấn đề về value trong form
+	Không cần ; cũng không lỗi
+	
+	//Vấn đề về $this
+Đối tượng bên trong class phải dùng đến $this->thuoctinh; để trỏ đến thuộc tính lớp
+không thì sẽ báo lỗi.
+
+
+	//Vấn đề về Magic
+Dùng Như Biến
+	
+_FILE_ - Tên tập tin hiện tại.
+_DIR_ - Đường dẫn thư mục hiện tại.
+_FUNCTIONS_ - Hàm hiện tại.
+_CLASS_ - Lớp hiện tại.
+_METHOD_ - Phương thức hiện tại.
+_NAMESPACE_ - Namespace hiện tại.
+
+Dùng Cho Function
+Mô Tả				Tạo 		Cách Dùng	
+Hàm Khởi tạo			__construct()	// new obj();
+Hàm Hủy				__destruct()	// Tự động gọi ở cuối khi hết all
+Dùng đối tượng như string		__toString()	// echo $obj;
+
+
+
+	//Kế Thừa
+dùng từ khóa $this->thuoctinh  | $this->phuongthuc() // để gọi thuộc tính
+dùng từ khóa: parent::thuoctinh | parent::phuongthuc() luôn cả hàm khởi tạo điều phải gọi
+	//Đối với kế thừa
+Bắt buộc phải gọi phương thức khởi tạo lớp cha  mới thực thi được không thì không thực hiện khởi tạo ở lớp cha , hủy cũng vậy
+
+	//Tầm vực
+private nó sẽ không cho kế thừa
+	//this và seft sau khi kế thừa
+<?php 
+	class Animal {
+
+    public function whichClass() {
+        echo "I am an Animal!";
+    }
+
+    public function sayClassName() {
+        self::whichClass();//  gọi đến class chính nó (lớp cha)//I am an Animal!
+        $this->whichClass();// gọi đến class con:I am a Tiger
+    }
+}
+
+class Tiger extends Animal {
+
+    public function whichClass() {
+        echo "I am a Tiger!";
+    }
+
+}
+
+$tigerObj = new Tiger();
+$tigerObj->sayClassName();
+
+ ?>
+	
+	//Vấn đề về static
+	Không cần khởi tạo
+	Truy xuất: tenclass::thuoctinh | phương thức
+	//Cookie
+setcookie("Key",giatri,time()+3600);
+	Muốn bỏ thì -thời gian cài lại
+setcookie("Key",giatri,time()-3600);
+	//Session
+	Tắt Máy mất
+	muốn bắt đầu Phải session_start();
+	$_SESSION['status_login'] = true;
+	bỏ = unset();
+
+

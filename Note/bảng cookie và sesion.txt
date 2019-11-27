@@ -1,0 +1,5 @@
+﻿	tắt tab	tắt win 	tắt máy
+cookie: 	còn	còn	còn
+session:	còn	mất	mất
+
+cookie phụ thuộc vào keep local dât only until you quit your browser : nếu bật lên thì khi tắt cookie thì sẽ không save

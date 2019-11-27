@@ -1,0 +1,4 @@
+﻿ tổ hợp là cách chọn những phần tử từ một nhóm lớn hơn mà không phân biệt thứ tự. Ví dụ chọn 2 trong 3 phần tử {1, 2, 3 } sẽ có ba cách chọn đó là: {1, 2}, {1, 3}, {2, 3}. Các bạn có thể tham khảo tại đây để hiểu rõ hơn.
+
+
+3C2 -> có 3 cách chọn và không phân biệt thứ tự và không trùng

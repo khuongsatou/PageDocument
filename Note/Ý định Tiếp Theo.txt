@@ -1,0 +1,13 @@
+﻿+Categories
+1. Phân Trang cho từng sản phẩm (product_cat) OK
+2.Nhấn vào sẽ lọc loại nó hiện lên trang chủ (product_cat), và khi nhấn vào giá thì nó sẽ lọc mấy cái giá của cái categories (price)đó. OK
+3.phân trang thì nó sẽ nhận current rồi tự phân phối STT.
++Brand cũng thế OK
+
+
+
+
+pagingation
+page=2&&price=3#content-product
+
+cat product_cat

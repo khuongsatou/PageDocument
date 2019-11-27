@@ -1,0 +1,1 @@
+UPDATE `hocsinh` SET `HoTen` = 'khuon', `GioiTinh` = 'na', `NgaySinh` = '2019-03-2', `DiaChi` = '232', `LopHoc` = '2', `DiemTrungBinh` = '232' WHERE `hocsinh`.`MaHocSinh` = 8;

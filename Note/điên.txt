@@ -1,0 +1,1 @@
+SELECT * FROM `user_info` WHERE `user_id` LIKE 1 OR `first_name` LIKE 2 OR `last_name` LIKE 3 OR `email` LIKE 4 OR `password` LIKE 5 OR `mobile` LIKE 6 OR `address1` LIKE 7 OR `address2` LIKE 8

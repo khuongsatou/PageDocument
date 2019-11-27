@@ -1,0 +1,1 @@
+UPDATE `user_info` SET `first_name` = 'YuRiKa1', `last_name` = 'Chan1', `email` = 'Yui@gmail.com', `password` = 'c81e728d9d4c2f636f067f89cc14862c', `mobile` = '0456241963', `address1` = 'TP HCM1', `address2` = 'TP HCM2' WHERE `user_info`.`user_id` = 5;

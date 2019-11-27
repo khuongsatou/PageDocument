@@ -1,0 +1,1 @@
+﻿SetVisible hit nó sẽ chay trước Oncreate

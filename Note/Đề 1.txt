@@ -1,0 +1,39 @@
+﻿1. Vạch Kẻ đường
+	1.Vị trí dừng lại
+2. Đường phố
+	1. Lòng đường và hè phố
+3. Điều khiển xe ra khỏi cao tốc
+	1, Chuyển dần
+4. Giơ tay về trước
+	2, Phía sau và bên phải dừng
+5. Ngồi trên xe đội mũ bảo hiểm
+	1. Khi tham gia
+6. Ngược chiều
+	1,2,Nơi đường hẹp và xe xuống dóc
+7. Bị cấm
+	1,2
+8. xử lí khi có người vượt 
+	1. Bên phải và giảm
+9.Làn đường
+	2. Chiều dọc
+10. Văn hóa
+	2,3
+11. Cầu vượt cắt qua
+	1,2 Biển xanh
+12. Giao nhau nguy hiểm
+	2, 3 Biển sắp nhau nhau với đường ưu tiên, Biển giao nhau với đường có tín hiệu đèn
+13. Biển báo có hình phụ kèm
+	1, Cấm ở biển phụ
+14. Cấm Mô Tô
+	1. Biển 1
+15. Có Tín hiệu đèn
+	3. Biển 3
+16. Thấy 3 chiếc xe mà có 1 chiếc xe hơi có biển ưu tiên ---
+	2. Xe con
+17.
+	Không được vượt
+18.
+19.
+	Giơ tay hướng nào thì hướng đó được đi
+20.
+	

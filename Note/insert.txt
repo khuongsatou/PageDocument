@@ -1,0 +1,1 @@
+INSERT INTO `hocsinh` (`MaHocSinh`, `HoTen`, `GioiTinh`, `NgaySinh`, `DiaChi`, `LopHoc`, `DiemTrungBinh`) VALUES ('1', 'Khuong', 'nam', '2019-03-20', '282302', 'A', '20');

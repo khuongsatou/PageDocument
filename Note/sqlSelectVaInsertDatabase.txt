@@ -1,0 +1,13 @@
+﻿  SqlConnection conn = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=QLBanHang;Integrated Security=True");
+            SqlCommand cm = new SqlCommand("INSERT into LoaiHang values(6,'Găng','Găng Siêu Đẹp')", conn);
+            DataTable dt = new DataTable();
+            SqlDataAdapter sqlda = new SqlDataAdapter("SELECT * FROM LoaiHang",conn);
+            conn.Open();
+            sqlda.Fill(dt);
+            conn.Close();
+            Console.WriteLine(dt.Rows.Count);
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                Console.WriteLine(dt.Rows[i]["MoTa"].ToString());
+            }
+            Console.ReadLine();

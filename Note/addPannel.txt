@@ -1,0 +1,18 @@
+private void btnSanPham_Click(object sender, EventArgs e)
+        {
+            HienSanPham();
+        }
+
+        private void HienSanPham()
+        {
+            FrmSanPham frmSP = new FrmSanPham();
+            frmSP.TopLevel = false;
+            pnView.Controls.Clear();
+            pnView.Controls.Add(frmSP);
+            frmSP.Show();
+        }
+
+        private void FrmTrangNhanVien_Load(object sender, EventArgs e)
+        {
+            HienSanPham();
+        }

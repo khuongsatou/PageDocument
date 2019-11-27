@@ -1,0 +1,14 @@
+﻿$a= 1;
+	// echo $a;
+	unset($a);
+	// echo $a;
+
+	$arr = array(
+		'id'=>1,
+		'name'=>'khương'
+	);
+	// echo $arr['name'];
+	unset($arr['name']);
+	// foreach ($arr as $value) {
+	// 	echo $value;
+	// }

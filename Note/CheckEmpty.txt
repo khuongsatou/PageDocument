@@ -1,0 +1,11 @@
+﻿if (txtA.Text != "" && txtB.Text != "")
+            {
+                double a = double.Parse(txtA.Text);
+                double b = double.Parse(txtB.Text);
+               
+            }
+            else
+            {
+                MessageBox.Show("Bạn Phải Nhập đủ");
+                txtA.Focus();
+            }

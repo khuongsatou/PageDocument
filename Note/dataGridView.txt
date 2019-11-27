@@ -1,0 +1,3 @@
+﻿DataGridView cung cấp thuộc tính CurrentCell có giá trị là ô hiện tại đang được Focus.
+Còn muốn lấy giá trị của các Cell thì dùng cấu trúc:
+dataGridView1.Rows[chỉ số của dòng cần lấy dữ liệu].Cells[chỉ số hoặc tên của cột cần lấy dữ liệu].Value

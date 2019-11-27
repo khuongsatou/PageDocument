@@ -1,0 +1,6 @@
+﻿mặc định loại bỏ khoảng trắng.
+
+2 tham số
+
+tham số 1 chuỗi truyền vào
+tham số 2 kí tự remove dư thừa ở cuối chuỗi

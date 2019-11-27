@@ -1,0 +1,1 @@
+﻿trả về nếu có 1 dòng thì trả về int 1

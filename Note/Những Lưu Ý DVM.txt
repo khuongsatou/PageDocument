@@ -1,0 +1,4 @@
+﻿Thứ 1 Đối với win xp thì đừng có restart giùm cái má.
+Thứ 2 là DNS phải trùng với ip máy server.
+Thứ 3 là Đăng nhập server phải viết BIOS vào trong lúc tạo dcpromo , caothang.edu.vn -> CAOTHANG
+Thứ 4 là nó sẽ bị reset lại DNS nên phải cài lại nhớ ipconfig để kiểm tra xem

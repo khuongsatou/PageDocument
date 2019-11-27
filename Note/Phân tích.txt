@@ -1,0 +1,15 @@
+﻿
+Lỗi , Khi input còn dữ liệu mà mình đã postback thì nó vẫn insert ? fix thế nào.
+___________________________________
+Đã có hình tên hình, đã lấy được hình, đã có linh url
+
+-- Lấy từ database ->
+ về url dạng json -> 
+trả trả ra tên hình.->
+-- Từ tên hình mình gắn với URL
+
+
+--------------------------------------------------
+Lần đầu chạy
+Không chạm -> hết thời gian sẽ chuyển sang page 2(Dừng page 1).-> không chạm ->chuyển sang page 3-> không chạm ->chuyển sang page 4. 
+fragment 0 1 2 hủy

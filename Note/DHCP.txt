@@ -1,0 +1,37 @@
+﻿1.	DHCP : Dynamic Host  Configuration Protocol -> Trực Tiếp
+Mô Hình Client/Server 
+UDP
+DHCP Server 67
+DHCP Client 68
+
+Scope : Khoảng IP Để Cấp
+Lease: Thời Gian Thuê(Mặc Định 8 Ngày)
+Scope Options: Cấu Hình Bổ Sung Như 003 Router, 006 DNS , 015 DNS Domain Name
+Reservations: Khoảng Không Cấp IP: VD như cho máy print
+
+Discover __CLient -> Xin Cấp -> Broadcast -> (MAC , Tên Client)
+Offer___Server ->Gửi Thông Tin (Chứa 8 Ngày)
+Request__ Client -> Hỏi Cho Phép -> Broadcast
+Ack__Server -> OK _ Bắt Đầu -> (DNS Server, Default Gateway,IP)
+Release__Client -> Trả
+
+MAC: Media Access Control
+
+ipconfig /release -> 0.0.0.0
+ipconfig / renew -> 192.168.1.1
+
+
+
+2. 	DHCP Relay Agent -> Gián Tiếp
+Unicast: 1 Nguồn -> 1 Đích
+Broadcast : 1 -> ALL(Cả Đường Mạng)
+
+DHCP Server Và DHCP Relay Agent : Nối Với Nhau = UniCast
+
+Nói chung DHCP: Gửi Cho Client Và Ngược Lại: BroadCase
+
+3	DHCP Failover -> Dự Phòng
+Giao Tiếp Với Nhau Thông Qua (Failover Relationship) Kênh Riêng để đồng bộ Giao Tiếp
+
+-> Hot Standby(100/0) khi tắt máy 1 thì máy 2 sẽ bắt đầu cấp
+-> Load Balance(50/50)

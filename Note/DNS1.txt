@@ -1,0 +1,59 @@
+﻿1	DNS
+FTP(21)  -> TCP
+SMTP(25) ->  TCP
+DNS(53) -> TCP/UDP
+TFTP(69) -> UDP
+
+Phân Tán
+Kết Dính
+Mở Rộng
+Tin Cậy
+CSDL Động
+
+nslookup
+
+Biểu Diễn Bằng Cây Đảo Ngược
+
+Node Gốc "."
+Các node cùng cha phải khác tên
+
+Tên Miền: 255
+Chiều dài node: 63
+Domain Namespace Sâu 127
+
+Root hints: Chứa IP của các DNS root server . Giúp tìm ra root server(13) A->M
+
+APPA: Tên Miền Ngược -> in.addr.arpa
+gTLD: Tên Miền dùng chung -> com(Thương mại),edu,net(Tổ Chức lớn),gov,org(Khác)..
+ccTLD : Tên Miền Quốc Gia
+
+FQDN = [hostname].[domain]
+
+ZONE
+	primary: Lưu Text
+	secondary : Đọc Bản Sao
+	stub: Chuyển đến máy chủ có thẩm quyền
+	Active Directory integrated: Chứa trên Active (Khi Nâng Dcpromo)
+
+forward lookup zone:
+A(V4)AAAA(V6)->(HOST),CName(Alias),MX(Mail),SRV(Service),NS(NameSever),SOA(Start of Authority) , CName
+
+Reverse lookup zone
+PTR
+
+
+Truy Vấn DNS:
+	Đệ quy(recursive):DNS server chịu trách nhiệm Phân Giải, Liên Hệ Với DNS Khác nếu không phân giải được
+	Tương tác(iteractive): Chỉ ra server có thể giúp , Không Liên Hệ
+
+Forwarder: Cho Phép DNS nội bộ Chuyển yêu cầu truy vấn -> DNS Khác
+Conditional forwarding: Chuyển tiếp
+
+Trên Client
+Xem Cache -> ipconfig/displaydns
+Xóa Cache -> ipconfig/flushdns
+Đăng Kí -> ipconfig/registerdns
+
+
+Dynamic DNS -> Chuyển đổi Tên Miền -> IP động
+vd: remote user để xem camera mà mới cần

@@ -1,0 +1,20 @@
+﻿Muốn đạt được Đồ án WEB Bán Giày php Bằng MVC
+
++ Tạo Được File News_Controller bằng cách GET url
+_Lưu Ý : Mỗi File Không được truy cập trực tiếp
+1. Cấu Hình File admin.php
+	+ Khởi tạo Hằng
+	+ require config.php
+	+ require FT_Common.php
+2. Cấu Hình File config.php trong system và config trong init.php
+	+ config.php(system) chứa các thông số hằng DB
+	+ config.php(admin) chứa các default
+3. Khởi tạo FT_load()
+	+ kết nối với config.php(system)
+	+ Chuẩn hóa {Name}_Controller
+	+ Chuẩn hóa {name}_action
+4. Kiểm tra tồn tại
+	+ File controller/class/method
+	+ Kết nối với FT_Controller
+	+ Kết nối với file controller(admin)
+	+Chay chương trình

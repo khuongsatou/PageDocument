@@ -1,0 +1,1 @@
+﻿Xử lý ngoại lệ trong Java. ... Trong Java có 3 loại exception là Error, checked exception, và unchecked exception (runtime exception). Error: là những lỗi nghiêm trọng xảy ra đối khi chương trình hoạt động mà lập trình viên không thể kiểm soát. Ví dụ như lỗi phần cứng, tràn bộ nhớ, hay lỗi của JVM.

@@ -1,0 +1,4 @@
+﻿1. Title và nội dung
+2. Titile sẽ ghi vào tên File save vào thư mục mặc định
+3. Seach theo tiêu đề và nội dung.
+4. Đọc và ghi file cơ bản

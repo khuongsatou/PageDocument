@@ -1,0 +1,103 @@
+﻿1. Phần đường xe chạy
+	1.Phần đường cho các phương tiện giao thông xe chạy.
+2. Vạch kẽ đường
+	1.Chỉ tính vị trí dừng
+3. Làn đường
+	2. Chiều dọc
+4. Đường bộ
+	1,2 Tính luôn phà
+5. Đường phố.
+	1. Lòng đường , hè phố
+6. Dải phân cách.
+	1. Chia mặt đường thành 2 chiều xe
+7. Dải phân cách 
+	1,2 cố định và di động.
+8. Đường ưu tiên
+	2. Các phương tiện hướng khác phải nhường
+9. Phương tiện giao thông cơ giới đường bộ
+	2. Sơ moosooc 
+10.Phương tiện giao thông đường bộ
+	1. Cơ giới và thô sơ
+11.Phương tiện tham gia giao thông
+	1,2 Cơ giới và thô sơ và xe cá nhân
+12.Người tham gia giao thông đường bộ
+	1,2 người điều khiển và dắt xúc vật
+13.Người điều khiển giao thông.
+	2,3 , Giao nhiệm vụ và cảnh sát
+14.
+	1,2 bị cấm hết
+15.	
+	1,2 Bị cấm hết
+16.Có chất ma túy
+17. Nồng độ cồn 
+	1. 50mili/100mililit máu
+18. Xe ô tô
+	2. Có cồn là OK
+19. Xe mô tô
+	1. 0.25miligram / 1 lít
+20. 
+	1. Bị nghiêm cấm.
+21.
+	1. Bị Nghiêm Cấm
+22.
+	1,2 Bị Cấm Hết
+23.
+	1,2 Bị Cấm Hết
+24.
+	1,2 Bị Cấm hết
+25.
+	3. Bị Nghiêm cấm
+26.
+	3. Bị Nghiêm Cấm
+27. Người lái xe không được vượt xe khác khi gặp những trường hợp nào dưới dây
+	1,2. Trên Cầu Hẹp + điều kiện thời tiết.
+28. Khi Ngồi trên xe mô tô.
+	2,3 Sử dụng ô,Đứng trên yên.
+29. Điều khiển xe mô tô 2 bánh
+	1,2. Buông 2 tay, sử dụng xe để kéo.
+30. Có được mang vật cồng kềnh không
+	2, Không được mang
+31. Kéo đẩy xe khác
+	3. Không được phép
+32.Đèn vàng
+	1. Phải dừng lại trước vạch
+33. An toàn giao thông đường bộ là trách nhiệm của ai?
+	2. Cơ quan, tổ chức , cá nhân
+34. Biển báo hiệu đường bộ gôm.
+	1,2 Biển báo cấm + biển báo chỉ dẫn
+35. Giơ 2 tay và 1 tay giang ngang.
+	1. Phía trước và phía sau dừng.
+36.Giơ tay thẳng đứng
+	2. Dừng hết
+37. Giơ tay phải về  phía trước.
+	2. Phía sau và bên phải dừng
+38. Khi có người điều khiển giao thông trái với đèn
+	1. Tuần theo người điều khiển
+39. Biển báo cố định và biển báo tạm thời.
+	2. Tuân theo biển báo tạm thời.
+40.Xe thô sơ và xe máy phải đi như thế nào.
+	2. Xe thô sơ trong cùng bên phải , xe máy bên trái.
+41.Có nhiều làn đường trong đường 1 chiều thì
+	2. Phải đi một làn đường chỉ được chuyển làn ở những nới được cho phép,
+42. Trên  đường có nhiều làn đường.
+	1,3 Cho Xe đi cùng chiều + Vạch kẽ phân làn đường.
+43. Xe sau có thể vượt lên khi
+	1,2 Phía trước có tính hiệu rẽ trái + đang làm việc trên đường thì không vược.
+44. Quay đầu trên cầu.
+	1. Không được quay
+45. Muốn chuyển hướng.
+	2,3 Giảm tốc độ + nhường đường cho người đi bộ.
+46. Nhường đường 
+	1,2 Nơi đường hẹp.+ Xuống dóc phải nhường.
+47. Đèn chiếu sáng ban điêm
+	2. Chiếu xa -> gần
+48.Xe ưu tiên
+	3. Dừng sát bên phải
+49.Nơi giao nhau không có tín hiệu , 
+	1. Phải nhường đường cho xe bên phải
+50. Nơi giao nhau có tín hiệu
+	3. Phải nhường đường cho xe bên trái.
+51. Người láy xe không ở đường ưu tiên
+	3. Nhường cho đường ưu tiên và đường chính
+52.Đường bộ giao với đường sắt .
+	3. Nhường cho đường sắt

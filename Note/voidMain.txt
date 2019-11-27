@@ -1,0 +1,14 @@
+﻿## *void main* và *int main* trong C
+(Theo một bài viết trên Cộng đồng *Dạy Nhau Học*)
+"Chào bạn,
+Mình giải thích như thế này cho bạn hiểu nhé. Trong hệ điều hành UNIX nói chung và Linux nói riêng, khi bạn run 1 chương trình gì đó ‘./’ tức là bạn đang gọi vào hàm main của chương trình (system call). Chương trình đó sẽ tự động trả về 1 biến tên là errno, biến này được quy định:
+‘= 0’ là success
+‘> 0’ là có lỗi. Số 1 sẽ là 1 lỗi khác, số 2 sẽ là 1 lỗi khác. Bạn tìm vào thư mục /usr/include/asm-genertic/ có 2 file errno.h & errno-bash.h sẽ có định nghĩa về các lỗi này.
+Để thấy đươc biến này khi chạy chương trình bạn dùng lệnh này ngay sau khi chạy chương trình đó
+$ echo $?
+
+Nếu xuất ra số 0 thì chương trình bạn chạy đúng. Còn ‘>0’ thì chạy sai
+Do đó việc đề int main() thay vì void main() là để cho chương trình trả về 1 giá trị báo cho user biết là chương trình có chạy đúng không.
+Như bạn thấy, return 0; hay exit(0); đây là trả về biến errno cho chương trình.
+Đó là lý do chính dẫn đến việc không ai dùng hàm void main() nữa. Một lý do nữa là do một số compiler không chấp nhận void main() lý do này chỉ là chữa cháy thôi. Cái chính vẫn là như mình vừa đề cập.
+Thân!"

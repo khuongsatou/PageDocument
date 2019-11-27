@@ -1,0 +1,118 @@
+﻿video35448953/_sodjav_av_
+API:
+1. Đăng nhập
+- URI: [POST] api/dang-nhap
+- Input: tên đăng nhập, mật khẩu
+- Output:
+	{
+		"success": false,
+		"message": "Đăng nhập không thành công"
+	}
+
+	{
+		"success": true,
+		"message": "Đăng nhập thành công",
+		"token": <jwt token>
+	}
+
+2. Quên mật khẩu
+- URI: [POST] api/quen-mat-khau
+- Input: tên đăng nhập, email
+- Output:
+	{
+		"success": false,
+		"message": "Xử lý không thành công"
+	}
+
+	{
+		"success": true,
+		"message": "Mật khẩu mới đã được gửi đến email ..."
+	}
+
+3. Đăng ký
+- URI: [POST] api/dang-ky
+- Input: tên đăng nhập, email, mật khẩu
+- Output:
+	{
+		"success": <true/false>,
+		"message": <thông báo>
+	}
+
+4. Cập nhật tài khoản
+- URI: [PUT] api/cap-nhat-tai-khoan
+- Input: id, email, mật khẩu, hình, token
+- Output:
+	{
+		"success": <true/false>,
+		"message": <thông báo>,
+		"token": <jwt token nếu cập nhật thành công>
+	}
+
+5. Lấy danh sách lĩnh vực
+- URI: [GET] api/linh-vuc
+- Input: token
+- Output:
+	{
+		"success": <true/false>,
+		"message": <thông báo>,
+		"data": <danh sách lĩnh vực> //success = true
+	}
+
+6. Lấy câu hỏi theo lĩnh vực
+- URI: [GET] api/cau-hoi?linh_vuc_id = <id>&ids = []
+- Input: id lĩnh vực, mảng id các câu hỏi đã được lấy, token
+- Output:
+	{
+		"success": <true/false>,
+		"message": <thông báo>,
+		"data": <câu hỏi> //success = true
+	}
+
+7. Lưu lượt chơi
+- URI: [POTS] api/luu-luot-choi
+- Input: token, thông tin người chơi: credit, danh sách các câu hỏi, điểm
+- Output:
+	{
+		"success": <true/false>,
+		"message": <thông báo>,
+	}
+
+8. Lấy lịch sử chơi game
+- URI: [GET] api/lich-su-choi?page=<trang>&limit=<so dong>
+- Input: token
+- Output:
+	{
+		"success": <true/false>,
+		"message": <thông báo>,
+		"data": <lịch sử chơi game của người dùng>
+	}
+
+9. Lấy bảng xếp hạng người chơi
+- URI: [GET] api/bang-xep-hang?page=<trang>&limit=<so dong>
+- Input: token
+- Output:
+	{
+		"success": <true/false>,
+		"message": <thông báo>,
+		"data": <bảng xếp hạng>
+	}
+
+10. Lấy danh sách credit
+- URI:	[GET] api/goi-credit
+- Input: token
+- Output:
+	{
+		"success": <true/false>,
+		"message": <thông báo>,
+		"data": <danh sách gói credit>
+	}
+
+11. Mua credit
+- URI: [POST] api/mua-credit
+- Input: token, id gói credit
+- Output:
+	{
+		"success": <true/false>,
+		"message": <thông báo>,
+		"data": <số lượng credit mua được>
+	}

@@ -1,0 +1,40 @@
+﻿1.A ListViewItem .
+2.D  calar, execReader .
+3. C object  .
+4. C .
+5. B .
+6. A .
+7. A
+8. C .
+9.  A .
+10. B .
+11. D .
+12.  bỏ -> C
+13. bỏ -> B
+14. A .
+15. B .
+16. C .
+17. C .
+18. C .
+19.C .
+20/C . OK
+21/B .
+22/A .
+23. B .
+24. B.
+25. D .
+26. D .
+27. A
+28. B .
+29.B .
+30. B . Không xác thực được
+31. C .
+32. D . Sai Đề Tất cả điều của lớp đó hết
+33 . C.
+34. D .
+35. D .
+36.  Xem lại
+37.  B .
+38. C .
+39. A .
+40. B .

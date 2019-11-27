@@ -1,0 +1,23 @@
+INSERT INTO dbo.NHANVIEN
+        ( TENDANGNHAP ,
+          MATKHAU ,
+          HOTEN ,
+          EMAIL ,
+          DIACHI ,
+          DIENTHOAI ,
+          NGAYSINH ,
+          GIOITINH ,
+          XOA ,
+          GHICHU
+        )
+VALUES  ( '' , -- TENDANGNHAP - varchar(30)
+          '' , -- MATKHAU - char(32)
+          N'' , -- HOTEN - nvarchar(50)
+          '' , -- EMAIL - varchar(30)
+          NULL , -- DIACHI - ntext
+          '' , -- DIENTHOAI - varchar(20)
+          GETDATE() , -- NGAYSINH - datetime
+          NULL , -- GIOITINH - bit
+          NULL , -- XOA - bit
+          NULL  -- GHICHU - ntext
+        )

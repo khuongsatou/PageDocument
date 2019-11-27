@@ -1,0 +1,3 @@
+﻿mod ra nếu ra là 21 -> 1
+nếu là 6 -> 6
+nếu là 62 -> 2

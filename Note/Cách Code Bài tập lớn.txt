@@ -1,0 +1,8 @@
+﻿Khái niệm phương thức trừu tượng có thể được áp
+dụng cho quá trình phát triển phần mềm.
+Khi viết một chương trình lớn, chúng ta có thể sử
+dụng chiến thuật “chia để trị” còn được gọi là làm
+mịn từng bước (stepwise refinement), để tách
+thành các vấn đề nhỏ hơn.
+Các vấn đề nhỏ hơn cũng có thể được tách nhỏ
+hơn nữa.

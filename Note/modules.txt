@@ -1,0 +1,1 @@
+﻿Trong cấu trúc này thì mỗi module sẽ có nhiều file, mỗi file như vậy ta gọi là một action. Ví dụ với module user thì chúng ta có 4 action đó là add, delete, edit và list.

@@ -1,0 +1,12 @@
+<form action="View/cart_view_controller.php" method="POST">
+							<div class="col-md-2">
+								<input type="text" name="p_id" value="<?php echo $p_id; ?>">
+								<input type="text" name="user_id" value="<?php echo $user_id; ?>">
+								<input type="text" name="price" value="<?php echo $price; ?>">
+								<input type="text" name="product_title" value="<?php echo $product_title; ?>">
+								<input type="text" name="product_image" value="<?php echo $product_image; ?>">
+								<input type="text" name="itemqty" value="<?php echo $qty; ?>">	
+								<button name="Check" class="btn btn-danger"><span class="glyphicon glyphicon-trash"></span></button>
+								
+							</div>
+						</form>

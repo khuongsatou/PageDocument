@@ -1,0 +1,5 @@
+﻿1. Chia sẽ Vẫn Được Không Cần Phải Ping trước Miễn Cùng Đường Mạng
+2. \\IP để truy cập
+3. Muốn chia sẽ Phải đặt Password Trước.
+4. Muốn Cho Máy Client Đăng Nhập vào miền thì phải cùng DNS IP., Và Phải Tạo Ra DNS Bằng Cách vào DNS và New Zone vào NSLookUp và điền fullName luôn. , Vào ComputerName Chuyển thành nhóm domain và ghi DNS của Miền Và LOGIN Adminstrator. Lưu ý thêm là đừng ghi mà phải Nhấn mũi tên sổ xuống để chọn. -> wellcome
+

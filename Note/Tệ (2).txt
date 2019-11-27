@@ -1,0 +1,6 @@
+﻿Thứ 1: Mầy Còn Tệ ở phần mảng lắm nhe luyện lại đi
+Dùng Java để luyện mảng.
+
+Thứ 2: Giải Bài Tập lớn bằng cách chia để trị
+
+Thứ 3: vv.

@@ -1,0 +1,46 @@
+﻿try
+            {
+                if (txtTenDangNhap.Text.Trim() != "" && txtMatKhau.Text.Trim() != "" && txtHoTen.Text.Trim() != "" && txtEmail.Text.Trim() != "" && txtDiaChi.Text.Trim() != "" && txtDienThoai.Text.Trim() != "")
+                {
+                    string TenDangNhap = txtTenDangNhap.Text;
+                    string MatKhau = txtMatKhau.Text;
+                    string HoTen = txtHoTen.Text;
+                    string Email = txtEmail.Text;
+                    string DiaChi = txtDiaChi.Text;
+                    string DienThoai = txtDienThoai.Text;
+                    if (KiemTraTenDangNhap(TenDangNhap))
+                    {
+                        MessageBox.Show("Trùng");
+                    }
+                    else
+                    {
+                        string ConnectString = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyBanHangDB;Integrated Security=True";
+                        SqlConnection conn = new SqlConnection(ConnectString);
+                        conn.Open();
+                        string cauInsert = String.Format("INSERT INTO NHANVIEN(TENDANGNHAP,MATKHAU,HOTEN,EMAIL,DIACHI,DIENTHOAI,NGAYSINH,GIOITINH) VALUES('{0}','{1}',N'{2}','{3}',N'{4}','{5}','{6}',{7})", TenDangNhap, MatKhau, HoTen, Email, DiaChi, DienThoai, dtpNgaySinh.Value.ToString("yyyy/MM/dd"), radNam.Checked ? 1 : 0);
+                        SqlCommand cmd = new SqlCommand(cauInsert, conn);
+                        int soDong = cmd.ExecuteNonQuery();
+                        if (soDong > 0)
+                        {
+                            MessageBox.Show("Thành Công");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Thất bại");
+                        }
+                        conn.Close();
+                    }
+                   
+                }
+
+                else
+                {
+                    MessageBox.Show("Vui Lòng Nhập");
+                }
+
+            }
+            catch (Exception err)
+            {
+
+                MessageBox.Show(err.Message);
+            }

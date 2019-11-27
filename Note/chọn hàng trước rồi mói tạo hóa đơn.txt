@@ -1,0 +1,60 @@
+﻿
+
+
+
+
+
+Phải có ràng buộc nghiệp vụ rõ ràng.
+Làm tốt -> chương trình không bị lỗi.
+Cỡ nào nó cũng chạy 
+Làm nhiều chức năng
+Ngoài đời làm gì thì mình làm vào phần mềm thế
+
+
+
+lập hóa đơn là 1 from;
+list\\
+
+loaihang
+tenhang
+donvitinh
+dongia
+soluong
+	them
+
+
+csdl->lập hóa đơn -> trả về datatable
+Thêm luôn để dưới số lượng
+
+
+giới tính là radio button
+
+
+Tấm hình->event->click->
+mouse over -> rechuot -> biến đổi chuột
+
+-> kỹ thuật -> đồ án
+
+-> cnpm -> database
+
+<Nộp cho 2 môn>
+
+
+MAHD ->tự Nhập
+
+Đơn vị tính -> readOnly
+Đợn giá -> readOnly
+số lương tự nhập.
+
+
+thêm -> đổ xuống dataGridView
+
+
+PM Quản lí thư viện thì có người dùng thao tác 
+PM Quản lí sinh viên  thì có người dùng thao tác 
+
+
+
+
+
+

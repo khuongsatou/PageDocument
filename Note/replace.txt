@@ -1,0 +1,6 @@
+﻿$result = str_replace('lap trinh', 'php', 'hoc lap trinh tai freetuts.net');
+echo $result;
+tham số 1: chuỗi tìm
+tham số 2 : thứ muốn thay thế 
+tham số 3: chuỗi gốc
+hoc php tai freetuts.net

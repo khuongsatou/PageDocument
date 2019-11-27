@@ -1,0 +1,3 @@
+﻿fix lỗi khuyến Mãi cùng loại đó và trùng nhau -> OK
+fix lỗi  Không Được Xóa admin -> Ok
+Hiện chữ Hết Hàng Khi SL Tồn =0

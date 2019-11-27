@@ -1,0 +1,8 @@
+﻿Kiểm tra rỗng.
+Kiểm tra thiếu @.
+
+Kiểm tra password không được vượt quá 4 kí tự. -> fail
+
+Đúng
+email: vubao.edu@gmail.com
+password: **** 

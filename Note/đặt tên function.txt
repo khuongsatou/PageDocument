@@ -1,0 +1,4 @@
+﻿nếu là kiểm tra thì:    is_name
+nếu là gán thì 	set_name($value)
+nếu là get thì 	get_name()
+nếu là database thì 	db_hanhdong_name

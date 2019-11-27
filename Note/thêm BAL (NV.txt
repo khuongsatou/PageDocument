@@ -1,0 +1,20 @@
+﻿public bool Them(NhanVienDTO nvDTO)
+        {
+            if (nvDTO.HoTen == "")
+            {
+                throw new Exception("Chưa nhập tên nhân viên!");
+            }
+            if (nvDTO.MatKhau == "")
+            {
+                throw new Exception("Chưa nhập mật khẩu!");
+            }
+            if (nvDTO.MaLoaiNV == 0)
+            {
+                throw new Exception("Chưa chọn loại nhân viên!");
+            }
+            if (nvDTO.NgaySinh > DateTime.Now)
+            {
+                throw new Exception("Ngày sinh không hợp lệ!");
+            }
+            return nvDAO.Them(nvDTO);
+        }

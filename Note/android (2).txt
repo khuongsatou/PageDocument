@@ -1,0 +1,106 @@
+﻿// Kiểm tra token trong shared
+//Nếu có token thì chuyển qua màng hình chính.
+
+
+//Đăng xuất 
+	Shar
+	editor.clear();
+	editor.apply();
+	--Quay về activity đăng nhập.
+//Token phải đưa vào header của request.
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+1 API
+	[POST]
+	token: thông tin người chơi điều nằm ở token
+.	1.1 Đăng  Nhập
+	api/dang-phap
+	OutPut
+	{
+		"success":false
+		"message":"Đăng nhập không thành công"
+	}
+
+	{
+		"success":true
+		"message":"Đăng nhập thành công"
+		"token":<jwt token>
+	}
+	Trên web điều có trạng thái
+	Token: Có thể tự tạo ra.
+	
+	Laravel: passport
+	1.2 Quên Mật Khẩu
+	1.3 Đăng kí
+	1.4 Cập nhật tài khoản.
+	[GET]
+	không cần token
+	1.5 Lấy lĩnh vực
+	1.6 Lấy câu hỏi theo lĩnh vực
+	api/cau-hoi?linh_vuc_id = <id>&ids=[]
+	Input: id lĩnh vực, mảng id các câu hỏi được lấy, token
+	where("id",<>,ids)->get()
+	...
+	1.7. Lưu lượt chơi
+	[POST] api/luu-luot-choi
+	Token, thông tin người chơi: crdit. danh sách câu hỏi , điểm.
+	Output:
+	{
+		"success":
+		"token"
+	}
+	1.8. Lịch sử chơi
+	?page=&limit=
+	{
+		"success":
+		"message":
+		"data": lịch sử chơi
+	}
+	1.9 Lấy bảng xếp hạng người chơi
+	1.10. danh sách credit
+	goi-credit
+	[POST]
+	Input: token
+	Không cần phân trang.
+	Lưu lịch sử mua
+	Cập nhật lại số lượng credit
+	//Thanh toán qua thẻ tính dụng (nếu làm được)
+	Khi click vào tăng tiền
+	{
+		"success":
+		"":
+		"data"
+	}
+2. Đăng nhập fb
+	- Lưu lại trạng thái đăng nhập của fb, phải có callback lại API của mình
+3. 
+-----------------------------
+-> Sử dụng token để lấy người chơi hiển thị tên ảnh đại diện
+-> Lấy câu hỏi không được trùng lăp.
+-> Lưu khi kết thúc lượt chơi. 
+-> Phân trang mặc định thường là 25 dòng
+	- Lưu điểm
+	- Lưu chi tiết lượt chơi
+	- ...
+->
+----------------------------
+Cài jwt
+	-composer install/require <TenPackage>
+	-composer update
+	
+	-composer dump-autoload
+cash 2
+composer.json
+	require_dev
+	Đưa package vào và chạy lệnh .
+-------------------------------
+Lỗi igrore github
+	Nó sẽ Không up verdon mà bỏ qua
+	composer update.//tải về
+	composer dump-autoload//load lại.
+
+	

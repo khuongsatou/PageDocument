@@ -1,0 +1,2 @@
+﻿Cùng cấp hoặc nằm ở sâu ở phía trong mà cookie là thư mục cha thư mục mới get được
+cookie không thể ra ngoài 1 cấp

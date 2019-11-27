@@ -1,0 +1,9 @@
+﻿thống kê danh thu theo tiêu chí
+
+ 2 datetimepicker
+de lay khoảng theo tiêu chí tiếp theo
+tìm theo tên với tìm theo ....
+
+
+
+tuần 14

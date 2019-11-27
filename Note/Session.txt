@@ -1,0 +1,6 @@
+	// session_start();
+	// set_logged('admin','1');
+	// echo  var_dump($_SESSION['ss_user_token']);
+	$data = $_SESSION['ss_user_token'];
+	echo $data['username'];
+	// session_destroy();

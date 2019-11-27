@@ -1,0 +1,10 @@
+﻿dùng để kiểm tra hằng có tồn tại hay không?
+define('PI', 3.14);
+define('RED', 'Màu đỏ');
+define('test', 'Thử nghiệm', true); // sử dụng test hoặc TEST đều được.
+
+
+define('PI', 3.14);
+
+defined('PI'); // TRUE
+defined('sopi'); // FALSE

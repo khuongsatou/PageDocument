@@ -1,0 +1,5 @@
+﻿có 2 cách :
+-> Tạo 1 from xác nhận khi xóa loại đó thì Hiện lên:
+	Bạn có Muốn xác nhận xóa tất cả các sản phẩm thuộc loại đó hay không?
+-> Thay đổi nó.
+  	Bạn Có Muốn Thay đổi nó thành loại khác hay không?

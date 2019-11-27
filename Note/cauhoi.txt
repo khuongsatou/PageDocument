@@ -1,0 +1,4 @@
+﻿Không Cần Làm thẻ thuê
+Cần hiển thị cột xóa all bảng
+Trang Admin có hiển thị tất cả gồm Có checkbox để hiển thị có xóa hay không>
+All Mã tự động tăng

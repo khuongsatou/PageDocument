@@ -1,0 +1,8 @@
+1.Could I Have your name,please?
+-> My Name Khuong.
+2.Could you repeat that, please?
+-> My Name Khuong.
+3. Is that with two 'Is'?
+->No , one I.
+4. Could you say that again?
+->Yes, your new confirmation number is 88997. 

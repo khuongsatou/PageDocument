@@ -1,0 +1,12 @@
+﻿<?php
+session_start();
+if(isset($_SESSION['userid']) && $_SESSION['level'] == 2)
+{
+ // tại đây thực thi các hoạt động khi đăng nhập thành công.
+}
+else
+{
+ header("location: login.php");
+ exit();
+}
+?>

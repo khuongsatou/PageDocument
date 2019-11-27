@@ -1,0 +1,44 @@
+﻿1. A -> khai báo biến không được bắt đầu = số hoặc từ khóa
+2. A -> *6)+1 vì 0.0->1.0
+3. D -> vì chạy song song , biên dịch chỉ chạy 1 lần . java là ngôn ngữ vừa thông dich vừa biên dịch , ide đóng vai trò biên dịch còn jvm là trình thông dịch , vì vậy java chạy được trên mọi nền tảng mà có jvm …
+4. C -> Vì tui cũng không biết
+5. C-> Lớp Object là lớp gốc trên cùng của tất cả các cây phân cấp kế thừa  Nếu một lớp không được định nghĩa là lớp con của một lớp khác thì mặc định nó là lớp con trực tiếp của lớp Object. 
+6. A -> System.out.println("");
+7. B -> Các phương thức khởi tạo của lớp con luôn gọi phương thức khởi tạo của lớp cha ở câu lệnh đầu tiên. 
+8. C
+9. D -> có s
+10. C -> package > import > class 
+11. B 
+12. D -> 
+13. A -> Trình *.java(javac)->*.class(bytecode)-> run
+14. D -> vì số 1%0 -> exception
+15. A -> gọi đến thuộc tính gần nó nhất
+16. D -> final double PI=3.14
+17. C
+18. A
+19. A
+20. D
+21. B
+22. A -> public không viết hoa
+23. A -> Không có rows
+24. B
+25. B
+26. C
+27. D
+28. D
+29. C
+30. D
+31. B
+32. A -> null sẽ không in ra
+33.D
+34. B
+35. C
+36. D
+37. C
+38. B
+39. B
+40.B
+
+
+
+

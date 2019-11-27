@@ -1,0 +1,2 @@
+﻿liên kết với cái biến toàn cục
+nếu không để global thì mấy biến ngoài không tác dụng với biến ở trong và không bị thay đổi

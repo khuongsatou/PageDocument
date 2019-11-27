@@ -1,0 +1,40 @@
+<?php 
+		
+
+		$result = null;
+		if (isset($_POST['search_submit'])) {
+			$result = Select_user_info_search($_POST['search']);
+		}else{
+			$result = Select_user_info();
+		}
+		while ($row = mysqli_fetch_array($result)) {
+		    echo '<tr>';
+		    echo '<td>';
+		    	echo $row['user_id'];
+		    echo '</td>';
+		    echo '<td>';
+		    	echo $row['first_name'];
+		    echo '</td>';
+		    echo '<td>';
+		    	echo $row['last_name'];
+		    echo '</td>';
+		    echo '<td>';
+		    	echo $row['email'];
+		    echo '</td>';
+		    echo '<td>';
+		    	echo $row['password'];
+		    echo '</td>';
+		    echo '<td>';
+		    	echo $row['address1'];
+		    echo '</td>';
+		    echo '<td>';
+		    	echo $row['address2'];
+		    echo '</td>';
+		    echo '<td>';
+		    	echo "<button class='btn btn-default'><a href='?user_id=";
+		    	echo $row['user_id'];
+		    	echo "'>Xóa</a></button>";
+		    echo '</td>';
+		    echo '</tr>';
+		}
+?>	

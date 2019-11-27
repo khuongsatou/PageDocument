@@ -1,0 +1,22 @@
+﻿pattern 
+
+Bắt đầu 1 pattern là /  / để khởi tạo regular
+	 ^ .. $  => so sánh ==
+	[min-max] kí tự được phép.
+Kiểm tra số
+	[0-9]
+Kiểm tra chữ thường
+	[a-z]
+Kiểm tra chữ hoa
+	[A-Z]
+Kiểm tra chữ in hoa và in thường và số
+	[a-zA-Z0-9]
+Kiểm ta kí tự có nằm trong dãy không
+	[a2b]
+xác định chiều dài
+	{min} //
+xác định chiều dài chuỗi
+	{min,max}
+ví dụ:	/^[a-z]{5,10}$/  chiều dài subject phải nằm trong 5 đến 10
+
+

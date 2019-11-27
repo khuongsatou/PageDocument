@@ -1,0 +1,16 @@
+﻿Coder -> fresher -> tester -> dev -> manager
+
+Khách hàng luôn muốn sản phẩm là tốt nhất -> vì nếu trong tương lai sẽ luôn tìm đến bạn ->
+Ấn tượng luôn luôn là lần đầu ->
+Giảm chi phí cho các giai đoạn sau.
+
+Ứng dụng và môi trường testing. 
+website.}
+mobile App.}
+API: Có nghĩa là lấy thông tin từ nơi khác vào APP hoặc site mà chỉ cần 1 link do nơi đó cung cấp.
+.
+Vai trò testing : 
+- Quan trọng nhất là tìm ra lỗi các sản phẩm.
+- Input -> điều kiện -> Output.
+- Hoàn thành là Chạy môi trường nào vv -> điều không xảy ra lỗi.
+- Ngăn ngừa lỗi xảy ra quan trọng hơn là tìm lỗi.

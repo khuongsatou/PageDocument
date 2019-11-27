@@ -1,0 +1,259 @@
+﻿	Chương 1: Kĩ Thuật Lập Trình
+// Cấp Phát bytes trong Java
+int 4byte
+
+
+
+//Giá Trị Mặc định
+int, long ,float,double i; // i =0
+String str; // null
+char ch; // '\u0000' ;
+boolean b; // false
+
+
+
+
+// i++ và ++i
+
+int m = 1, n = 2;
+if(++m > n--)
+ ++m;
+else
+ n--;
+System.out.println(m +n);
+
+//Giải
+m = 1 , n =2
+m = 2 , n =2 ,     m = n -> false 
+	n =1
+n = 1
+	n =0
+=> m+n = 2
+// Về Hàm i++ 
+ static int a=0;
+    public static int abc(){
+        return a++;
+    }
+
+//kết quả a=0;
+
+//Về kiểm tra
+if()			=> if()
+else()			=>else if()
+	if()
+	else()		=>      else
+// Lưu Ý: Mệnh đề else luôn đi với mệnh đề if gần nhất trong cùng 1 khối lênh {}
+
+
+//Mẹo
+if(number %2 ==0)		=> boolean even = (number %2 ==0);
+	even = true;
+else
+	even = false;
+
+if(even == true) 		=> if(even)
+if(even == false) 		=> if(!even)
+
+
+//Độ Ưu tiên cao nhất -> () > [] 
+
+//Về toán tử hoặc || -> khi đúng 1 bên sẽ không thực hiện vế sau
+vd: int a=1 , b=1; 
+if(++a ==2 || ++b ==2)
+	//đúng
+=> khi ra khỏi lệnh if
+ a = 2
+ b = 1;
+//Không nên loop float vì nó có dấu "." động vì không chắc sẽ = nhau
+
+//do{}while(a<1 || a> 100); || điều kiện trong khoản [1,100]
+
+//for vô hạng 
+	for(;;)// => true
+
+// for nhiều điều kiện 
+	for(int i=0,int j =0 ; (i+j) < 100 ; i++,j++)
+
+//continue; -> bỏ qua qua và tiếp tục lập nữa
+
+
+//Stack -> 1MB -> 1024KB * 1024KB 	 |
+		unused memory	+
+		+
+//Head -> tự mở rộng |
+
+// Truyền giá trị (Truyền Tham Trị)
+
+
+//overLoad
+public static int overLoad(int num1,double num2){
+        System.err.println("over 1");
+        if (num1 > num2) {
+            
+            return (int)num1;
+        }else{
+            return (int)num2;
+        }
+    }
+    public static int overLoad(int num1,int num2){
+        System.err.println("over 2");
+        if (num1 > num2) {
+            return num1;
+        }else{
+            return num2;
+        }
+    }
+
+=> Gọi Hàm overLoad(1, 1.0); => Kết quả over 1
+
+// Phạm Vi Của 1 Biến {} Nằm Trong 1 Block
+for(int i=0 ;i<10 ;i++){
+   int a +=i;
+} 
+   a++; // a error vì nó chỉ sống ở trong block
+	Chương 2: Mảng
+Khái Niệm: Mảng là 1 tập hợp các phần tử cùng kiểu dữ liệu
+Index : bắt đầu từ 0
+Vd:
+
+	int size = 10;
+	tạo: int[] a = new int[size];
+	a[0] // Đầu mảng -> a[9]cuối mảng  //
+	a.length Tổng số lượng phần tử
+//Gán Cho Phần Tử 0
+a[0] = 0 ;
+Vd
+public static void Mang(int size){// size truyền vào 10
+        String[] a = new String[size];
+        System.out.println("a[0]"+a[0]);//null
+        System.out.println("a[9]"+a[9]);//null
+        System.err.println("a.lenght:"+a.length);// 10
+        
+    }
+
+//Foreach
+	ArrayList<Integer> a = new ArrayList<>() ;
+	For(int values : a){
+	
+	}
+
+//Tham Chiếu Làm thay vào cùng 1 vùng nhớ
+ Ví Dụ:
+        int[] a = {1,2,3,4};
+        int[] b = new int[a.length];
+        b=a;
+        
+        
+        
+        for (int i = 0; i < a.length; i++) {
+            System.out.println("Chưa a:"+a[i]);
+        }
+        
+        
+        System.err.println("Mãng Đã Tham Chiếu");
+        b[0] =5;
+        for (int i = 0; i < a.length; i++) {
+            System.out.println("Đổi a:"+a[i]);
+        }
+        
+//Lưu Ý Lớn: Khi Truyền Mảng vào phương thức bất kì thay đổi của mảng trong phương thức điều ảnh hưởng đến mảng gốc (Truyền Tham chiếu). Đối với biến thì ngược lại(Truyền tham trị).
+Vd:
+   public static int Changed(int bien,int a[]){
+        bien ++;
+        a[0] =10;
+        return bien;
+    }
+    
+    
+    
+    
+    
+    public static void main(String[] args) {
+        int bien = 0;
+        int[] a  = {1,2,3,4};
+        
+        System.err.println("Biến Thay Đổi Với Mảng Thay Đổi trả về biến: "+Changed(bien,a)); // biến =1;
+        System.err.println("Biến Gốc:"+bien);//bien = 0
+        System.err.println("Mảng Gốc a[0]:"+a[0]);//a[0]=10
+     }
+
+//Lưu Ý Tiếp Theo : Mảng được Lưu Vào Vùng Nhớ Heap
+
+	Chương 3: OOP
+// Phương Thức Khởi Tạo
+-> Mặc định không tạo nó sẽ tự tạo contructor mặc định
+
+
+// Java Không Gán Giá Trị Mặc Định cho các biến cục bộ bên trong Phương Thức nhưng toàn cục thì được
+
+->  Kiểu Cơ Sở ; int thì không tham chiếu
+			 int 	    i 	1
+->  Kiểu đối tượng: khởi tạo new
+			Circle   	   c    	reference	->	c:Circle 
+							int i=1
+
+// Sao Chép
+Cơ Sở
+-> i=j
+Trước		Sau
+i =1		i=2
+j = 2		j=2
+Đối Tượng
+-> c= d;
+c=1 	c=2	Nhưng c=1 Vẫn còn tồn tại và không ai tham chiếu tới Rác(garbage)
+d=2	d=2
+
+Máy Ảo JVM sẽ tự động thu gôm hết rác
+	TIP: Nếu một đối tượng không cần sử dụng nữa thì có thể gán tường minh giá trị null cho biến tham chiếu đến đối tượng. 
+
+Lưu Ý Khác:
+Thành viên Bình thường
+	+ Các biến thể hiện thuộc về một đối tượng cụ thể. 
+	+ Các phương thức thể hiện được gọi thực thi bởi một đối tượng của lớp
+	
+Thành viên tĩnh (Static):
+	+ Các biến tĩnh, hằng tĩnh được chia sẻ bởi tất cả các thể hiện của lớp.
+vd:
+    static int a ;
+    public  int kiemtrastatic(){   // không static vẫn nhận được
+       return this.a;
+    }
+
+	+ Các phương thức tĩnh không được gắn với một đối tượng cụ thể. 
+vd:
+    static int a ; // Bắt buộc static
+    public static int kiemtrastatic(){  
+       return this.a;
+    }
+
+// Mức độ truy cập
+		Cùng package	   Khác package	       Cùng Lớp
+	mặc định 		x		_		x
+	public 		x		x		x
+	protected		_		_		x
+	private		_		_		_
+Dùng:
+	+Chỉ định truy cập private modifier hạn chế quyền truy cập vào bên trong một lớp.
+	+Chỉ định truy cập mặc định hạn chế quyền truy cập vào bên trong một package.
+	+Chỉ định truy cập public không hạn chế quyền truy cập.
+
+//Tại sao lại dùng private
+	+ Để bảo vệ dữ liệu.
+	+ Để dễ bảo trì mã nguồn
+
+//Vùng Nhớ đối tượng -> điều reference đến vùng nhớ Head
+
+//Mảng đối tượng
+	+Một mảng đối tượng thực sự là một mảng các biến tham chiếu.
+
+	Chương 4: Interface
+Phải chăng các Interface chỉ là 1 khuôn mẫu. trong đó các hàm chỉ có tên hàm mà hoàn toàn không có thân hàm. Tức hàm đó không có câu lệnh gì. Chỉ khi ta imlement nó thì nó được ghi đè và ta có thể làm bất cứ điều gì phải không ạ?
+Nếu đúng là nv thì e thấy thật phiền phức. Tại sao t không tạo các method luôn mà lại phải tạo cái tên mà không định nghĩa cho nó. Nhỡ đâu ta k dùng mà vẫn phải Override. Thật là em rất thắc mắc!!!
+
+Answer
+Không dùng thì sẽ không implements interface đó, chứ không phải Override.
+C++ cho phép đa kế thừa, nhưng lại gây ra “Diamon problem”. James Gosling đã vứt đa kế thừa đi để giải quyết, nhưng bổ sung thêm Interface để giữ lại cái hay của tính đa hình và viết ra Java.
+Ví dụ thì bạn xem bài số #9, #17 và #18 trong link [sau][1]
+
+Interface (hay gián tiếp nói đến sự đa hình) có ứng dụng lớn trong việc thiết kế các thư viện lập trình. Vì người viết thư viện chỉ quan tâm cung cấp 1 chức năng như thế nào, mà không cần quan tâm người dùng thư viện dùng chức năng đó làm gì. (Ví dụ: thư viện game cung cấp chức năng nhận nút bấm A, nhưng không quan tâm 1 game abc gì đó nhận nút bấm A đó để chém hay nhảy gì cả).
+[1]: http://congdongjava.com/forum/threads/thắc-mắc-interface-trong-java.3222/ 204

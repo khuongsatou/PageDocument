@@ -1,0 +1,69 @@
+﻿1. 	OSI:
+Application -> FTP / HTTP / SMTP / .... -> Giao Diện
+Presentation -> Nén
+Session -> Quản lí
+Transport -> TCP / UDP -> Vận Chuyển
+Network ->  IP  -> Định Tuyến
+DataLink -> MAC  -> Ghi
+Physical ->  Điện
+
+Data > Segments > packets > Frames > bits
+
+Lưu ý: 7,6,5,4 -> Trong Máy  Còn lại Internet
+
+2.  	TCP/IP
+Application -> ...
+Transport -> Telnet / TCP(Kết Nối) / UDP (Không Kết Nối)
+Internet -> SNMP
+Network Access -> DNS
+
+Stream/Message > Segment/DataGram > Frame
+
+GỘM 
+Application =Presentation +Session
+Network  = DataLink + Physical
+
+
+FTP: (21) TCP
+TFTP: Trivial (69) UDP
+NFS : Network
+SMTP: Simple Mail Transfer..
+DNS:
+
+3	Port:  Phân Biệt Giữa Các Ứng Dụng
+VD: Để Phân Biệt packets giữa Mail Và Web
+
+
+4	Chia IP
+Net 1
+SubNet = Lớp -> Host
+HOST 0
+
+A : 127 -> 01    ... 2^24
+B: 128 -> 10 ... 191->101  2^14
+C: 192 -> 110 ... 223 -> 1101
+
+192.168.1.0 / 255.255.255.224 -> 192.168.1.0/27 Có Nghĩa Phần Net Chiếm 27 Bít Từ Trái Qua Phải
+
+subNet
+	Subnet <= Host-2
+Số Lượng Bít Tối Đa Có Thể Mượn:
+A:22 (=24-2)
+B:14(=16-2)
+C:6(=8-2)
+
+Số Lượng Mạng Con Được Xác Định Bằng SubNet
+
+
+Bài Tập:
+172.16.0.0/16
+B:
+8 Mạng Con Mượn Thêm 3 .
+172.16.
+000	100
+001	101
+010	110
+011	111
+
+
+

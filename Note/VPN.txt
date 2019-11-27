@@ -1,0 +1,27 @@
+﻿1.	VPN -> (sử dụng đường ống tunnel trên Internet)
+Đóng gói (encapsulation)
+Xác Thực (authentication) chứa header
+Mã Hóa(encryption)
+Toàn vẹn (data integrity)
+
+Remove Access(user to Lan) ngươi dùng di động
+Site to Site(Lan to Lan)
+	Intranet:	Mạng nội bộ (Chi Nhánh)
+	Extranet:	Đối Tác
+
+
+Các Dịch vụ Cấu Hình Trong RRAS
+	Routing,NAT
+
+
+PPTP -> sử dụng Mã Hóa (MPPE) và 1723
+L2TP -> 3 port 500 , 1701,4500 IPsec
+SSTP -> 443
+IKEv2 -> reconnect và port 500
+
+
+
+PAP: plaintext
+CHAP: md5
+MS-CHAPv2: xác thực lẫn nhau , thay đổi pass
+EAP: sinh trắc học

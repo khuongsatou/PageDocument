@@ -1,0 +1,2 @@
+﻿remove()	// Truyền vào giá trị
+removeAt()		//truyền vào vị trí

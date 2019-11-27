@@ -1,0 +1,28 @@
+﻿Number trong Java
+Thường thì, khi làm việc với Number, chúng ta sử dụng các kiểu dữ liệu gốc như byte, int, long, double, …
+
+Ví dụ:
+int i = 5000;
+float gpa = 13.65;
+byte mask = 0xaf;
+Tuy nhiên, khi mở rộng, chúng ta cũng gặp các tình huống mà chúng ta cần sử dụng các đối tượng thay cho các kiểu dữ liệu gốc. Để thực hiện điều này, Java cung cấp các lớp wrapper (lớp bọc) cho mỗi kiểu dữ liệu gốc.
+
+Tất cả các lớp wrapper (Integer, Long, Byte, Double, Float, Short) là lớp phụ của lớp trừu tượng Number.
+
+Lớp con của lớp Number
+Sự bao bọc này được chăm sóc bởi bộ biên dịch, tiến trình này được gọi là boxing. Vì thế khi một kiểu dữ liệu gốc được sử dụng khi một đối tượng được yêu cầu, bộ biên dịch "đóng hộp" kiểu dữ liệu gốc trong lớp wrapper của nó. Tương tự, bộ biên dịch cũng "mở hộp" đối tượng thành một kiểu dữ liệu gốc. Number là một phần của java.lang package.
+
+Dưới đây là ví dụ của box và unbox:
+
+public class Test{
+
+   public static void main(String args[]){
+      Integer x = 5; // dong hop int thanh doi tuong Integer
+      x =  x + 10;   // mo hop Integer thanh int
+      System.out.println(x); 
+   }
+}
+Nó sẽ cho kết quả sau:
+
+15
+Khi x được gán các giá trị integer, bộ biên dịch "đóng hộp" giá trị integer này bởi vì x là đối tượng integer. Sau đó, x được "mở hộp" để mà chúng có thể được cộng thêm các integer.

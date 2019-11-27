@@ -1,0 +1,11 @@
+﻿cart_view . Thứ mình cần là id của cart
+
+vậy khi nhấn vào nút delete thì -> truyền id qua trang cart view controller -> bên đây khi xóa id xong thì nó sẽ trở về trang cart view 
+	+  add_cart
+	+  user_id
+	+ p_id
+	+ itemqty
+	+ price
+	+ product_title
+	+ product_image
+-> POST

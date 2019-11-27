@@ -1,0 +1,2 @@
+﻿black box testing: 1+ 1 = 2  (truyền và 1 đầu)
+white box testing:

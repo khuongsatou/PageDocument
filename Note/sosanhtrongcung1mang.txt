@@ -1,0 +1,5 @@
+﻿tạo 1 mảng con riêng
+
+for(i-> n)// 0->n-1
+	for(j=i+1->n)// từ 1-> n-1
+		if(a[i] == a[j])

@@ -1,0 +1,75 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Data
+{
+    public class dbConnect
+    {
+        private SqlConnection conn;
+        public dbConnect()
+        {
+            conn = new SqlConnection(@"Provider=SQLNCLI11;Data Source=.\sqlexpress;Integrated Security=SSPI;Initial Catalog=QLBanHang");//chuỗi kết nối
+        }
+
+        public DataTable GetData(string strSQL)//select
+        {
+            SqlDataAdapter adapter = new SqlDataAdapter(strSQL,conn);
+            DataTable table = new DataTable();
+            conn.Open();
+            adapter.Fill(table);
+            conn.Close();
+            return table;
+        }
+
+        public DataTable GetData(string proName, SqlParameter[] para)
+        {
+            DataTable table = new DataTable();
+            SqlCommand cmd =new SqlCommand();
+            cmd.CommandText = proName;
+            if(para!=null){
+                cmd.Parameters.AddRange(para);
+            }
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection = conn;
+
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            adapter.SelectCommand = cmd;
+            conn.Open();
+            adapter.Fill(table);
+            conn.Close();
+            return table;
+
+        }
+
+        public int ExecuteSQL(string strSQL)
+        {
+            SqlCommand cmd = new SqlCommand(strSQL, conn);
+            conn.Open();
+            int row = cmd.ExecuteNonQuery();
+            conn.Close();
+            return row;
+        }
+
+        public int ExecuteSQL(string proName, SqlParameter[] para)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = proName;
+            cmd.CommandType=CommandType.StoredProcedure;
+            cmd.Connection = conn;
+            if (para != null)
+            {
+                cmd.Parameters.AddRange(para);
+            }
+            conn.Open();
+            int row = cmd.ExecuteNonQuery();
+            conn.Close();
+            return row;
+            
+        }
+    }
+}

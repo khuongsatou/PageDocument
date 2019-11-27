@@ -1,0 +1,42 @@
+﻿<?php 
+	  include "./../header.php";
+	  include "utility.php";
+	  include "../Database/Function.php";
+ ?>
+<?php 		
+		
+		$data  = array();
+		if (isset($_POST['login'])) {
+			$data['email_login'] 	= isset($_POST['email_login'])	? $_POST['email_login'] : '';
+			$data['password_login'] = isset($_POST['password_login']) ? $_POST['password_login'] : '';
+			if (empty($data['email_login']) || empty($data['password_login']))
+			{
+				echo '<legend>Điền Đầy Đủ email và pass</legend>';
+				echo '<div class=""><a href="register_view.php">Trở về</a></div>';
+			}else{
+				if (!Check_Login_email($data['email_login'])) {
+					echo '<legend>Đăng Nhập Thất Bại</legend>';
+					echo '<div class=""><a href="register_view.php">Trở về</a></div>';
+				}else{
+					$data['password_login'] = MaHoaMD5PassWord($data['password_login']);
+					$result 	= Check_Email_Password($data['email_login'],$data['password_login']);
+					Disconnect_db();
+					if (mysqli_num_rows($result) == 1) {
+					   if ($data['email_login'] == 'admin@gmail.com' && $data['password_login'] =='c4ca4238a0b923820dcc509a6f75849b') {
+					   		header("location:../Admin/admin.php");
+					   }else{
+					   		header("location:./user_view.php?email_login={$data['email_login']}");
+					   }
+					}else{
+						echo '<legend>Sai Email Hoặc Password or Không tồn Tại</legend>';
+						echo '<div class=""><a href="register_view.php">Trở về</a></div>';
+					}
+				}
+				
+			}
+
+		}
+
+ ?>
+
+ <?php  include "./../footer.php"; ?>

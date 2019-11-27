@@ -1,0 +1,26 @@
+﻿public bool Them(KhachHangDTO khDTO)
+        {
+            if (khDTO.HoTen == "")
+            {
+                throw new Exception("Chưa nhập tên khách hàng!");
+            }
+            if (khDTO.NgaySinh > DateTime.Now)
+            {
+                throw new Exception("Ngày sinh không hợp lệ!");
+            }
+            return khDAO.Them(khDTO);
+        }
+
+
+public bool Them(KhachHangDTO khDTO)
+        {
+            conn.Open();
+            string SQL = string.Format("INSERT INTO [dbo].[KhachHang] ([HoTen],[NgaySinh],[GioiTinh],[DiaChi],[DienThoai],[Email],[GhiChu]) " +
+                "VALUES (N'{0}','{1}','{2}',N'{3}','{4}','{5}',N'{6}')", khDTO.HoTen, khDTO.NgaySinh.ToString("yyyy-MM-dd"), khDTO.GioiTinh, khDTO.DiaChi, khDTO.DienThoai, khDTO.Email, khDTO.GhiChu);
+            SqlCommand com = new SqlCommand(SQL, conn);
+            int kq = com.ExecuteNonQuery();
+            conn.Close();
+            if (kq > 0)
+                return true;
+            return false;
+        }

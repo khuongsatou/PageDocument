@@ -1,0 +1,1 @@
+﻿Khi mình chỉ lấy danh sách thì từ BAL gọi thẳng xuống DAL

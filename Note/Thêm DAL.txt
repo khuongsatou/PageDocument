@@ -1,0 +1,22 @@
+public bool Them(NhanVienDTO nvDTO)
+        {
+            conn.Open();
+            SqlCommand com = new SqlCommand();
+            com.CommandType = CommandType.StoredProcedure;
+            com.CommandText = "SP_ThemNhanVien";
+            com.Connection = conn;
+
+            com.Parameters.Add("@matkhau", SqlDbType.Char).Value = MaHoaMD5(nvDTO.MatKhau);
+            com.Parameters.Add("@maloainv", SqlDbType.Int).Value = nvDTO.MaLoaiNV;
+            com.Parameters.Add("@hoten", SqlDbType.NVarChar).Value = nvDTO.HoTen;
+            com.Parameters.Add("@ngaysinh", SqlDbType.DateTime).Value = nvDTO.NgaySinh.ToString("yyyy-MM-dd");
+            com.Parameters.Add("@gioitinh", SqlDbType.Bit).Value = nvDTO.GioiTinh;
+            com.Parameters.Add("@diachi", SqlDbType.NVarChar).Value = nvDTO.DiaChi;
+            com.Parameters.Add("@dienthoai", SqlDbType.VarChar).Value = nvDTO.DienThoai;
+            com.Parameters.Add("@email", SqlDbType.VarChar).Value = nvDTO.Email;
+            com.Parameters.Add("@ghichu", SqlDbType.NText).Value = nvDTO.GhiChu;
+
+            int kq = com.ExecuteNonQuery();
+            conn.Close();
+            return kq > 0;
+        }

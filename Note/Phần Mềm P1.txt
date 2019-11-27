@@ -1,0 +1,24 @@
+﻿Yêu Cầu Chức Năng: Mô Tả PM phải làm gì, Đáp ứng chức năng gì
+	Function: input ->process ->ouput
+Yêu Cầu Phi Chức Năng: Giao Diện , ổn định , cấu hình.
+
+Kiến trúc phần mềm:
++Đóng vai trò như bản thiết kế của 1 căn nhà, 
++Cho biết phần mềm được tổ chức như thế nào
++Các TP Liên Kết Ra Sao.
++ Quy Tắt , Quy Chuẩn.
+Vậy:
+ Thế Nào Là Tốt
+	-> Đáp ứng được "Khoa Học" Và Nghệ Thuật
+
+
+Mô Hình 3 Lớp:(Three-layer model)
+	User ->[ Presentation -> Business Logic -> Data Access ]-> Data
+Mô Hình MVC:(Model - View -Controller)
+	User __->    Controller -> Model -> Data
+	[	             ]
+	[_______	<-View_]
+
+Khái Niệm CNPM:
+	+ Là Ngành Khoa học nghiên cứu về việc xây dựng phân mềm có Chất Lượng
+	+ Trong Thời gian và chi phí  hợp lí.

@@ -1,0 +1,39 @@
+﻿Kết Nối
+	SqlConnection conn = new SqlConnection("Chuỗic conn");
+	conn.Open();//mở 
+	conn.Close();//Đóng
+
+Dùng cho mấy câu không trả về kq:
+	cmd= new SqlCommand()
+	int numOfRow=cmd.ExecuteNonQuery(sql,conn); 
+Dùng Cho mấy câu Count();
+	cmd = new SqlCommand(sql,conn)
+	int numOfRow =(int)cmd.ExecuteScalar();
+Dùng Cho mấy câu StoredProcedure
+	cmd = new SqlCommand("Ten Stored",conn);
+	cmd.CommandType = ComandType.StoredProcedure;
+	cmd.Parameters.AddWithValue("@mssv",txtMSSV.Text);
+	//Tùy stored không trả về
+	int numOfRow = cmd.ExecuteNonQuery();
+	//stored trả về
+Dùng Cho mấy câu Select (SqlDataReader)
+	cmd = new SqlCommand(sql,conn);
+	SqlDataReader dr = cmd.ExecuteReader();
+	While(dr.Read()){
+		string MSSV ="";
+		if(!dr.IsDBNull(0))//nếu cột đó không null
+			MSSV =(string)dr[0]; // Cách 1 Lấy dòng Đầu tiên
+			           // Cách 2: dr["MSSV"];
+			           // Cách 3: dr.GetString(0);
+	}
+	dr.Close();
+
+
+DataSet
+
+
+DataTable
+	SqlDataAdapter da = new SqlDataAdapter(Sql,conn);
+	DataTable dt = new DataTable();
+	da.Fill(dt);//đổ vào
+	

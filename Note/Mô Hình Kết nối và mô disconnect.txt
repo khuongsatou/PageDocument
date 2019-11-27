@@ -1,0 +1,5 @@
+﻿Mô hình Kết nối , Dùng DataReader // Đọc từ đầu đế disconnect
+Mô hình Ngắt kết nối : DataSet , DataAdapter
+Đối tượng DataAdapter dùng để thực hiện 2 chức năng:
+ Đọc dữ liệu từ cơ sở dữ liệu vào DataSet
+ Cập nhật dữ từ DataSet ra cơ sở dữ liệu

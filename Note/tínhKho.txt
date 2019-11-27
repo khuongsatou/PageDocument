@@ -1,0 +1,15 @@
+﻿1000 sản phẩm
+50 sp / 1 kho
+
+-Cần bao nhiêu kho để chứa .
+
+1000/50 = 20 kho chứa.
+
+-Thế thì tìm kho thứ 5 sẽ bắt đầu từ sản phẩm thứ mấy  biết kho kho thứ nhất bắt đầu từ 1 và kết thúc là 50.
+
+kho thứ 5 là 201-> 250;
+
+
+cuối kho thứ 4 sẽ là 199
+(5* 50)=250
+201 = (5-1)*50+1 
