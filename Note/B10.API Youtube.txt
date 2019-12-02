@@ -1,0 +1,10 @@
+﻿B0. Chuẩn bị gì?
+B1. Khởi tạo thế nào ? tạo key ? Dùng Key ?
+B2. API 1 video ? playlist?
+B3. Đọc Json?
+B4. Đổ về App?
+B5. Play?
+B6. Other?
+
+	
+	

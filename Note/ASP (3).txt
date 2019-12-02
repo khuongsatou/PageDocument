@@ -1,0 +1,174 @@
+﻿WebHD
+KMS
+DXC
+FSoft
+GameLoft
+Global cybarsoft
+
+
+
+https://forums.asp.net/
+
+http://dotnet.edu.vn/ChuyenMuc/Phuong-thuc-ASPNET-Web-goi-using-AJAX-jQuery-820.aspx
+
+---------
+Về nhà làm cho thầy chức năng đăng nhập
+Muốn vào trang admin phải có [session] đăng nhập.
+------------------
+Tuần sau kiểm tra 1 ASP lí thuyết  trắc nghiệm và thực hành luôn.
+Thực hành: Tương tác trên [dataControl]:
+	+ Ví dụ tìm kiếm có phân trang.
+	+ Có thể tìm kiếm nhiều tiêu chí
+---------
+DataList dùng cho việc đổ dữ liệu table. có thể dùng repeater
+Trang 19, 23,
+
+-----------------
+ASP và ASPX
+ASPX runs on .Net framework. ASP uses VBScript for its code. ASP.NET allows the use of C#, VB.NET and other languages. ASP.NET gives access to all the tools which come with the .NET framework and allows one to write object-oriented code.
+----------------------
+1. Hoàn thiện trang member(Quản lí thành viên)
+2. Đặt vào trong thư mục admin
+3. MasterPage admin đặt ở ngoài.
+4. Chức năng thêm thành viên.
+	4.1. Validator
+	4.2. Số điện thoại (từ bao nhiêu đến bao nhiêu , nhập số, 10 chữ số , expresstion , fied..).
+	4.3 Kiểm tra người dùng(username (Chờ nhấn nút để kiểm tra) Hoặc khuyến khích sử dụng Ajax(auto kiểm tra)) nhập vào.
+	4.4. Xử lí thêm vào database.
+	4.5. Load ra danh sách member dưới from ,trên có phần lọc(Filter). có thể điều kiện qua vào cái filter để không cần phải truy vấn database
+	4.6.  Nút edit chuyển qua form thêm (cho mỗi dòng load lên form nhập nhập liệu), thêm sẽ sửa thành cập nhật.
+	4.7 Nút ẩn sử dụng bằng Ajax. 
+-> trong tài liệu thực hành có.
+-> thấu hiểu generate.
+->
+
+--------------Lý thuyết--------
+1. Master page: kế thừa , đường dẫn
+2. Sự biên dịch control
+- nó sẽ có thêm content ID của placeholder đó
+
+----------------------------
+Thiết kế giao diện
+3. Quản lí đối tượng Ít thông tin (<10)
+	+ from thông tin
+	+ danh sách.
+	+ Gộp chung lại
+--------------------------
+Trang quản lí loại
+4. Không cần kiểm tra ID đó tồn tại chưa , vì nó tăng tự động.
+---------------------
+Trang sản phẩm.
+5. Thiết kế trang thêm, sửa sản phẩm.
+	+ nếu có nhiều thông tin thì tách 2 trang , hiển thị và sửa && thêm.
+-------------------
+Phân loại bài post
+6.
+----
+Nhiệm vụ đến thứ 6,
+-------------------------
+Khai báo mã parameter. có bao nhiêu @ thì bao nhiêu mã.
+paras[] = new Sqlparameter();
+-Thêm validation. *
+-Thêm tài khoản thêm tất cả vào database
+	- Thử in ra có kết quả chưa *
+	- Sự kiện click thêm tài khoản 
+	- Tạo đối tượng member.
+	- Mã MD5 cho password , + tạo 1 class stringProc để convert chuỗi sang md5.
+	-Mặc định enable=true;
+
+
+
+F10 để tiếp
+F11 vô trong phương thức
+F7 Thoát ra
+addwatch để xem giá trị
+Android f8
+Click vào err có dấu tên đổ xuống.
+Add watch
+
+IDE: có debug.
+TextEditor: không có debug
+
+
+
+
+
+
+
+khuongsatou
+@Khuong1234
+
+Tạo trang người dùng kế thừa từ master page
+register-Chuột phải>Re count -> getElement->colum7  -> thu nhỏ ->lick phải -> copy
+vào content placeholder 3 
+Thêm 1 div row
+Trước khi có column 
+//Thêm 1 header row
+Sửa colum 7 thành 12 để nó full
+Cài thêm extension vào visual studio
+trong thẻ div này paste nó vào
+
+thẻ form nó bị báo đỏ:
+-> bỏ đi -> chạy lại ->
+
+Colum 
+
+Chia làm 3 phần . 
+Dòng 1:User name Name Email
+Dòng 2:Pass , nhập lại password, SĐT
+Dòng 3: Tất cả còn lại dòng 3
+
+Quy Đinh Trạng Thái: admin 1
+Đang hoạt động là 1
+Ngưng hoạt động là 0
+
+add Thư mục HttpCode;
+//
+add thêm 1 dataProvider
+//Phương thức connect kiểm tra mở kết nối
+
+1.Insert Update Delete-> không trả về
+2.Select-> lấy về 1 danh sách
+3.Mã tăng tự động. Lấy về mã tăng tự động 
+
+Đối với ddnet command, adapter
+access -> Commend và...
+sql: sqlcommand và sqlDataRender/
+
+Mỗi phương thức truyền vào: (câu truy vấn. , tham số)
+execute() không lấy về
+
+dùng dataTable thì tốt nhất
+
+có tên giống hệt DB
+_ viết hoa chữ đầu
+
+Thứ 6
+Tạo class cho các đối tượng foodtype
+Post _ comment
+
+
+
+
+Chữ số và dấu gạch dưới .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Câu Hỏi Hỏi Thầy Tiến
+-> Cập Khóa ngoại ở bảng relative_food sao thầy nối được 2 cái. vậy cái kia nói đi đâu

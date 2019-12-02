@@ -1,0 +1,10 @@
+﻿@RenderBody() -> khi đó nó sẽ include toàn bộ file index
+_Header , MasterPage: sẽ được tạo file Shares
+_ViewStart : file mặc định lựa chọn MasterPage Nào được Chạy Cho toàn bộ thư mục home
+@RenderSection("tên Section",true) -> include các đoạn được viết trong @section ten Section{
+}
+
+@Html.RenderPartial -> để include những đoạn view nhỏ.
+
+@Styles.Render("~/") // include style
+@Scripts.Reder("~/") // include javascript

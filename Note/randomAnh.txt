@@ -1,0 +1,42 @@
+﻿package com.example.yukari.yukari;
+
+import android.graphics.Color;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
+
+import java.io.Console;
+import java.util.ArrayList;
+import java.util.Random;
+
+public class MainActivity extends AppCompatActivity {
+
+    RelativeLayout linearLayout;
+    ArrayList<Integer> arrayimg;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        //Ánh xạ
+        linearLayout = (RelativeLayout) findViewById(R.id.HinhBackGround);
+
+        arrayimg = new ArrayList<>();
+
+        arrayimg.add(R.drawable.ad);
+        arrayimg.add(R.drawable.ad1);
+        arrayimg.add(R.drawable.ad2);
+        arrayimg.add(R.drawable.ad3);
+
+        Random random=new Random();
+        int vitri=random.nextInt(arrayimg.size());
+        linearLayout.setBackgroundResource(arrayimg.get(vitri));
+
+
+
+
+
+    }
+}

@@ -1,0 +1,7 @@
+﻿B0. Chuẩn bị gì?
+B1. Tạo Key
+B2. Upload Key
+B3.Update Key
+
+	
+	

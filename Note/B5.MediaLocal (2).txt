@@ -1,0 +1,8 @@
+﻿B0. Chuẩn bị gì?
+B1. Khởi tạo thế nào ? Tham Số Truyền Vào ?
+B2. Cách dùng Hàm ?
+B3. Start , Stop , Next , Pre?
+B4. Other.
+	
+	
+	

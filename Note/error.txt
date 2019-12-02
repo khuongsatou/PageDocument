@@ -1,0 +1,25 @@
+﻿Nên đọc lỗi laravel từ dưới lên
+
+Context -> là interface chứa các thông tin bao gồm luôn cả activity.
+Truyền OBJECT.
+	1 là khởi tạo
+	2 Set.
+	3.
+	public 1thamso(...)
+	this(context)
+	public nhieuThamSO(...)
+		this(context,ten,sdt)	;
+		this.id=id;
+-----------------------------------------
+viết đúng nghĩaw
+obj = new ....
+obj.Them();
+
+có thể dùng this trong hàm thêm để gọi mà không truyền.
+------------------------
+Nghe -> viết -> đọc -> hiểu -> suy nghĩ -> cài đặt lại-> Quay lại.
+
+
+
+------------
+Làm trình cực kì đơn giản, Nếu .

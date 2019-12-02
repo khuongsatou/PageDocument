@@ -1,0 +1,194 @@
+﻿-- Quay Clip Hạng dealine Chủ nhật
+
+
+
+--Cài Visual 2019 hoặc nâng cấp 2013 lên
+
+
+--Validation
+	- Hiển thị lỗi
+	- Chỉnh css cho lỗi
+	- Custom
+	- Sumary
+
+
+
+-- Validation->master -> database\\
+
+
+
+
+--Thuộc tính Method truyền
+	[HttpPost] // truyền bằng post qua form
+	[HttpGet] // truyền bằng url
+	
+
+-- Một số thuộc tính thông dụng
+	[require] // trường bắt buộc nhập trong textbox
+	[displayName("tên hiển thị")]
+	
+
+
+--@Html
+	DisplayNameFor
+	ActionLink
+
+
+-- Kiểm tra asp.net Tuần (tiết kí thuyết)
+
+
+--Controller : danh từ
+--Action: động từ
+
+
+--Tạo Trang danh sách sinh viên -> thông qua student controller
+B1. Tạo controller SinhVien ()
+B2. Route cho nó.
+B3. Đặt View List hoặc index hiển thị danh sách sinh viên (Trước khi tạo hãy tạo ra model)
+B4. Tạo trang edit.
+
+--Điểu khiển có thuộc tính runat=“server” gọi là HTML Server Controls
+
+
+-- IspostBack
+	Load lần đầu = refresh: false.
+	
+	Khi nhấn vào button sẽ trả về true
+
+
+-- Request: từ client gửi cho server
+-- Response: từ server gửi về cho client
+
+
+
+-- Không để người dùng chơi cỏ (script)
+
+-- Session
+	-- Page_load
+	if(Session["login"]== null){
+		Respon.Redirec...("trang asp")
+	}
+	-- Click login
+if(us == pass)
+Session["login"] = txt.us.Text;
+Respon.Redirec...("trang asp")
+-- 4 trang admin nên phải xử lí trong page_load trong masterpage.
+
+-- 
+	Biên dịch,thông dịch
+	Server control
+	Quản lí trạng thái , session , ...
+
+-------------------------- DEAD 1 tuần , quay phim up youtube không cần nộp source
+--Bài sau nộp
+	1. Sử dụng 1 trong 2 giao diện đã cho để tiến hành làm 1 website tin tức
+	2. "Admin template free" tự search google.
+-> chọn 1 trong 2 cái đó.	
+	Ít nhất 2 masterPage người dùng và admin
+---------------------------	
+--Thực hiện thiết kế các trang sau đây.(Trang người dùng)
+	1. Trang chủ
+          Phải hiển thị được slide show tin tức, chọn vị trí thay đổi slide show phù hợp
+	+ Load SlideSHOW những bài viết có trạng thái là 4.
+	+ Danh sách các bài viết mới.(có thể quy định trạng thái là 1-> dùng repeater, kích thước hình ảnh thống nhất , giới hạn kí tự tối đa trong bài viết -> substrim())
+	+ Danh mục bài viết được xem nhiều.(Trạng thái là 2)
+	+ Tin vắng (Trạng thái là 3).
+	2. Menu
+	+ Load danh mục lên trên menu (id=mã id) 
+	3. Trang keyquery.aspx 
+	+ Kiểm tra có trang keyqueryString query hay không . Nếu không có id thì về trang chủ
+	+ nếu có thì load danh sách bài viết.
+	4. Danh sách có phân trang
+	+ Hiển thị icon cho những bài viết nào mới (vd (~_~)news)
+	5. Trang chi tiết bài viết.
+	+detail.aspx 
+	+ kiểm tra id bài viết , nếu không có id trở về trang chủ , nếu có id nhung không họp lệ , xuất ra không có bài viết , nếu hợp lẹ xuất ra chi tiết bài viết.
+	-- Trang Admin
+	1. Hiển thị thống kê số lượng loại bài viết, số lượng bài viết, (>_<)
+	2. Quản lí loại bài viết.
+	+(frm để nhập loại bài viết hoặc sửa bài viết , và danh sách bài viết -> listview)
+	3. Trang danh sách bài viết.
+	+ Frm tìm kiếm , tên (title) bài viết , loại bài viết , trạng thái bài viết ()filter, ở dưới là danh sách kết quả (listview) , khi nhất edit thì qua trang post.aspx.
+	4. tất cả các hành vi trang trang admin điều phải đăng nhập.
+	           `(*~*)'___________~~~~
+		_(_()	_(_()
+	(freetextbox và checkditer);
+
+	viewstate, là thẻ input mà hidden 
+	section lưu ở server , nó sẽ được cấp 1 id.
+	cookie là 1 tập tin nhỏ lưu ở tại 1 client ,  lưu ở dưới client luôn
+	aplication là 1 nơi 
+	chuyển các trang khác nhau query string. đường liên kết.
+	
+
+
+--ASP.net cũ -> ASP.net MVC và ASP.net core mới nhất.
+
+
+-- Dropdown List
+	-Phải kiểm tra isPostBack trong page_Load
+-- IMG	
+	if(isPostBack == false){
+		img.avt.visible = false;
+	}
+--Validation
+	lv1- Trước mặt người dùng - tắt js -> kiểm lv2
+	lv2- Ở Server -> error -> lv3
+	lv3- Database - Ràng buộc toàn vẹn - OK
+	Ràng buộc toàn vẹn:
+	- Trigger
+	- Constraint
+
+--Viết select
+	- Nên viết ở proc để giảm việc sửa trên code
+	- Dễ quản lí 
+	- Dễ sửa đổi
+
+--WebConfig
+	- WebConfig_ được biên dịch bởi frameworks nào + web Services nào.
+	- Cấu hình được ConnectString
+
+-- Upload file
+	- img.SaveAs(Server.MapPath("~/img/"+img.FileName));
+	- img.visible = true;
+	- img_show.url = "~/img/"+ img.filename
+-- HTML 5 
+	- Filter
+
+-- Kiểm tra lại
+	- Upload hình
+	//filename : tên file có thể các ra lấy đuôi file
+
+CustomValidator
+- ServerValidate: Kiểm tra ở server
+- ClientValidationFunction: kiểm tra ở client
+
+
+-- Database:
+	- Tạo file script
+	- db: db_news
+	- table : category
+	- id AUTOINCREMENT
+	- cat_name
+	- 
+-- Bài tập:
+	- Kết nối db
+	- Thêm 1 loại tin tức vào trong database
+	-------------------------
+-- Các cách thực hiện
+1. Kết nối : 
+	+ đối tượng kết nối :  using System.Data;
+			using System.Data.SqlClient
+	+ SqlConnection con = new SqlConnection("chuỗi kết nối");
+	+ con.Open();
+2. Tạo truy vấn
+	+ Text: 
+	string sQuery = "lấy ở trong database()      VALUES(' "+biến+" ' ,"...")            " 
+	chk_id.Checked == true? 1: 0
+	+ Parameter
+		
+3. Truy vấn
+	+ SqlCommand cmd = new SqlCommand(Câu truy vấn, kết nối);
+	+ cmd.ExecuteNonQuery();
+4. Đóng kết nối.
+	+con.Close();

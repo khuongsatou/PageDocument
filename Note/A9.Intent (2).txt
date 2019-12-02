@@ -1,0 +1,10 @@
+﻿B1. Khởi tạo thế nào?
+B2. Cách Dùng?
+B3. 5 Loại Put
+B4.Get Put
+B5. Other.
+	1. Camera
+	2. SDCard
+	
+
+	

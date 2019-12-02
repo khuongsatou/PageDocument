@@ -1,0 +1,6 @@
+﻿B1. Khởi tạo thế nào?
+B2. Sự kiện click vào thế nào
+B3. Other.
+	1. Animation Intent.
+	2. Kết Hợp Animation
+	

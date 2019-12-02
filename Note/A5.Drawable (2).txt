@@ -1,0 +1,7 @@
+﻿B0.Chuẩn bị?
+B1. Khởi tạo thế nào?
+B2. Dùng Hàm?
+B3. Custom View?
+B7. Other.
+
+	

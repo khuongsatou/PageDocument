@@ -1,0 +1,65 @@
+﻿ protected void btn_login_Click(object sender, EventArgs e)
+        {
+            Session["username"] = exampleInputName.Text;
+            Session["pass"] = exampleInputPassword.Text;
+            string ten = Session["username"].ToString();
+            string pass = Session["pass"].ToString();
+            string passmd5 = StringProc.MD5Hash(pass);
+            if (Member.ktDangNhap(ten,passmd5))
+            {
+                Response.Redirect("refer.aspx");
+            }
+            else
+            {
+                Response.Write("Đăng Nhập Thất Bại");
+            }
+        }
+
+public static bool ktDangNhap(string user, string passmd5)
+        {
+            string query = "SELECT * FROM [dbo].[member] WHERE username = '"+user+"' and pass like '"+passmd5+"'";
+            //SqlParameter[] sqlParams = new SqlParameter[0];
+            //sqlParams[0] = new SqlParameter("@TenTaiKhoan",user);
+
+            if(DataProvider.KTTK(query))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+           
+         
+        }
+
+public static bool KTTK(string sQuery)
+        {
+            try
+            {
+                Connect();
+                SqlCommand cmd = new SqlCommand(sQuery, conn);
+                DataTable dt = new DataTable();
+                cmd.ExecuteNonQuery();
+                SqlDataAdapter da = new SqlDataAdapter();
+                da.SelectCommand = cmd;
+                da.Fill(dt);
+
+                if (dt.Rows.Count > 0)
+                {
+                    conn.Close();
+                    return true;
+                }
+                else
+                {
+                    conn.Close();
+                    return false;
+                }
+                
+            }
+            catch (Exception)
+            {
+                return false;
+                //throw;
+            }
+

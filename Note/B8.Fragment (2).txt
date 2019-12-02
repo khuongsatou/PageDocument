@@ -1,0 +1,10 @@
+﻿B0. Chuẩn bị gì?
+B1. Khởi tạo thế nào ?  Truyền từ Activity -> Fragment?Ngược lại ? Fragment ->Fragment ? 
+B2. Fragment List?
+B3. Fragment Dialog?
+B4. Fragment Land Scapce?
+B5. Back,Pop?
+B6. Other.
+	1. Custom Fragment
+	
+	

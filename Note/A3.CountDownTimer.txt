@@ -1,0 +1,6 @@
+﻿B1. Khởi tạo thế nào?
+B2. Tham Số chuyền vào
+B3. Lặp vô hạn
+B3. Other.
+
+	

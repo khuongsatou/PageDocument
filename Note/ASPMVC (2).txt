@@ -1,0 +1,111 @@
+﻿Chia menu Devaider mỗi cái có 1 heading
++ Quản lí sản phẩm
+	- Sản Phầm ->
+		1. Thêm mới
+		2. Danh sách sản phẩm
+	- Loại
+	- slide show
++ Khu vực cho bài viết
+	- Thêm
+	- Danh Sách
++ Cấu Hình
+	- Setting như csdl
+	- Tạo các aspx trước  chưa thiết kế.
+-----------------------
+Master Page
++ Kéo css qua trước
++ rồi cho toàn bộ thẻ dưới body vào form
++ tìm phần thay đổi. so sánh giữa Blank với index
++ tạo 1 trang refer để tham
+Webform with master Page
+--------
+Page.
+
+
+----------------------
+2 giao diện;
+1 db
+-----
+
+1. Mỗi thực phẩm thuộc về 1 nhóm
+vd: trái cay -> trái
+
+2. Có slide show quản bá sản phẩm nhấn vào có thể đến chi tiết hoặc liên kết bài viết.
+
+3. 5 nhóm thực phẩm ở Our Product
+	3.1: số hiệu 30% có khuyến mã
+	3.2: giá gốc và giá khuyến mã
+	
+4. Deal of the day : khuyến mãi trong ngày.
+	4.1: làm thêm cộng điểm.
+5. Sự hài lòng của khách hàng.
+	5.1 giữ nguyên vì chưa có
+6. Icon: doanh nghiệp liên kết
+	6.1 giữ nguyên chưa làm.
+7. footer:
+	7.1 giữ nguyên
+8. Chi tiết sản phẩm
+	8.1 thay đổi tùy vào db
+	8.2 related products:
+		a. Cấu hình
+		b. Thêm sản phẩm liên quan
+9. Danh sách sản phẩm
+	9.1 Làm thanh trang tìm kiếm. javascript or ajax
+-> lưu ý : cách cùi nhất là load lại
+10. Bình luận
+	10.1. giữ nguyên
+
+-----------------------Phân tích
+1.Checkout
+	1.1
+2. Bán hàng
+	2.1
+3. Bài viết
+	3.1
+
+-----------------------Database
+1. 12 bảng. 		|><<>><|		|><<>><|		|><<>><|		|><<>><
+			|><<>><|		|><<>><|		|><<>><|		|><<>><
+			|><<>><|		|><<>><|		|><<>><|		|><<>><
+2. Thực tế  Mục tiêu của database là tốc độ và hiệu quả .
+3. Biến trạng thái (status int), thêm vào mỗi bảng.
+4. Chiến lượt kinh doanh là phải quản lí khách hàng tốt.
+5. Sum: 
+	1. Cập nhật trạng thái thành công update sum.
+	Hoặc
+	2. Trigger khi cập nhật.
+6. Phần quyền trong hệ cơ sở dữ liệu.
+	6.1. Proceduce
+	6.1. Trigger
+7. Bảng loại thực phẩm
+	7.1.type_pos:vị trí trang
+	7.2. user: người tạo ra cái loại đó để quy trách nhiệm
+	7.3. modified: ngày chỉnh sửa.
+8. Bảng thực phẩm
+	8.1. Unit: đơn vị tính
+	8.2: thumb: 	ảnh mô tả
+	8.3: rating: Bao nhiêu sao
+	8.4: có bao nhiêu người cho điểm. (Không cần làm mà mình tự cho);
+	8.5: point: điểm chấm trung bình.
+	8.6: type: loại thức ăn.
+9. Bảng Hóa đơn
+	9.1: cus_name: người nhận giùm. có thể là mình và người nhà.
+10. Chi tiết hóa đơn:
+	10.1: quan: quan hệ ???
+11. Bài viết:
+	11.1: dùng edt...., Cẩn thận version frameworks
+12. FCK editer???
+13. Setting:
+	13.1 địa chỉ công ty . giới hạn làm cùng 1 lúc , 
+	13.2 1 lúc có bao nhiêu request (nhiều thì báo ), 
+	13.3 dung lượng tối da
+14.Bảng Ghi log
+	14.1 ghi log , khách hàng , quản trị -> để truy cứu trách nhiệm
+15.
+--------------------
+
+Đồ án tốt nghiệp phải hoàn chỉnh.
+1. Hạ bật xếp loại
+2. 
+	
+peace-hame

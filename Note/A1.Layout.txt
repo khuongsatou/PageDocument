@@ -1,0 +1,6 @@
+﻿B1. Khởi tạo thế nào?
+B2. Cách dùng? Table ,Linear,Re,Constrant,Frament
+B3. Other.
+	1. Thay Đổi layout Bằng Code
+	2. Lồng Layout
+	

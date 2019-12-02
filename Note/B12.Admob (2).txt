@@ -1,0 +1,7 @@
+﻿B0. Chuẩn bị gì?
+B1. Khởi tạo thế nào ? tạo Code
+B2. Custom.
+B3.Other
+
+	
+	

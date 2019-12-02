@@ -1,0 +1,12 @@
+﻿B0.Chuẩn bị?
+B1. Khởi tạo thế nào?
+B2. Tham Số chuyền vào?
+B3. Tạo Class?
+B4. Gettter and Setter?
+B5. Ánh Xạ Custom?
+B6.Cập Nhật
+B7. Other.
+	1. Bắt Sự Kiện
+	2. Custom Adaper Image
+
+	

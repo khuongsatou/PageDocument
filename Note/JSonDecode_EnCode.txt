@@ -1,0 +1,1 @@
+﻿Tạo file php khác, select trong db rồi in ra web để lấy php﻿

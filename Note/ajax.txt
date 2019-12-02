@@ -1,0 +1,44 @@
+$.ajax({
+        type: "POST",
+        url: "Default.aspx/OnSubmit",
+        data: dataValue,                
+        contentType: 'application/json; charset=utf-8',
+        dataType: 'json',
+        error: function (XMLHttpRequest, textStatus, errorThrown) {
+            alert("Request: " + XMLHttpRequest.toString() + "\n\nStatus: " + textStatus + "\n\nError: " + errorThrown);
+        },
+        success: function (result) {
+            alert("We returned: " + result);
+        }
+    });
+
+
+<script type="text/javascript">
+    function ShowCurrentTime() {
+        //alert(window.location.pathname);
+        $.ajax({
+            type: "POST",
+            url: "Display.aspx/GetCurrentTime",
+            data: '{name: "' + $("#< %=txtUserName.ClientID%>")[0].value + '" }',
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: OnSuccess,
+         error: function (response) {
+        	alert(response.d);
+       }
+    });
+}
+function OnSuccess(response) {
+    alert(response.d);
+}
+</script>
+
+
+https://codewithawa.com/posts/ajax-crud-%5Bcreate-update-delete%5D-with-php-and-mysql-database
+
+
+https://www.aspsnippets.com/Articles/ASPNet-jQuery-AJAX-CRUD-Select-Insert-Edit-Update-and-Delete-in-ASPNet-GridView-using-jQuery-AJAX.aspx
+
+
+https://www.aspsnippets.com/Articles/Select-Insert-Edit-Update-Delete-using-Web-Service-in-ASPNet.aspx
+

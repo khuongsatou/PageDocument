@@ -1,0 +1,11 @@
+﻿B0. Chuẩn bị gì?
+B1. Khởi tạo thế nào ? Tham Số Truyền Vào ? Cách Đọc JSON? Phân Loại JSON?
+B2. Cách dùng Hàm ?
+B3. Trả về thế nào ?
+B4. Other.
+	1. JSON Array
+	2. JSON OBject
+	3. JSON Kết Hợp
+	
+	
+	

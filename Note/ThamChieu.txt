@@ -1,0 +1,36 @@
+﻿int , float , double : Kiểu cơ sở
+Khi tạo biến -> nằm trong stack -> ô nhớ chứa giá trị thì nó nằm đó luôn
+Khi truyền kiểu cơ sở sau khi ra khỏi hàm nó sẽ còn lưu lại , [sao chép]
+
+Kiểu String [nó hiện tại như 1 class] : kiểu tham chiếu.
+Trong ô nhớ đó chỉ chứa tham chiếu , nên khi đổi giá trị nó sẽ tham số chuỗi khác.
+
+
+Cách làm như slide
+
+Đối tượng bản chất vẫn là 1 kiểu dữ liệu
+
+
+
+Sự khác nhau giữa kiểu cơ sở và kiểu đối tượng.
+- Gán.->
+int i =1;
+int j =i;
+--> i =1 , j=1
+j++; // j=2 , i=1. // Chỉ sao chép giá trị, không thay đổi ô nhớ
+----------------
+x=1;
+A a = new A();
+B b = new a;
+
+a.x -> 1
+b.x++;
+a.x -> 2;
+b.x -> 2;
+-> vì nó tham chiếu nên thay đổi.
+Cùng tham chiếu đến 1 vùng nhớ
+
+--------------
+1 đối tượng không có cha mẹ(Object) được coi là mồ co . nên sẽ được đưa vào viện mồ côi(Bộ máy thu gôm rác).(Delete).
+-----------
+Trong C thì khi không tham chiếu nó vẫn còn. nên nó sẽ tốn bộ nhớ

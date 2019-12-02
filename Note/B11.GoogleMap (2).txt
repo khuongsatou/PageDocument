@@ -1,0 +1,8 @@
+﻿B0. Chuẩn bị gì?
+B1. Khởi tạo thế nào ? tạo key ? Dùng Key ?
+B2. Nhúng vào
+B3. Định vị vị trí.
+B4. Other
+
+	
+	

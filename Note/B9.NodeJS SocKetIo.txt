@@ -1,0 +1,8 @@
+﻿B0. Chuẩn bị gì?
+B1. Khởi tạo thế nào ? 
+B2. Emit?on?
+B3. Truyền từ server -> app ?-> server?-> apps?
+B4. Other.
+
+	
+	

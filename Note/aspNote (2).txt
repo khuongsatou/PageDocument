@@ -1,0 +1,34 @@
+﻿Thông dịch : Chạy đến đâu , dịch đến đó
+Biên dịch : Dịch toàn bộ , mới thực thi
+
+
+ValidationGroup:
+	Phải thêm cả group cho button 
+Compare:
+	Nó phải tác dụng vào ô mới có
+	Phải thêm cả trường kiểm tra rỗng
+Range
+	Nó phải thêm kiểu type vào nếu không báo lỗi
+Gán Màu Cho textbox
+	using System.Drawing
+	idtextbox.ForeColor = Color.Red
+Custom 
+	Mấy cái kia không còn lỗi, nó mới chạy
+	args.isValid = true; // không in lỗi
+
+	và trong hàm onClick button kiểm tra thêm
+		Page.IsValid
+
+
+Repeater
+	where:
+		none -> add 
+	Hiển thị
+		<ItemTemplate>
+			<%# Eval("img",{images/{0}}) %>
+
+Viết C#
+	<%
+		int a = 5;
+	 %>
+	<%=a %> // gọi a ra

@@ -1,0 +1,8 @@
+﻿B1. Khởi tạo thế nào?
+B2. Ánh Xạ
+B3. Bắt Sự Kiện
+B4. Thay Đổi
+B3. Other.
+	1. Custom View
+
+	

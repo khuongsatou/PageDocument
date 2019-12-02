@@ -1,0 +1,8 @@
+﻿B0. Chuẩn bị gì?
+B1. Khởi tạo thế nào ? Tham Số Truyền Vào ? Ý nghĩa 2 Hàm.
+B2. Cách dùng Hàm ?
+B3. Thực thi Câu lệnh SQL create insert delete update và select 
+B4. Other.
+	1. Lưu trữ Image Bitmap
+	
+	

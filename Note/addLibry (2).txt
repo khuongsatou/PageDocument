@@ -1,0 +1,1 @@
+﻿File -> Project Structure -> app -> Dependencies -> chọn Add -> Library dependency -> tìm library cần xài -> Ok

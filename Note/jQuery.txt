@@ -1,0 +1,4 @@
+  //var object = document.getElementById('button');
+            //var object = $('#id-button');
+            //var object = jQuery('#id-button');
+            //alert(object);

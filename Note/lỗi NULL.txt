@@ -1,0 +1,10 @@
+﻿1.Trùng ID
+2. Dư thẻ form
+
+3. Lỗi Không ép kiểu được. vì 1 form nó chứa 1 mảng id
+
+ ContentPlaceHolder content = (ContentPlaceHolder)Page.PreviousPage.Form.FindControl("cph_content");
+                
+                lblShow.Text = "Not NULL"+ ((Label)content.FindControl("rptDSThanhVien").Controls[0].FindControl("lblUserName")).Text;
+
+Soft asp gridview

@@ -1,0 +1,8 @@
+﻿B0. Chuẩn bị gì?
+B1. Khởi tạo thế nào ? Viết lênh PHP ? Đọc dữ liệu JSON Truyền về ? Truyền dữ liệu trở lại
+B2. Cách dùng Hàm ?
+B3. Thực thi Câu lệnh SQL create insert delete update và select 
+B4. Other.
+	1. Lưu trữ Image Bitmap
+	
+	
