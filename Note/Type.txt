@@ -1,0 +1,26 @@
+﻿varchar có nhiêu sài nhiêu
+char có khoản trắng lưu cho đủ.
+
+
+bôi đên thẻ input.
+comment nó lại.
+đảm bảo nó không bị lỗi đã.
+hiển thị ra danh sách .
+Tất cả điều nằm trong. 
+gridView . và phân trang gridView.
+
+~ là thư mục gốc.
+
+GridView
+BoulbFile : mặc định textBox
+Chế độ xem,
+Item có thể edit
+Chế độ sửa,
+
+Chỉ được phép dùng cho Số lượng.
+
+Muốn hiển thị file upload khi có bindin là đường dẫn thì như thế nào.
+Được nhưng ko làm.
+
+type..
+https://www.c-sharpcorner.com/UploadFile/009464/save-the-image-in-folder-in-Asp-Net-using-fileupload-control/

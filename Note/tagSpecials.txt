@@ -1,0 +1,23 @@
+<%# is a data binding syntax for use in databound controls.
+<%= is a short cut for Response.Write.
+<%@ is a directive to include a namespace, page directives, etc.
+
+
+
+those tags can be hard to search for since the are generally discarded by search engines as noise...
+
+here are some helpful links for you on the various tags.
+
+<% %>  An embedded code block is server code that executes during the page's render phase. The code in the block can execute programming statements and call functions in the current page class. http://msdn.microsoft.com/en-gb/library/ms178135(vs.80).aspx
+
+<%= %> most useful for displaying single pieces of information. http://msdn.microsoft.com/en-us/library/6dwsdcf5(VS.71).aspx
+
+<%# %> Data Binding Expression Syntax. http://msdn.microsoft.com/en-us/library/bda9bbfx.aspx
+
+<%$ %> ASP.NET Expression. http://msdn.microsoft.com/en-us/library/d5bd1tad.aspx
+
+<%@ %> Directive Syntax. http://msdn.microsoft.com/en-us/library/xz702w3e(VS.80).aspx
+
+<%-- --%> Server-Side Comments. http://msdn.microsoft.com/en-US/library/4acf8afk.aspx
+
+<%: %> Like <%= %> But HtmlEncodes the output (new with Asp.Net 4). http://weblogs.asp.net/scottgu/archive/2010/04/06/new-lt-gt-syntax-for-html-encoding-output-in-asp-net-4-and-asp-net-mvc-2.aspx

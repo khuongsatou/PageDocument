@@ -1,0 +1,1 @@
+﻿View -> gọi Controller và truyền dữ liệu cho controller bằng model ->Controller xử lý dữ liệu rồi trả về cho Views thông qua Model

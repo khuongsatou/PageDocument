@@ -1,0 +1,21 @@
+http://www.hanhtranglaptrinh.com/2012/08/tat-chuc-nang-postback-cua-button_31.html
+
+https://www.it-swarm.net/vi/asp.net/asp.net-onclientclick-tra-ve-false-khong-lam-viec/970646115/amp/
+
+https://stackoverflow.com/questions/1969476/ajax-success-event-not-working
+
+https://www.it-swarm.net/vi/javascript/xac-nhan-postback-onclientclick-nut-asp.net/1069760424/
+
+https://www.google.com/search?q=what+is+onClientClick+trong+aspx.net+return+false&oq=what+is+onClientClick+trong+aspx.net+return+false+&aqs=chrome..69i57.22408j0j7&sourceid=chrome&ie=UTF-8
+
+
+$.ajax({
+  type: "POST",
+  url: "PageName.aspx/MethodName",
+  data: "{}",
+  contentType: "application/json; charset=utf-8",
+  dataType: "json",
+  success: function(msg) {
+    // Do something interesting with msg.d here.
+  }
+});

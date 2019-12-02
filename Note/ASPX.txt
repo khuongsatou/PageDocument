@@ -1,0 +1,16 @@
+﻿Dùng GridView  xong, phân trang
+Generate. Ra rồi kéo ra.
+
+
+Biên dịch ASPX.
+Phân trang phải làm bằng GET.
+
+Tìm kiếm phải làm bằng get.
+
+Nó bao gồm tất cả các kiến thức.
+
+Không hiểu nó cực kì khó sài.
+
+MVC đơn giản hơn.
+
+Kiểm tra lại . Vào thứ 2 tuần sau. kiểm tra lại.
