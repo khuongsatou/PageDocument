@@ -1,0 +1,4 @@
+﻿- Đặt mình là 1 người dùng bằng mọi cách phải bằng mọi cách phá được App.
+- Về phần lược chơi phải phân hoạch tương đương.- Điều kiện ràng buộc như mạng.
+- Nếu test được nhiều lỗi thì thằng dev fail , test ngon. và ngược lại.
+- Tùy vào từng test case mà có các test step phù hợp.

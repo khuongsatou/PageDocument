@@ -1,0 +1,9 @@
+﻿Laravel.
+-Học: Token JWT(28'),Email,Validation.
+-InPut: Authentication.
+-OutPut:
+
+
+
+__________________
+Accessors & Mutators = getter&setter

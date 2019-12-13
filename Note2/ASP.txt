@@ -1,0 +1,4 @@
+﻿Học:Ajax Phân trang, Ajax UpImage
+Input:  Phân Trang
+OutPut: Phân Trang,
+Đồ Án: AJAX Select, AJAX thêm, Ajax tìm kiếm.

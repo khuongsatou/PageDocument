@@ -1,0 +1,15 @@
+﻿Input. Upload Image bằng javascript(Nát),
+Out .-> Ajax Select (OK), Insert (OK), Search(OK)
+https://codepedia.info/upload-image-using-jquery-ajax-asp-net-c-sharp/
+https://expressmagazine.net/development/1459/goi-ham-tu-server-side-bang-javascript-trong-aspnet-website
+
+Đúng.
+https://forums.asp.net/t/1964522.aspx?Upload+image+using+JQuery+Ajax+call+
+Bảng 4.4 Cờ của biểu thức chính quy
+https://stackoverflow.com/questions/9046487/jquery-change-the-value-of-an-img-src-by-id/9046506
+https://www.itsolutionstuff.com/post/display-preview-selected-image-in-input-type-file-using-jqueryexample.html
+Cờ	Mô tả
+g	Tìm kiếm toàn cục.
+i	Tìm kiếm không phân biệt hoa thường.
+m	Tìm đa dòng.
+y	Thực thi một tìm kiếm "dính" - so khớp được bắt đầu ở vị trí hiện tại trong chuỗi mục tiêu.

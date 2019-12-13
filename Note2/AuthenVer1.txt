@@ -1,0 +1,8 @@
+﻿        
+        // $qtv = QuanTriVien::where('ten_dang_nhap',$ten_dang_nhap)->first();
+        // if($qtv == null){
+        //     return "Sai tên đăng nhập";
+        // }
+        // if(!Hash::check($mat_khau, $qtv->mat_khau)){
+        //     return "Sai Mật Khẩu";
+        // }

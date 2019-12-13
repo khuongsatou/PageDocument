@@ -1,0 +1,18 @@
+﻿1. Repository là gì?
+2. Branch là gì?
+3. Master branch là gì?
+4. Lệnh git nào download repository của bạn từ Github về máy?
+5. How do you create a copy of a lab under your own GitHub account so that you can solve the lab?
+5. Làm cách nào để tạo 1 lab's copy dưới tài khoản Github của bạn để có thể solve lab đó?
+6. Trái ngược với git clone là gì?
+7. Làm cách nào để check trạng thái của local git repository từ lần commit gần nhất?
+8. Làm cách nào để lưu trạng thái hiện tại của code vào git version control?
+9. Shortcut để stage mọi thay đổi của bạn?
+10. Làm cách nào để tạo commit message vào commit?
+11. What is the correct commit syntax for all changes with a message? 
+12. What comes first, staging with git add . or committing with git commit?
+13. Which is the correct way to initialize a new Git repository?
+14. You can type git status at any point while in a git controlled directory to check the status of your files.
+15. Which of the following commands will stage your entire directory and every non-empty directory inside your current directory?
+16. Giả sử bạn vừa tạo file mới inde.html, câu lệnh nào sẽ stage file này để bạn có thể commit nó?
+ 

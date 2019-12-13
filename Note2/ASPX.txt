@@ -1,0 +1,51 @@
+﻿Đáp án	Trả lời
+1.B	 .ASP(VBScript) khác ASPX(.NET Frameworks)
+	.ASP thông dịch , ASPX là biên dịch thành file DLL.
+2.B 	IIS: Internet Information Services
+3.B. 	lable ->span
+4.C 	là 1 template cho các trang kế thừa.
+5.C 	ADO phi kết nối, thực hiện truy vấn
+7.B	Trả lời từ server Response
+8.A	Response("<span>");  thì biên dịch sẽ là thẻ span lên trình duyệt
+9. D 	Sự IsPostBack : gửi lại dữ liệu xảy ra khi nhấn vào button.
+10.A	Truy xuất nhanh đến các control sử dụng bàn phím, Alt+accessKey
+11.A	FileUpload -> input:file
+12.A	Image thì không có text
+13.C	TextMode=MutipleLine -> TextArea	
+14.
+15.A	Color.FromArgb(,,,)0->255 không có truyền chữ.
+16.B 	Control List -> .Items .SelectedValue .SelectedIndex .SelectedItem
+17. D	RepeatLayout: 4 thuộc tính: Table(table>tbody) Flow(span) UnOrderedList OrderedList
+18. A
+19.A	RepeatLayout dạng Flow hoặc table mới dùng được repeatColumn.
+20.B	TextBox1.Text = "123" để gán giá trị
+21.B	Selected
+22.A	5 Validator	. Sumary không được tính.
+23.C	 CompareValidator -> so sách control với 1 value hoặc 1 control.
+24.C	7 Thuộc tính. Operator.
+25.C	String,Integer,Date,Currency,Double
+26.C	ValidationSummary không có ControltoValidate
+27.A	Bật Tắt Validator Enable khi tắt nó sẽ ko kiểm tra . EnableToScript: kiểm tra 	ở Client.
+28.C	Đoạn [0-100] , khoảng (1->100)  . Đoạn [1->100]
+29.A	RegularExpression [ueoai]  1 kí tự trong đoạn
+30.B	{1} \d : số 	. :\n 	*: tất cả {3} cuối 3. : 1234 -> valid
+31.D	ASP: active server pages
+32.B	aspx theo mô hình Client-Server
+33. D	aspx không có phiên bản
+34.B 	Aspx là file nằm ở server.
+35.A	RequiredFieldValidator chỉ kiểm ở textbox
+36. D	custom tự định nghĩa.
+37.C	MessageError không có
+38.A 	ASPX dùng C#
+39.A	Server là IIS
+40. A	ListItem là lớp con CheckBoxList1.Items
+41. B	OleDbConnection quản lí kết nối với Access
+42. C
+43.C	Web config lấy chuỗi kết nối WebConfigurationManager...
+44.A
+45.A	Chuỗi kết nố	i cần xác định: Vị trí CSDL, Tên CSDL, Cơ chế chứng thực	(Security).
+46.A
+47.B	Session phải .toString để chuyển thành kiểu string
+48.C	Session ảnh hưởng all trang . Nhưng chỉ 1 client
+49.A	The ControlToValidate cannot be blank: cưa gán control
+50.C	could not find installable ISAM : sai chuỗi kết nối OLD và server ISAM chưa bật

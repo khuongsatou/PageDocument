@@ -1,0 +1,11 @@
+﻿name,
+description
+price
+price_promo=%percent_promo * price
+unit // cái.
+//thumb có thể dùng img thu nhỏ.
+img
+rating: tự cho 
+point : tự cho.
+type. // biến thể 
+
