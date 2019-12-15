@@ -54,5 +54,12 @@ https://viblo.asia/p/jquery-validation-plugin-in-php-d6BAMY8zRnjz
 17. Max Đầy đủ validate JQuery
 https://viblo.asia/p/tim-hieu-ve-jquery-validation-phan-1-E375zEqRlGW
 
+<h1>Syntax RegularExpression</h1>
+1. Kiểm tra first name : không có kí tự số , có chứa khoảng trắng, trong khoanrhg 5->15 kí tự.
+->
 
-RegularExpression
+
+<h1></h1>
+2.
+
+
