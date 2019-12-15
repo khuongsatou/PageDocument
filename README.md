@@ -55,4 +55,4 @@ https://viblo.asia/p/jquery-validation-plugin-in-php-d6BAMY8zRnjz
 https://viblo.asia/p/tim-hieu-ve-jquery-validation-phan-1-E375zEqRlGW
 
 
-
+RegularExpression
