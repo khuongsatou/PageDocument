@@ -54,9 +54,59 @@ https://viblo.asia/p/jquery-validation-plugin-in-php-d6BAMY8zRnjz
 17. Max Đầy đủ validate JQuery
 https://viblo.asia/p/tim-hieu-ve-jquery-validation-phan-1-E375zEqRlGW
 
-<h1>Syntax RegularExpression</h1>
-1. Kiểm tra first name : không có kí tự số , có chứa khoảng trắng, trong khoanrhg 5->15 kí tự.
-->
+18. Fix validate affer onclientClick
+https://www.aspsnippets.com/Articles/ASPNet-RequiredFieldValidator-not-working-when-OnClientClick-event-is-added-to-Button.aspx
+https://www.aspforums.net/Threads/208951/Using-PageClientValidate-function-using-JavaScript-in-ASPNet/
+https://weblogs.asp.net/pirabdulwakeel/java-script-page-validation-page-clientvalidate
+
+19. Directory List (key value)
+https://stackoverflow.com/questions/1273139/c-sharp-java-hashmap-equivalent
+https://stackoverflow.com/questions/216973/asp-net-key-value-list
+https://stackoverflow.com/questions/34412220/how-to-create-a-hashmap-in-c-sharp
+
+20. Bỏ forcus khỏi Textbox
+https://www.w3schools.com/jsref/event_onfocusout.asp
+
+21. Regex
+https://stackoverflow.com/questions/47520377/how-to-add-regex-to-validationexpression-in-code-behind-of-asp-net-page
+
+22. Fix lỗi rỗng và null
+Thì lúc chưa có đừng in nó ra là được
+&type="+%if (Request["type"] != null) Response.Write(Request["type"]); // đừng dùng thế này. lỗi te tua.
+%if (Request["type"] != null) Response.Write("&type="+Request["type"]);//mà hãy dùng thế này.
+
+23. Upload ảnh sử dụng ajax
+https://www.codeproject.com/Articles/806075/File-Upload-using-jQuery-AJAX-in-ASP-NET-Web-API?fbclid=IwAR0WoBnE6hiptywcz-32lcRpMMb_WE0N4zsGak2pT_tFreTbbjh4mF3KWWo
+
+24. Tạo model thông báo 
+https://stackoverflow.com/questions/51579801/how-to-show-sweetalert-in-javascript
+
+25. Duplicate Văn bản trong word
+alt+enter
+
+26. Copy từ excel vào csdl server
+1. Viết đủ trường xong.
+2. Copy 
+3. Vào CSDL server
+4. Chọn dòng đầu. nhìn thấy dấu * và paste vô.
+
+27. Thông báo Ajax
+https://github.com/khuongsatou/FullCodeOld/blob/master/FullCode/CShape/Aspx/AjaxFullEntity/myScript.js
+
+28. List C#
+https://www.tutorialsteacher.com/csharp/csharp-list
+
+30. regular thông dụng
+https://kipalog.com/posts/30-doan-bieu-thuc-chinh-quy-ma-lap-trinh-vien-web-nen-biet
+
+31. Nodejs
+https://www.tutorialsteacher.com/nodejs/what-is-nodejs
+
+32. Ý tưởng làm web đồ án
+https://tamnguyen.com.vn/thiet-ke-website-ban-rau-sach.html
+
+33. Favicon
+https://www.favicon-generator.org/
 
 
 <h1></h1>
