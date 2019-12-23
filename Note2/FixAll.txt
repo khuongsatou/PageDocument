@@ -21,3 +21,6 @@ https://stackoverflow.com/questions/24273694/can-you-call-the-parent-interfaces-
 
 8. String format javascript
 https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
+
+9. Import Excel Database
+https://stackoverflow.com/questions/39610133/how-to-import-an-excel-file-into-sql-server
