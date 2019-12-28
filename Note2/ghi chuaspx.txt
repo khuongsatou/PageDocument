@@ -1,0 +1,6 @@
+﻿1. Hóa đơn phải có cập nhật theo nhiều trạng thái. 
+2. Có 2 loại ajax :
+	+ Đỗ hết ra 1 lần javascript. (Không khuyến khích vì khi quá nhiều sẽ lag)
+	+ Đỗ ra theo 1 limit khi hết sẽ vào database.select thêm. (Ajax).
+3. Ảnh sản phẩm phải có nhiều ảnh. Bằng cách nối chuỗi.
+4. Type_pos: hiển thị vị trí cho các ảnh bên trang chủ.

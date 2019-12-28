@@ -1,0 +1,10 @@
+﻿1. ViewState
+ViewState: giống như onSaveState android
+không ảnh hưởng trang khác chỉ lưu trạng thái của trang nó ở.
+
+2. Cookie
+Lưu ở client, bảo mật thấp.
+Muốn hủy thì set DateTime.Now.AddDays(-1);
+3. Session
+Lưu ở server, bảo mật cao
+Nó được server cấp ID.

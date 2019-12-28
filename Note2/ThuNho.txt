@@ -1,0 +1,2 @@
+﻿1. Rút gọn loại sản phẩm lại.
+-> Fix More

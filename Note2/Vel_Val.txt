@@ -1,0 +1,6 @@
+﻿Verification: 
+VD: Có phải chúng ta đang xây dựng sản phẩm phải không?
+- this is verification question.
+Validation:
+VD:Chúng ta đang xây dựng sản phẩm phù hợp?
+-this is validation question.

@@ -1,0 +1,9 @@
+﻿Association _______ actor và uc, us và uc
+
+Quan hệ giao tiếp (Association) giữa Actor và Use Case: cho biết có một kết hợp giữa một Actor và một Use Case. Nghĩa là con người hoặc hệ thống, trong vai trò Actor này, sẽ giao tiếp với các thể hiện của Use Case, tham gia chuỗi các sự kiện được Use Case biểu diễn. Use Case được cài đặt thành một vài Module chương trình và các Actor sẽ sử dụng chương trình này bằng cách nhập thông tin vào, nhận thông tin ra. Một Actor có thể được kết hợp với một hoặc nhiều Use Case, và một Use Case có thể được kết hợp với một hoặc nhiều Actor
+
+Quan hệ giao tiếp giữa Actor và Use Case biểu diễn bởi mũi tên hay đường thẳng  nối Actor với Use Case
+
+Ví dụ: Quan hệ giữa Khách hàng, Hệ thống tín dụng và các Use Case Gởi tiền, Rút tiền, Xem số dư
+Generalization _____> actor user sẽ kế thừa toàn bộ của khách.
+Còn cách vẽ thì anh em cứ nhớ là include tới thằng nào thì dấu mũi tên hướng tới thằng đó nhé anh em. Nhớ để qua phần Extend cho khỏi lộn.

@@ -1,0 +1,72 @@
+﻿Giữa phiên giao dịch .sẽ tao ra 1  id session.
+session lưu ở server.
+tắt trình duyệt sẽ ko connect serser sẽ hủy session.
+
+sau 20p không tương tác sẽ hủy
+dùng phương thức để xóa
+nếu để null thì nó vẫn còn .
+còn hủy sẽ hủy luôn không còn lưu vùng nhớ.
+-----
+Tất cả điều dùng ajax. để lưu giỏ hang.
+----
+Dùng control  hidden để lưu giỏ hang.
+
+HiddenField hf_id = e.Item.FindControl("hf_id");
+lưu vào session.
+Session["cart"] = hf_id.
+
+
+Bên trang giỏ hàng
+
+Kiểm tra tồn tại
+if	(Session["cart"] !=null){
+	
+}
+
+
+(viewstate nó là 1 hidden view.
+lưu trữ thông tin giữa các trang web.)
+Có thi vấn đáp. (Cookie,session, Application, @cfrs)
+
+
+Bất kì các hành vi :
+	điều chạy vào page load.
+Ví dụ:
+	Item command.
+		Luôn load lại.
+	Nó sẽ gọi page load.
+		Nếu trong đó có DataBind() thì nó sẽ refesh lại .
+	Nên nó sẽ không gọi Itemcomand.
+Fix:
+	Kiểm tra isPostBack	cho cái DataBind();
+	if(!isPostBack){
+		repeater.DataSource = dataTable;
+		repeater.DataBind();
+	}
+
+Giỏ hàng.
+	1. Trường hợp chưa có :
+
+	2 Trường hợp đã có : 1 có nhưng chưa tồn tại
+			2. đã tồn tại.
+
+Cách làm.
+	1.Cho hidden các thông tin cần
+	2. tạo ra 1 DataTable
+	3. if(session==null){4}else( dt = session hiện tại);
+	4. Tạo Column.
+	Xong endif.
+	5. Tạo DataRow
+	6. Thêm dữ liệu vào DataRow.
+	7. Lưu ý số lượng =1;
+	8. Cập nhật lại session["cart"]
+	7. 
+
+
+
+---------
+Hóa đơn
+	Thêm hóa đơn trước cthd;
+	Lấy ra id tăng tự động 
+	Insert vào cthd
+	

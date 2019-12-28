@@ -1,0 +1,2 @@
+﻿Cách 1: kiểm tra ô input khi nhập.
+Cách 2: dùng directory để trả về 1 object và 1 thông báo

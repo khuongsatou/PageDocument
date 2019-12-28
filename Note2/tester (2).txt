@@ -1,0 +1,13 @@
+﻿-----3 Tài liệu----
+1. Slide.
+2. Tập.
+3. Web.
+----Yêu cầu----Đạt----
+1. Mô hình. OK
+2. Thuật ngữ. OK
+3. Bài tập dựng nên 1 testcase.
+4. Đọc report.
+----
+
+
+

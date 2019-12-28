@@ -1,0 +1,39 @@
+﻿1. Maps không được trùng nhau.
+2. Boss phụ sẽ random mỗi nạp xuất hiện ngẫu nhiên.
+3. Khi chơi game khi map 2 có thể ramdom để tới boss. Sẽ có lựa chọn đầu hàng(Sẽ được con boss nhận đệ tử). Thiết phục con boss.và lựa chọn chiến đấu sẽ (chết trong 1s.)
+4. Địa đạo 
+5. Tích hợp AI.
+6. Khi chiến đấu nó được buff cái gì . 1 % chiến thắng được boss.
+7. Có support, 
+8. Lâu lâu gặp một nhóm mạo hiểm khác
+	+ PK.
+	+ Xã giao.
+	+ Lợi dụng.(Dụ nó vào quái).
+9. Tất cả điều được lòng tiếng.
+10. Game 3d.
+11. Món quà bất ngờ.
+12. Leo tầng.
+13. Trao đổi vật phẩm.
+14. Đời sống sống bình thường của cuộc sống (Nghề nghiệp).
+15. Lúc đầu mình mình sẽ sẽ không có gì cả.
+16. Gặp làng gì nọ.
+17. Làng này sẽ cũng kẻ xấu người tốt.
+18. Đéo éo có nút đăng xuất.
+19. Chỉ có 1 mạng.
+20. Làm vua nếu win game.-> game xây dựng đất nước
+21. Chiến tranh quốc gia.
+22. Tiếp theo sẽ có những con boss thế giới .
+23. Phát triển chế độ xã hội.
+24. Phát triển vũ trụ.
+25. Đi qua mặt trăng. làm gì đó trên mặt trăng hủy diệt trái đất.
+26. Đi qua sao hỏa.
+27. Đặt nền móng cho trái đất hủy diệt.
+28. Ngủ đông.
+29. Sau khi thức đậy bạn sẽ bắt đầu cuộc hành trì mới.
+30. Tới hành trình diệt alien. để chiếm được alien làm pet. 
+31. Khoa học kĩ thuật bạn quay về làm boss map 2 . 
+Bắt buộc .Nhiệm vụ là giết chính mình. trước khi bản thân quỷ diệt thế giới. Bạn tan biến. 
+32. Rồi được đồng đội cũ dùng giã kim thuật để hồi sinh. Sau khi được hồi sinh sẽ bị mất hết kí ức. Nhiệm vụ của bạn là tìm lại kí ức bị mất.
+33. Hồi sinh dàn harem cũ. Nhưng bị chính dàn harem cắt cổ. Bị chúng nó ăn thịt. 
+34. Chúng sinh kế thừa sức mạnh của mình chia ra thành sức. mạnh titan.
+

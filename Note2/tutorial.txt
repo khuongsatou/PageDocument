@@ -1,0 +1,31 @@
+﻿Giờ ông muốn xem search ajax đúng ko
+đúng tui demo phần member.
+khoan tui hỏi cái 
+search(1). số 1 là sao .Số page mặc định. Vì không dùng được querystring nên phải chơi kiểu vậy
+ok. chắc phần viết ajax ông hiểu rồi nên vào luôn bên trong.
+Dictionary này là thư viện của json hả
+ko nó có sẵn của c#
+Như bên adroid : HashMap<Key,Value>
+ông biết chứ
+Thì bên c# Dictionary.<string,object>
+
+oki ừm phân ajax này tui k hiểu
+cái page này là để chuyền vào thôi đúng k
+ông gọi hàm search này chỗ nào để dùng page vậy ? 
+Bên cái onfocesout nãy tui nói đó
+à ... tại sao k chuyền thẳng 1 vào mà ghi biến page chi ?
+Vì nó thay đổi
+Kết hợp phân trang hiểu chứ.
+à kiểu nếu mình search mà nó ra nhiều thì sẽ phân trang ? Yes
+demo cho xem/
+Á đù ông chơi tui.=tuiiiii biết lỗi , để sửa cho
+Ông Thấy k.
+ủa ông cho 1 trang có 2 cột thôi à 
+Tui có phần setting muốn bao nhiêu chả được.
+đỉnh vãi ...ủa phần phân trang là 
+response này là gì á
+để tui cho ông xem.
+Dạng nó như vậy đó
+ủa cái table này chỗ nào cho nó in ra ? thấy tạo vào mà k thấy cho in ra ?
+Thấy chưa. oke 
+Còn gì nữa ko. từ tui xem cái này

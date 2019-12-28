@@ -1,0 +1,12 @@
+﻿Thang điểm.(Nhân x3 lí thuyết.)
+1. 2 Master page.
+2. Index slide sản phẩm nổi bật , 
+3. Detail chi tiết sản phẩm. hình ảnh , chi tiết. số lượng , sản phẩm liên quan.
+4. Search tìm kiếm.(Nhiều tiêu chí)
+5. Giao diện
+6. Trang loại sản phẩm.
+7. 
+8. Liên quan đến member.
+9. Quản lí hóa đơn.
+10. Giỏ hàng.
+11. Điểm cộng.

@@ -1,0 +1,9 @@
+﻿Nhớ lời cô dặn lỗi thì không gộp chỉ trường hợp đúng mới gộp
+
+Testcase ID	TestName		Precodition	TestSteps		Expected Result
+
+Function 1: Name chỉ dùng a-z,A-Z và khoản trắng
+DK_NAME_01	Có kí tự a-z,A-z và khoản trắng			..	..	..tb Đ
+DK_NAME_02	Không kí tự a-z,Có A-z và khoản trắng		..	..	..tb 
+DK_NAME_03	Có kí tự a-Không A-z và khoản trắng			..	..	..tb
+DK_NAME_04	Có kí tự a-CóA-z và Không khoản trắng			..	..	..tb

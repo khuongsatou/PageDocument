@@ -1,0 +1,145 @@
+﻿//Định dạng file word
+Bật hiện kí tự ẩn
+1. Định dạng layout. margin:
+	Margin: T1.B1.L1.R1
+2. Tạo ra các mục lục: dùng ctrl+enter để tạo 1 trang mới
+	TRANG BÌA.
+	MỤC LỤC.
+	MỤC LỤC HÌNH.
+	MỤC LỤC BẢNG.
+3. Tạo các phần Heading
+	3.1 Heding 1
+	- Style-> Heading 1: 
+	- Formatting: Times New Romand :Size 16: bold, center, black, khoản cách dòng: center
+	- Paragraph: clear hết beforce after về 0 . chọn line spacing 1.5
+	3.2 Heading 2:
+	Tương tự: 
+	-Size 13. left
+	3.3 Heading 3: option select styles to show:
+	- All styles.
+4. Tạo nummering
+	+ Define new multilever list.
+	- lv 1: Phần 1. -> font(Times new Romand) -> 16 . black. more link lever to style . chọn Heading 1.
+	- lv 2: 1.1. ...
+	- lv 3: 1.1.1...
+4. Tạo Title
+	1. Ảnh
+	- Insert caption -> new label ->Đặt tên Hinh -> Numbering->chọn Include chapter number -> use separator: . (period).
+	- Position: below selected Item
+	2. Bảng
+	- như trên.
+	- Above selected item
+4. Tạo line numbers:
+	Trang bìa 1 ->bên dưới -> Chuột phải->edit footer -> Design -> footer -> . chọn cái thứ 4.
+5. Tạo section:
+	0. Clear cái next page lúc dùng ctrl + enter
+	1.breaks -> next page.
+		. Trang bìa 1 session
+		. Mấy cái mục lục 1 session
+		. Nội dụng 1 session.
+	2. edit footer .bỏ link to previous -> cài lại numbering	->
+		1. Trang bìa không có numbering
+		2. Mục lục = numbering la- mã I . II . III
+		3. Mục lục = số 1.2.3	
+6. Mục lục:
+	1. Mục lục thường
+	Table of contents ->customs -> modify ->paragraph TOC 1. TOC 2 . TOC 3.
+	-Chuôt phải -> Update Field lại mục lục.
+	2. Mục lục ảnh. Table of Figures
+	-> Chọn cation lable.-> include lable and number.
+	
+
+//Blog category
+0. Group by lại giữa post và foodtype
+0.1 Đặt tên cho count
+1. Tạo đối tượng Post có cả 2 thuộc tính của 2 bảng và count OK
+2. Lấy id của type OK
+3. khi nhấn vào 1 id sẽ ra post của loại đó.OK
+4. Lấy id type đó đem đi select list của post .OK
+5. Lưu lại type khi chuyển trang. OK..
+
+//Recent Blog
+1. Tạo câu lệnh select post sắp theo này tạo. OK
+2. Giới hạn lấy là 3 sản phẩm. . OK
+3. Đổ ra rptRecentBlog. OK
+
+//Add to cart
+1. Khởi tạo 1 table tạm OK
+2. Tạo 1 session cart . OK
+3. kiểm tra tồn tại session. OK
+4. nếu chưa có session thì tạo bảng tạm. OK
+5. Nếu đã có thì lấy thông tin từ session lưu vào bảng tạm. OK
+5.1. Lấy dữ liệu gán vào bảng tạm trước. OK
+5.2. Bên trang cart kiểm tra session. OK
+5.3. Gán vào repeater OK.
+6. Xử lí nếu người dùng mua thêm 1 sản phẩm thì cộng dồn quality. OK
+7. Ngược lại nếu chưa có sản phẩm đó thì tạo 1 dòng lưu thông tin mới vào. OK
+8. Cập nhật lại session. OK.
+----
+// xử lí checkout.
+1. Insert vào bảng hóa đơn. Mà muốn insert được thì phải có bảng customer.
+2. Lấy ID đã tăng tự động insert vào bảng chi tiết hóa đơn.
+
+//xử lí customer
+
+//Xử lí food thêm
+1. Validate
+2. Xử lí tính ajax: 
+	1. TH 1: 1 bên nhập mà bên kia chưa thì
+Chưa tính.
+	2. 2 cái đã nhập thì bắt đầu tính.
+3. Xử lí up ảnh
+	Xong
+4. Xử lí cast decimal
+	Xong
+5. Modal Thông báo.
+	Xong.
+// Xử lí  viết bài mới.
+1.Design
+	1.1. Sắp xếp hợp lí control. OK
+	1.2. Xử lí việc up hình và mã hóa. OK
+2.Validate. OK
+3. Databind dữ liệu. OK.
+4. Xử lí thêm thành công. OK.
+5. Clear text. OK
+//Xử lí update .
+1. Truyền Query string. đến trang thêm. OK
+2. Nhận Query String set value lên. Ok
+3. Hiện button update.OK
+4. Xử lí update.. OK
+5. Xử lí hiện ảnh. OK.
+
+//Xử lí customer
+1. Xử lí search. OK
+2. Xử lí hiện danh sách. OK
+3. Xử lí Update OK
+4. Xử lí Delete. OK
+
+//Xử lí Hóa Đơn
+1. Hiện Danh sách Hóa Đơn
+	1.1 Chỉnh sửa lại model Order. OK
+	1.2 Get List.  OK
+2. Link Chi tiết hóa đơn.
+	2.1 Chỉnh sửa model Order_Detail OK
+	2.2. Get List, OK.
+	2.3. Query String Theo Order_ID. OK
+	2.4. Chỉnh FoodID thành tên sản phẩm. OK. 
+// Xử lí setting
+1. Design.OK
+2. Cài Đặt phân trang ADMIN.
+	2.0 Get List. OK
+	(2.1. Set Biến static. OK) Không được.
+	2.2. Get giá trị.OK
+	2.3. Thay đổi Lưu vào database bảng setting OK
+3. Chỉnh lại tất cả phân trang admin. OK.
+
+// Đăng Nhập. 
+1. Tạo Trang Default cho Admin.Khi Truy cập /Admin/ nó vào trang default.aspx.OK
+2. Nếu chưa có session chuyển qua trang login.  Trang login không có kế thừa masterpage. OK
+3. Nếu đã có thì vào không chuyển. OK.
+
+//Sửa lỗi CKfinder OK
+//Đỗi Link ảnh Mặc định và chuyển all mấy control up ảnh thành Ckfinder
+
+
+

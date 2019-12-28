@@ -1,0 +1,18 @@
+﻿
+13. Which of the correct way to initialize a new Git repository?
+(Cách nào chính xác để khởi tạo kho Git mới?)
+-> git init
+
+
+14. You can type git status at any point while in a git controlled directory to check the status of your files.
+(Bạn có thể nhập trạng thái git tại bất kỳ điểm nào trong khi trong thư mục được kiểm soát git để kiểm tra trạng thái của các tệp của bạn.)
+-> Nếu trắc nghiệm có câu này thì chọn "true".
+15. Which of the following commands will stage your entire directory and every non-empty directory inside your current directory.?
+(Lệnh nào sau đây sẽ giai đoạn toàn bộ thư mục của bạn và mọi thư mục không trống trong thư mục hiện tại của bạn?)
+->git add .
+
+https://learn.co/lessons/git-basics-quiz
+
+16.We've just created a new file called index.html. Which of the following will stage this one file so we can commit it?
+ (Giả sử bạn vừa tạo file mới index.html, câu lệnh nào sẽ stage file này để bạn có thể commit nó?)
+-> git add index.html
