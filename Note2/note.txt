@@ -1,0 +1,2 @@
+﻿mag: Phóng to thu nhỏ.
+MVC 

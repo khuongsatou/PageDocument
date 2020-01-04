@@ -1,0 +1,4 @@
+﻿1. Khai báo 1 action để xử lí cho cái form cấu trúc blade.php
+2. Validate 1 trường dữ liệu . Không được rỗng.
+3. Migration. ..
+4.Chu Kì activity.

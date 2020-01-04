@@ -1,0 +1,8 @@
+﻿baitap_tuan4_db
+
+Middleware trong Laravel là gì? Middleware như là một cơ chế cho phép bạn tham gia vào luồng xử lý request của một ứng dụng Laravel. Trong một quá trình xử lý route điển hình của Laravel khi thực thi việc xử lý yêu cầu và middleware là một trong những class mà ứng dụng phải thông qua.
+
+Token: 
+	- Time to live : mặc định là 1H , đơn vị phút. thời gian sống token.
+	-getPasswordAttribute() // Tạo ra 1 Attribute mới có tên là password
+

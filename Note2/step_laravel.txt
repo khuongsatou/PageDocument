@@ -1,0 +1,40 @@
+﻿Validation: form register
+B1: Tạo View register. (dùng Html để viết bootstrap)
+B2: Tạo Route và group route and name lại.
+B3: Tạo  Form và đặt name. [Request nhận name không nhận ID]
+B3: Form nhớ action="{{route('namegroup.name')}}" và thêm @csrf để chống hacker
+B4: Tạo Controller  Hiển thị trang register và khi nhấn vào button thì Sẽ xử lí gọi đến view Post
+B5: this->Validate($request,[name]=>'require|...');
+B6: thiết lập error bằng cách kiểm tra trên @if($errors->any()){}
+	+ Errors trả về 1 mảng
+ và nhớ @endif
+
+// Token
+B1. Require thư viện 
+	tymon/jwt-auth:1.0.*
+	Kiểm tra xem đã có thư viện trong vedon chưa
+B2. Tạo secret key: 
+	jwt:secret
+	cho file .env
+	Để mã hóa token.
+B3. Pushlish JWT: bằng lệnh...
+	Kiểm tra có file config/jwt	
+B4.Thêm 2 dòng vào file Kennel
+	Thêm bên dưới class.
+B5. Thêm implements Interface  Model Chứng thực
+	Get Thuộc tính.
+B6. Cấu hình authen.
+	Cho admin và user
+B7. Tạo controller đăng nhập
+	Gồm 2 cái: 1 để chứng thực
+	2 để lấy thông tin.
+B8. Tạo 1 Route dạng để đăng nhập 1 để get thông tin.
+	Lưu ý thêm nếu có accesstor thì phải đổi thuộc tính thành password
+	Lưu ý password phải mã hóa
+-----------
+B9. Khi token hết hạn phải cấu hình exceptions cho file hanle
+B10. Thêm Group Midleware cho các controller
+B11. Khai báo middleware trong kenel
+B12. Nhóm các route middleware lại.
+
+	

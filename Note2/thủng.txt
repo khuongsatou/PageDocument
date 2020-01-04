@@ -1,0 +1,10 @@
+﻿belong và has
+Một – Một , Liên kết từ bảng cha tới bảng con. hasOne();
+Một – Một , Liên kết từ bảng con tới bảng cha. belongsTo();
+Một – Nhiều hasMany();
+Nhiều – nhiều belongsToMany();
+Liên kết qua bảng trung gian hasManyThrough();
+
+https://khoapham.vn/download/laravel/bai8.pdf
+
+luồng làm việc laravel là gì

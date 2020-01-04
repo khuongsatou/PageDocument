@@ -1,0 +1,58 @@
+﻿1.Repository là gì.
+1. Repository hay còn gọi là Repo, dịch ra tiếng việt là kho. nó là nơi chứa tất cả mã nguồn của một dự án, được quản lý bởi Git.
+Có 2 loại reponsitory: local và remote
+-Local: là reponsitory được đặt trên máy tính lập trình viên, repository này sẽ đồng bộ hóa với remote bằng các lệnh git.
+-Remote: Là repository được cài đặt trên server chuyên dụng, điển hình hiện nay là github.
+
+2. Branch là gì?
+Branch là cái dùng để phân nhánh và ghi lại luồng lịch sử.
+Branch đã phân nhánh không ảnh hưởng đến branch khác nên có thể tiến hành nhiều thay đổi đồng thời trong cùng 1 repository.
+3. Master branch là gì?
+Khi tiến hành commit lần đầu trong repository thì Git sẽ tạo ra một branch có tên là master.
+Vì thế những lần commit sau sẽ được thêm vào branch master cho đến khi chuyển đổi branch.
+
+-------
+1. What's the git command that downloads your repository from GitHub to your computer?
+[git clone]
+2.How do you create a copy of a lab under your own GitHub account so that you can solve the lab?
+[Forking it via the GitHub interface.]
+3. What's the opposite of git clone, instead of downloading your code from GitHub, uploads your changes and code back to GitHub?
+[git push]
+4. How do you check the state of your local git repository since your last commit?
+[git status]
+5. How do you stage files for a commit?
+[git add]
+6. How do you save the current state of your code into the git version control?
+[git commit]
+7.What's a shortcut to staging all the changes you have?
+[git add .]
+8.How do you supply a commit message to a commit?
+[git commit -m "I'm coding"]
+9. What is the correct commit syntax for all changes with a message?
+[git commit -am "I'm coding"]
+10.How do you submit a solution to Learn? (select all that apply)
+[By creating a Pull Request through the GitHub interface]
+[learn submit]
+11.What comes first, staging with git add . or committing with git commit?
+[Staging your commits with git add]
+
+
+------
+12.Which of the following is the correct way to initialize a new Git repository?
+[git init]
+13.You can type git status at any point while in a git controlled directory to check the status of your files.
+[true]
+14.Which of the following commands will stage your entire directory and every non-empty directory inside your current directory?
+[git add .]
+15.We've just created a new file called index.html. Which of the following will stage this one file so we can commit it?
+[git add index.html]
+16.git status returns:
+"git rm --cached<file>" to ustage.
+	new file: index.html
+How would you commit this with the message "adding new authors to index".
+[git commit -m "adding new authors to index]s
+
+
+
+
+

@@ -1,0 +1,1 @@
+﻿Giao diện  cPanel -> Database -> Add User -> Full Quyền

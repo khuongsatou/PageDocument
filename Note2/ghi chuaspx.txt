@@ -4,3 +4,4 @@
 	+ Đỗ ra theo 1 limit khi hết sẽ vào database.select thêm. (Ajax).
 3. Ảnh sản phẩm phải có nhiều ảnh. Bằng cách nối chuỗi.
 4. Type_pos: hiển thị vị trí cho các ảnh bên trang chủ.
+5. (Admin ) index. phải để các thứ thống kê vào.

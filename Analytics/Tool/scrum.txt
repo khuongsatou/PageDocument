@@ -1,0 +1,20 @@
+﻿1. Quy trình phát triển phần mềm scrum.
+	a. Vai trò và mô tả.
+	- Có 3 vai trò: 
+ 	Product Owner: Chịu trách nhiệm tối ưu hóa 
+lợi nhuận trên đầu tư và công việc của nhóm phát triển, quản lí product Backlog
+ 	Nhóm phát triển:Gồm các chuyên gia làm việc để cho ra các phần tăng trưởng có thể phát hành được cuối mỗi sprint.
+	ScrumMaster: chịu trách nhiệm đảm bảo mọi người hiểu và dùng được Scrum. Vừa là lãnh đạo lại vừa là đầy tớ , tìm kiếm, giao tiếp ,dạy cho nhóm phát triển để tạo ra product Backlog hiệu quả nhất.
+	b.Liệt kê và mô tả ngắn các sự kiện trong scrum?
+	Gồm có 4 event chính.
+	-Họp kế hoạch Sprint. 8 tiếng/1 tháng
+	-Họp Scrum Hằng Ngày. 15p để đồng bộ Sprint và lập kết hoạch cho hôm sau
+	-Họp một buổi sơ kết Sprint. Tổ chức khi Sprint kết thúc để tổng kết lại
+	-Một buổi họp cải tiến Spint.Thanh tra và đưa ra kết hoạch cải tiến Sprint tiếp theo.
+	c. Số lượng thông thường 1 team dev là bao nhiêu?
+	Nhóm Phát triển trong Scrum có 7 (cộng trừ 2) người, 
+	d.Theo em sự kiện nào là quan trọng nhất trong scrum.
+	Một lưu ý quan trọng là trong Scrum
+có một và chỉ một người phục vụ với tư cách Product Owner và có thẩm quyền tối cao của vai trò
+này, người này chịu trách nhiệm về giá trị của công việc.
+

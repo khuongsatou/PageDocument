@@ -1,0 +1,73 @@
+﻿1. Repository là gì?
+Repository hay còn gọi là Repo, dịch ra tiếng Việt có nghĩa là kho, đây chính là nơi chứa tất cả mã nguồn cho một dự án được quản lý bởi Git.
+Bạn cũng có thể hiểu một cách khác là Repository chính khai báo thư mục chứa dự án của bạn trên local hoặc remote.
+Mỗi repo sẽ có hai cấu trúc dữ liệu chính đó là Object store và Index được lưu trữ ẩn trong thư mục .git
+
+Có 2 loại repository đó là local repository và remote repository.
+
+# Local repository: Là repo được cài đặt trên máy tính của lập trình viên, repo này sẽ đồng bộ hóa với remote repo bằng các lệnh của git.
+# Remote repository: Là repo được cài đặt trên server chuyên dụng, điển hình hiện nay là Github.
+2. Branch là gì?
+Branch là cái dùng để phân nhánh và ghi lại luồng của lịch sử. 
+Branch đã phân nhánh sẽ không ảnh hưởng đến branch khác nên có thể tiến hành nhiều thay đổi đồng thời trong cùng 1 repository.
+3. Master branch 
+Khi tiến hành commit lần đầu trong repository thì Git sẽ tạo ra một branch có tên là master.
+Vì thế những lần commit sau sẽ được thêm vào branch master cho đến khi chuyển đổi branch.
+
+4. Lệnh Git nào dowload respository của bạn từ Github về máy
+Câu lệnh Git này dùng để copy 1 project từ Local Respository đến một thư mục khác, hoặc từ server về máy tính của bạn.
+Để clone một project từ Local Respository trên máy:
+git clone /path/to/repository/
+
+Để clone một project trên server, bạn có thể sử dụng https hoặc ssh:
+https:
+git clone username@serverAddress:/path/to/project
+ssh:
+git clone ssh://username@serverAddress/path/to/project
+
+5. How do you create a copy of a lab under your own Github account so that you can solve the lab?
+[Forking it via the GitHub interface.]
+6. Trái ngược với Git Clone là gì?
+Git push
+
+
+7. làm cách nào để check trạng thái của local git repository từ lần commit gần nhất?
+- gõ lệnh git:  git status
+
+8. làm cách nào lưu trạng thái hiện tại của code vào git version control?
+- [git commit]
+
+9. Shorcut để stage mọi thay đổi của bạn.
+- sử dụng lệnh: "git add ."
+
+10. Làm thế nào để tạo commit message vào commit ?
+
+trả lời: gõ lệnh git commit -m "Message"
+
+11. What is the correct commit syntax for all changes with a message ?
+Dịch: cú pháp chính xác để lưu tất cả thay đổi với một thông báo là gì ?
+Trả lời: git commit -a -m "New Changes"
+
+12. what comes first, staging with git add or committing with git commit ?
+Dịch: Điều gì đến trước, dàn dựng với git add hoặc committing với git commit? (không hiểu nó hỏi gì luôn)
+Trả Lời: git add
+
+
+13. Which of the correct way to initialize a new Git repository?
+(Cách nào chính xác để khởi tạo kho Git mới?)
+-> git init
+
+
+14. You can type git status at any point while in a git controlled directory to check the status of your files.
+(Bạn có thể nhập trạng thái git tại bất kỳ điểm nào trong khi trong thư mục được kiểm soát git để kiểm tra trạng thái của các tệp của bạn.)
+-> Nếu trắc nghiệm có câu này thì chọn "true".
+15. Which of the following commands will stage your entire directory and every non-empty directory inside your current directory.?
+(Lệnh nào sau đây sẽ giai đoạn toàn bộ thư mục của bạn và mọi thư mục không trống trong thư mục hiện tại của bạn?)
+->git add .
+
+https://learn.co/lessons/git-basics-quiz
+
+16.We've just created a new file called index.html. Which of the following will stage this one file so we can commit it?
+ (Giả sử bạn vừa tạo file mới index.html, câu lệnh nào sẽ stage file này để bạn có thể commit nó?)
+-> git add index.html
+

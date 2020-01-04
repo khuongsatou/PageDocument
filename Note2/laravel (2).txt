@@ -1,0 +1,8 @@
+﻿blade.php là 1 template
+
+@yield('   '); -> dùng bằng  @secsion('ten yield') và @endsecsion
+@include('');
+phải có @extends 1 cái blade
+
+
+Hiển thị data {{ $key }}

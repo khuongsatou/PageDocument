@@ -1,0 +1,16 @@
+﻿$this->validate([
+	'name'=>'require|max:20',
+	...
+],$messages);
+
+require
+max:value
+min:value
+confirmed
+digits:value   // lenght là số
+digits_betwe
+en:min,max
+regex:pattern
+size:value
+same:field
+'number' =>'required_with:3,5,7' // chứa ít nhất

@@ -1,0 +1,6 @@
+﻿https://learn.co/lessons/git-github-learn-quiz
+Cũng có thể xóa commit bằng [reset] hay [rebase -i ]
+
+Pull code from GitHub
+[git pull]
+This command takes any new changes to the remote repository and "pulls" them down to your local code. Try running it in your terminal now. In our case, there's nothing to pull, so you should see a message that says Already up-to-date.
