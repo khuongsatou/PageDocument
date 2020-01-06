@@ -171,3 +171,33 @@ https://camnanggiaoduc.org/ky-nang/ky-nang-xin-viec/cach-viet-email-xin-viec.htm
 </br>
 56. File cơ bản</br>
 https://o7planning.org/vi/10453/thao-tac-voi-tap-tin-va-thu-muc-trong-csharp</br>
+</br>
+57. Tool JavadeCompilers.</br>
+http://www.javadecompilers.com/result</br>
+</br>
+59. Javac path</br>
+https://www.youtube.com/watch?v=vhBNV8no4CI</br>
+</br>
+60. Thông tin java</br>
+https://stanford.com.vn/dao-tao/tin-chi-tiet/cagId/27/id/4575</br>
+</br>
+61. Thread</br>
+https://yellowcodebooks.com/2018/08/22/java-bai-42-thread-tap-2-cac-cach-thuc-de-tao-mot-thread/</br>
+</br>
+62. Toán lớp 3</br>
+https://vietjack.com/giai-toan-lop-3/index.jsp</br>
+</br>
+63. Website Bán Hàng C#</br>
+https://timoday.edu.vn/xay-dung-chuong-trinh-quan-ly-ban-hang-bang-c/</br>
+</br>
+64. Expand</br>
+https://yellowcodebooks.com/2016/11/03/cach-xay-dung-mot-listview-co-the-expandcollapse-trong-android/</br>
+</br>
+65. JavaCodeStyle Guide</br>
+https://source.android.com/setup/contribute/code-style#be-consistent</br>
+</br>
+66. Nguyên Lí Solid</br>
+https://toidicodedao.com/2015/03/24/solid-la-gi-ap-dung-cac-nguyen-ly-solid-de-tro-thanh-lap-trinh-vien-code-cung/</br>
+</br>
+67. StyleGuide Java</br>
+https://github.com/twitter-archive/commons/blob/master/src/java/com/twitter/common/styleguide.md#variable-naming</br>
