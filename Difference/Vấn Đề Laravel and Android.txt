@@ -1,0 +1,14 @@
+﻿Laravel
+1. Fix lĩnh vực(bảng câu hỏi) lựa theo danh sách. OK
+2. Chuyển lĩnh vực xuống phía cuối. OK
+3. Thêm thông báo(Hiển thị 2s rồi close) tiếp tục nhập liệu hay dừng.
+4. Cắt khoảng trắng dư ô nhập liệu.
+5. Kiểm tra trùng Câu hỏi.[OK]
+6. Tìm cách thêm chức năng di chuyển lên ô nhập liệu bằng phím tắt mũi tên.
+7. Đọc File excel bằng laravel.
+8. Xuất ra File excel bằng laravel.
+9. Chỉnh lại đáp án. OK
+Android
+1. Phát sinh more cho cho các câu hỏi quá dài.
+2. Câu hỏi phải Random và không trùng. Tiếp đó là lưu lại lượt chơi lần tiếp theo sẽ không trùng lần 1.
+

@@ -1,0 +1,23 @@
+﻿1. Single responsibility principle
+	 + Một Class Có 3 chức năng thì nên tạo thành 3 class.
+	-> Lợi Ích dễ bảo trì. và ít bug
+
+2.Open/Closed principle
+	+ Không sửa đổi class cũ
+	+ Mở rộng bằng cách extends hoặc sở hữu.
+	VD: nếu muốn thêm chức năng thì nên viết class mới ko đụng đến class cũ.
+
+3.Liskov Substitution Principle
+	+ Lớp con không được làm thay đổi cha
+	VD: Vịt thật . mà vịt con là chạy pin nếu kế thừa thằng cha vịt thật sẽ vi phạm. thay vào đó hãy kế thừa đồ chơi sẽ có pin.
+
+4. Interface Segregation Principle
+	+Thay vì dùng 1 interface lớn, ta nên tách thành nhiều interface nhỏ, với nhiều mục đích cụ thể.
+ãy tưởng tượng chúng ta có 1 interface lớn, khoảng 100 methods. Việc implements sẽ khá cực khổ, ngoài ra còn có thể dư thừa vì 1 class không cần dùng hết 100 method. Khi tách interface ra thành nhiều interface nhỏ, gồm các method liên quan tới nhau, việc implement và quản lý sẽ dễ hơn.
+
+5.Dependency inversion principle.
+Ở đây, interface chính là đuôi tròn, implementation là bóng đèn tròn và bóng đèn huỳnh quang. Ta có thể swap dễ dàng giữa 2 loại bóng vì ổ điện chỉ quan tâm tới interface (đuôi tròn), không quan tâm tới implementation.
+
+Trong code cũng vậy, khi áp dụng Dependency Inverse, ta chỉ cần quan tâm tới interface. Để kết nối tới database, ta chỉ cần gọi hàm Get, Save … của Interface IDataAccess. Khi thay database, ta chỉ cần thay implementation của interface này.
+
+

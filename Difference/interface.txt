@@ -1,0 +1,5 @@
+﻿Khi nào nên dùng.
+1.Class abstract đại diện cho mối quan hệ "IS - A" (Ôtô là Xe)
+2.Interface đại diện cho mối quan hệ "like - A" (Ô tô có thể chuyển động).
+3.Tạo một class abstract khi bạn đang cung cấp các hướng dẫn cho một class cụ thể.
+4.Tạo Interface khi chúng ta cung cấp các hành vi bổ sung cho class cụ thể và những hành vì này không bắt buộc đối với clas đó.

@@ -1,0 +1,7 @@
+﻿Yêu cầu xây dựng chức năng đăng nhập App
+1. Tạo DB.
+2. Thực hiện chức năng đăng nhập.
+3. Validate form và hiển thị thông báo
+4. Khi đăng nhập thành công thì hiển thị dòng "Chào "+ tên đăng nhập;
+5. Chạy được trên App và Web.
+6. (App) Có kiểm tra kết nối mạng. Nếu như người dùng ko bật mạng thì thông báo và exit.
