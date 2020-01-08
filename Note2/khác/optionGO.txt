@@ -1,0 +1,10 @@
+﻿Step
+1. Gửi Mail cho thầy tuấn OK
+2. Thầy Reply OK
+3. Tra cứu thông tin công ty OK
+4. Tìm địa chỉ OK
+5. Tìm tuyến xe buýt OK
+7. Đi thử lần đầu.
+8. Reply trả lời mail. OK
+9. Tìm câu hỏi thường hay phỏng vấn.
+10. Đem theo 1 tờ giấy và cây viết. Để lưu ý

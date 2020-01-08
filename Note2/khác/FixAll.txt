@@ -1,0 +1,227 @@
+﻿1. Route quick not define
+https://stackoverflow.com/questions/59149877/visual-studio-code-php-intelephense-keep-showing-not-necessary-error
+
+2. Hash
+https://stackoverflow.com/questions/28622569/hashmake-not-working-in-laravel-5-0-controller
+
+3. Add TextInput
+https://www.google.com/search?sxsrf=ACYBGNQoaE1BVD7-KEikaE9XEZVNt5c6vA%3A1575772175402&ei=D2DsXdiUGNLW-QbpjrPwCA&q=how+to+add+InputTextlayout+androidx&oq=how+to+add+InputTextlayout+androidx&gs_l=psy-ab.3..33i160.2207.14957..15174...11.1..4.373.5482.13j28j2j1....2..0....1..gws-wiz.....10..0i71j35i39j0i273j0j0i131j0i20i263j0i10j35i362i39j0i3j0i13j0i367j0i13i30j0i22i30j0i8i13i30j33i22i29i30.Fm0zNRvyOrE&ved=0ahUKEwiY2IvmgKXmAhVSa94KHWnHDI4Q4dUDCAs&uact=5
+
+4.Add Icon Edittext
+https://stackoverflow.com/questions/4281749/how-to-add-icon-inside-edittext-view-in-android
+
+5. Dimens
+https://stackoverflow.com/questions/29128178/how-to-use-dimens-xml-in-android
+
+6. Style disable
+https://stackoverflow.com/questions/26557061/android-studio-refactor-extract-style-disabled
+
+7. Interface
+https://stackoverflow.com/questions/24273694/can-you-call-the-parent-interfaces-default-method-from-an-interface-that-subcla
+
+8. String format javascript
+https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
+
+9. Import Excel Database
+https://stackoverflow.com/questions/39610133/how-to-import-an-excel-file-into-sql-server
+
+10. ValidateJquery
+https://thienanblog.com/javascript/jquery/huong-dan-su-dung-jquery-validation/
+
+11. Lable Hidden
+https://www.codeproject.com/Questions/677928/Set-value-of-label-using-jquery
+
+12. Set Color
+https://stackoverflow.com/questions/2001366/how-can-i-change-the-text-color-with-jquery
+
+13. Set TextColor bs
+https://getbootstrap.com/docs/4.0/utilities/colors/
+
+14. Fix lỗi Contentplaceholder
+https://freetuts.net/jquery-selectors-attributes-116.html
+
+15. AddClass and RemoveClass
+https://freetuts.net/jquery-attributes-addclass-removeclass-110.html
+
+16. Đầy đủ validate Jquery
+https://viblo.asia/p/jquery-validation-plugin-in-php-d6BAMY8zRnjz
+
+17. Max Đầy đủ validate JQuery
+https://viblo.asia/p/tim-hieu-ve-jquery-validation-phan-1-E375zEqRlGW
+
+18. Fix validate affer onclientClick
+https://www.aspsnippets.com/Articles/ASPNet-RequiredFieldValidator-not-working-when-OnClientClick-event-is-added-to-Button.aspx
+https://www.aspforums.net/Threads/208951/Using-PageClientValidate-function-using-JavaScript-in-ASPNet/
+https://weblogs.asp.net/pirabdulwakeel/java-script-page-validation-page-clientvalidate
+
+19. Directory List (key value)
+https://stackoverflow.com/questions/1273139/c-sharp-java-hashmap-equivalent
+https://stackoverflow.com/questions/216973/asp-net-key-value-list
+https://stackoverflow.com/questions/34412220/how-to-create-a-hashmap-in-c-sharp
+
+20. Bỏ forcus khỏi Textbox
+https://www.w3schools.com/jsref/event_onfocusout.asp
+
+21. Regex
+https://stackoverflow.com/questions/47520377/how-to-add-regex-to-validationexpression-in-code-behind-of-asp-net-page
+
+22. Fix lỗi rỗng và null
+Thì lúc chưa có đừng in nó ra là được
+&type="+%if (Request["type"] != null) Response.Write(Request["type"]); // đừng dùng thế này. lỗi te tua.
+%if (Request["type"] != null) Response.Write("&type="+Request["type"]);//mà hãy dùng thế này.
+
+23. Upload ảnh sử dụng ajax
+https://www.codeproject.com/Articles/806075/File-Upload-using-jQuery-AJAX-in-ASP-NET-Web-API?fbclid=IwAR0WoBnE6hiptywcz-32lcRpMMb_WE0N4zsGak2pT_tFreTbbjh4mF3KWWo
+
+24. Tạo model thông báo 
+https://stackoverflow.com/questions/51579801/how-to-show-sweetalert-in-javascript
+
+25. Duplicate Văn bản trong word
+alt+enter
+
+26. Copy từ excel vào csdl server
+1. Viết đủ trường xong.
+2. Copy 
+3. Vào CSDL server
+4. Chọn dòng đầu. nhìn thấy dấu * và paste vô.
+
+27. Thông báo Ajax
+https://github.com/khuongsatou/FullCodeOld/blob/master/FullCode/CShape/Aspx/AjaxFullEntity/myScript.js
+
+28. List C#
+https://www.tutorialsteacher.com/csharp/csharp-list
+
+30. regular thông dụng
+https://kipalog.com/posts/30-doan-bieu-thuc-chinh-quy-ma-lap-trinh-vien-web-nen-biet
+
+31. Nodejs
+https://www.tutorialsteacher.com/nodejs/what-is-nodejs
+
+32. Ý tưởng làm web đồ án
+https://tamnguyen.com.vn/thiet-ke-website-ban-rau-sach.html
+
+33. Favicon
+https://www.favicon-generator.org/
+
+34.Quan Hệ
+https://iviettech.vn/blog/543-ban-ve-use-case-use-case-diagram.html
+
+35. Usercase note
+https://thinhnotes.com/chuyen-nghe-ba/use-case-diagram-va-5-sai-lam-thuong-gap/
+
+36. Tài liệu KHTN
+https://tailieu.vn/user/vitunis2711
+
+37. Checkeditor và finder
+https://www.youtube.com/watch?v=zIj8Z-qrmuE
+
+38. FreeTextBox
+https://forums.asp.net/t/1419935.aspx?freetextbox+problem
+
+39. Dynamy FreetextBox
+https://forums.asp.net/t/1843762.aspx?how+to+add+images+in+Freetextbox+dynamically
+
+40. Ckeditor and ckFinder
+https://www.youtube.com/channel/UCqna28fRtzP8WvhPdJgEBAw
+
+41. Popup CKeditor
+https://ckeditor.com/docs/ckfinder/demo/ckfinder3/samples/popups.html
+
+42.ViewMore
+https://stackoverflow.com/questions/19675331/add-view-more-at-the-end-of-textview-after-3-lines?fbclid=IwAR04XIN3J1kxZ1CxuJoU3bLFbB8aCrAexyGJMiWlt9qMRJkFvW0fsL1wb9U
+
+43. Nghiên cưu quân sự
+https://sharengay.com/suu-tam-review-va-chia-se-kinh-nghiem-di-nghia-vu-quan-su/
+
+44.Google Translate pdf
+https://www.wikihow.com/Translate-a-PDF
+
+45. Session WebMethod
+https://stackoverflow.com/questions/4758575/how-can-i-access-session-in-a-webmethod
+
+46. Format Price
+https://www.google.com/search?q=how+to+format+price+in+c%23&oq=how+to+format+price+in+c%23&aqs=chrome..69i57j0l7.7866j0j7&sourceid=chrome&ie=UTF-8
+
+47. Validate Laravel
+https://viblo.asia/p/form-request-validation-trong-laravel-07LKXzRPlV4
+
+48. Validate Override Laravel
+https://scotch.io/tutorials/password-verification-using-laravel-form-request
+
+49. Vẽ biểu đồ
+https://huuphongnguyen.com/minh-da-dung-thu-vien-chart-js-de-ve-bieu-do-tren-website-nhu-the-nao/
+
+50. Char.js
+https://www.chartjs.org/docs/latest/developers/updates.html
+
+51. truyền Header Volley
+https://stackoverflow.com/questions/42759615/adding-header-with-specified-parameter-in-volley
+
+52. Trigger
+https://viblo.asia/p/su-dung-trigger-trong-sql-qua-vi-du-co-ban-aWj538APK6m?fbclid=IwAR3-W9lp2OOfi7-C07b6WA3JT2-Cc4h4fS7ObJRBeoZbNtF0km7uARBoTwE
+
+53. React Native
+https://nordiccoder.com/blog/tong-quan-ve-react-native/
+
+54. Tìm việc
+https://news.timviec.com.vn/cach-viet-chuan-mau-don-xin-viec-gui-qua-mail-cong-ty-thay-moi-di-lam-ngay-858.html
+
+55. Cách làm cv Xin Việc
+https://camnanggiaoduc.org/ky-nang/ky-nang-xin-viec/cach-viet-email-xin-viec.html
+
+56. File cơ bản
+https://o7planning.org/vi/10453/thao-tac-voi-tap-tin-va-thu-muc-trong-csharp
+
+57. Tool JavadeCompilers.
+http://www.javadecompilers.com/result
+
+59. Javac path
+https://www.youtube.com/watch?v=vhBNV8no4CI
+
+60. Thông tin java
+https://stanford.com.vn/dao-tao/tin-chi-tiet/cagId/27/id/4575
+
+61. Thread
+https://yellowcodebooks.com/2018/08/22/java-bai-42-thread-tap-2-cac-cach-thuc-de-tao-mot-thread/
+
+62. Toán lớp 3
+https://vietjack.com/giai-toan-lop-3/index.jsp
+
+63. Website Bán Hàng C#
+https://timoday.edu.vn/xay-dung-chuong-trinh-quan-ly-ban-hang-bang-c/
+
+64. Expand
+https://yellowcodebooks.com/2016/11/03/cach-xay-dung-mot-listview-co-the-expandcollapse-trong-android/
+
+65. JavaCodeStyle Guide
+https://source.android.com/setup/contribute/code-style#be-consistent
+
+66. Nguyên Lí Solid
+https://toidicodedao.com/2015/03/24/solid-la-gi-ap-dung-cac-nguyen-ly-solid-de-tro-thanh-lap-trinh-vien-code-cung/
+
+67. StyleGuide Java
+https://github.com/twitter-archive/commons/blob/master/src/java/com/twitter/common/styleguide.md#variable-naming
+
+68. Import excel to php myadmin
+https://stackoverflow.com/questions/32626679/importing-excel-sheet-into-phpmyadmin
+
+69. Gennerate File .env
+https://laracasts.com/discuss/channels/servers/laravel-giving-500-internal-error?page=1
+
+70. dd laravel
+https://laracasts.com/discuss/channels/laravel/how-to-do-use-variable-as-global-in-controller?page=1
+
+71. a record exists
+https://stackoverflow.com/questions/27095090/laravel-checking-if-a-record-exists?answertab=votes#tab-top
+
+72. Year php
+https://www.w3schools.com/php/php_date.asp
+
+73. Custom Validate
+https://viblo.asia/p/custom-validation-rule-laravel-55-bJzKmWoPl9N
+
+74. Custom Validate Ruler
+https://laraveldaily.com/how-to-create-custom-validation-rules-laravel/
+
+75. Took Keyboard
+https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_keyup_which
