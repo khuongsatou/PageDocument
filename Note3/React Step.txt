@@ -1,0 +1,164 @@
+﻿alt+shift+f
+https://www.youtube.com/watch?v=YkkaxiwKrJg&list=PLJ5qtRQovuEOkK_wekZt5HXItiqZXeLVY&index=10
+
+khuongsatou
+@Khuong1234
+Step____React
+	1. Setting
+	2. Components
+	3. StyleSheet.
+_____
+1. Setting
+	__Step 
+	1. Java
+	2. Nodejs
+	3. Download dependecy
+	4. Khởi tạo project HelloWorld
+	5. Start
+2. Component
+	1. StyleSheet
+	1.1 Inline
+	__Step
+	1. Viết Thẳng trong View
+	style={{ width:200,height:300;backgroundColor:'red' }}
+	1.2 Object
+	__Step
+	1. Khởi tạo biến const = {...};
+	2. Gọi ra style={}
+	
+	1.3. style.create
+	__Step
+	1. bỏ vào StyleSheet.create(...);
+	2. và gọi ra như 1 đối tượng qua key
+	1.4. style Array
+	__Step
+	1. bỏ vào StyleSheet.create(...);
+	2. và gọi ra theo key đặt trong đó mỗi array cách nhau ","
+	__Tạo Class
+	class...
+3. Import Và Export
+	1. import Style from "./Style"; nhập thư viện
+	2. export { Style }; xuất ra để sử dụng
+	3. default
+	Để chạy hàm nào trước. nó như main
+
+4. LifeCycle
+	contructor(): Start
+	componentWillMount(): Start giao diện
+	reder(): giao diện
+	componentDidMount(): Close giao diện.
+
+5. Flex
+	*flex:1 // có thể 1/2
+	Để sử dụng phải gắng cho các "View Con"
+	Dãn toàn màng hình.(Auto Layout)
+	// Thuộc tính.
+	1.
+	Thuộc tính. 
+	- flexDirection:'row'|'Column';
+	Tác dụng.
+	- Xác định sự "sắp xếp" theo hướng.
+	Mặc định
+	- Column
+	2. 
+	Thuộc tính 
+ 	- justifyContent:'flex-start'|'center'|'flex-end'|'space-between'|'space-around'; 
+	Tác dụng: 
+	- Canh theo trục. cho "từng" Item
+	Default.
+	- flex-start
+	3.
+	Thuộc tính 
+ 	- alignItems:'flex-start'|'center'|'flex-end'|'stretch'; 
+	Tác dụng: 
+	- Canh theo trục. cho "Toàn bộ" Item
+	Default.
+	- stretch
+	4.
+	Thuộc tính 
+ 	- alignSelf:'flex-start'|'center'|'flex-end'|'stretch'; 
+	Tác dụng: 
+	- Canh theo trục. cho "1" Item. Nhớ để vào Item cần canh
+	Default.
+	- stretch
+6. Handling Text Input
+	1. onChageText
+	onChangeText={(text)=>this.setState({text})}
+	2. Value
+	this.state.text
+7. Button
+	1. onpress
+	onpress={()=>{viết ở đây}}
+	hoặc
+	onpress={()=>{this.gọi hàm ở đây}}
+	2. Thuộc tính khác.
+	title,color,accessibilityLable(text cho người khiếm thị nếu có bật)
+8.State
+	1. Dùng để lưu trạng thái. Có nghĩa là tự cập nhật lại khi mình thay đổi mà chỉ cần set State và tự nó cập nhật cho người dùng.
+	*Lưu Vào contructor
+	this.state={text:'value'};
+	* Lưu vào ở hàm
+	this.setState({})
+	*Lấy ra
+	{this.state.text}
+9. Bài Tập
+	1. App ToDo
+	2. App Login
+10.Link Học
+https://www.youtube.com/watch?v=5NewXsBnoKw
+https://www.youtube.com/watch?v=EaNCi8o8H0A
+https://www.youtube.com/watch?v=-40TBdSRk6E
+https://www.youtube.com/watch?v=wtvpQ9liu4g
+https://www.youtube.com/watch?v=C4ikFaP0a5o
+https://www.youtube.com/watch?v=oVA9JgTTiT0
+https://www.youtube.com/watch?v=QhX25YGf8qg
+https://www.youtube.com/watch?v=c9Sg9jDitm8
+https://www.youtube.com/watch?v=57NYTbmhYxY&list=PLzrVYRai0riQsPYaBX-aNz8YCmtDsg17A&index=13
+http://www.dotplays.com/bai-5-button-inputtext-reactnative/
+https://github.com/iamshaunjp/react-native-tutorial/tree/master
+11. ICON
+https://expo.github.io/vector-icons/
+12. Global Styles
+	1. Nhúng Thư Viện.
+		import { StyleSheet} from 'react-native';
+	2. Tạo.
+		export const  globalStyles = StyleSheet.create({
+    		container:{
+        		padding:20,
+        		flex:1,
+    	},
+	3. Dùng.
+		import { globalStyles } from '../styles/global';
+13. Navigation
+	1. SetUp
+	npm install react-navigation
+	expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context
+	npm install react-navigation-stack
+	2. Thêm 2 thư viện
+		2.1. createStackNavigator from 'react-navigation-stack';
+		2.2. createAppContainer from 'react-navigation';
+	3. Cấu hình
+	- Thêm 1 thư mục routes và tạo ra 1 file
+	- Import Hàm Home vào.
+	- Tạo 1 biến const screens ={ Home:screen:Home}
+	-> Lưu Ý cái nào đặt trước thì sẽ chạy trước.
+	- Tạo 1 biến const HomeStack = createStackNavigator(screens);
+	- Xuất nó ra export default createAppContainer(HomeStack);
+	- Import vào file App.js
+14. Navigation Drawer
+	1. Thêm thư viện:
+	npm install react-navigation-drawer
+	2. Dùng.
+	
+14. Fix lỗi
+	1. Navigation (The development server...code:500)
+		npm install react-timer-mixin
+	2. Code :200
+		Tiến hành xóa (Rỗng hàm App.js) clear xem có chạy ko 
+	3. Thiếu @react-native-community/masked-view
+		Cài đặt.
+		https://www.npmjs.com/package/@react-native-community/masked-view
+
+
+
+	

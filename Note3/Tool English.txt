@@ -1,0 +1,1 @@
+﻿Tool Pass English: Cho 5 dòng data trong file text pause ra mỗi dòng 5 từ nằm liền kề.

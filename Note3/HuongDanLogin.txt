@@ -1,0 +1,6 @@
+﻿HOST: Là IP SHAREHOST
+USERNAME là FPT Account: username@khuongsatou.club
+PASSWORD: Phải là mật khẩu mạnh
+PORT: 21
+
+Nếu Lỗi Server not connect: chỉ cần chỉnh chỉnh lại pass. và nó ghi thêm password require màu xanh VD: @Khuong12

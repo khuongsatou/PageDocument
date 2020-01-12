@@ -1,0 +1,30 @@
+﻿Ghi chú : Xong OK còn vương vấn [OK] và Khác[ghi chú]  practices code
+1. Tái sử dụng code bằng interface.[OK]
+2. Merge 2 code khác nhau ở 2 branch. OK
+3. Gửi Email giới thiệu CV cho thầy tiến.OK
+4. Đăng CV lên top CV. OK
+5. Đăng CV lên 1 số trang tìm thực tập khác.TopCV [OK]
+6. Học Tiếp Java. [bỏ qua tí đi]
+7. Quay Video demo 2 Source. OK
+8. Edit lại trang linkelin. OK
+9. Đọc Ghi File <C#> thêm br vào file md OK.
+10. Style Code.OK
+11. Clear Code.OK
+12. Học React Native.
+https://facebook.github.io/react-native/docs/getting-started
+https://www.youtube.com/watch?v=Q-Ys7oqO0Uc
+https://www.youtube.com/watch?v=_8OSkq9g8cM
+https://www.youtube.com/watch?v=6K5s-vbCiyQ
+https://www.youtube.com/watch?v=8FEm1SjL1Vg
+13. Import excel to phpmyadmin [Tạm Dừng]
+https://www.google.com/search?q=how+to+import+excel+to+mysql+phpmyadmin&oq=how+to+import+excel+to+my&aqs=chrome.3.0j69i57j0l6.10363j0j7&sourceid=chrome&ie=UTF-8
+https://myclass.vn/lap-trinh-react-native-tu-can-ban-toi-nang-cao-8837.html?AspxAutoDetectCookieSupport=1
+14. NoteJS [Tạm Dừng]
+https://nodejs.org/en/download/package-manager/
+
+15. GITHUB
+khuongsatou
+@Khuong1234
+
+16. Cắt Web PTS -> HTML
+https://mylop.edu.vn/huong-dan-cat-web-psd-to-html-css-01/3/
